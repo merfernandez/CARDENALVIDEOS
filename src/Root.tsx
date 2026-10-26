@@ -2,6 +2,7 @@ import { Composition, staticFile } from "remotion";
 import { z } from "zod";
 import { CardenalReel, cardenalReelSchema } from "./CardenalReel";
 import { FiestaDuo, fiestaDuoSchema } from "./FiestaDuo";
+import { NoticiasVallenatas, noticiasSchema } from "./NoticiasVallenatas";
 import { getVideoDurationInSeconds } from "./get-video-duration";
 
 const FPS = 30;
@@ -61,6 +62,36 @@ export const RemotionRoot: React.FC = () => {
           cierreFecha: "31 de octubre",
           cierreHora: "4:00 p.m.",
           cierreLugar: "Suchiimma",
+        }}
+        calculateMetadata={async ({ props }) => {
+          const seconds = await getVideoDurationInSeconds(
+            staticFile(props.video),
+          );
+          return {
+            durationInFrames: Math.floor(
+              (seconds + props.cierreExtraSeg) * FPS,
+            ),
+          };
+        }}
+      />
+      <Composition
+        id="NoticiasLaCorriente"
+        component={NoticiasVallenatas}
+        fps={FPS}
+        width={1080}
+        height={1920}
+        durationInFrames={FPS * 10}
+        schema={noticiasSchema}
+        defaultProps={{
+          video: "noticias1-cut.mp4",
+          subtitulos: "noticias1-cut-captions.json",
+          seccion: "Noticias vallenatas",
+          nombre: "William de la Rosa",
+          cargo: "Director artístico del Sistema Cardenal",
+          instagram: "wdelarosac",
+          rotuloHastaSeg: 9.5,
+          cierreInicioSeg: 29.5,
+          cierreExtraSeg: 2.5,
         }}
         calculateMetadata={async ({ props }) => {
           const seconds = await getVideoDurationInSeconds(

@@ -19,10 +19,21 @@ const limpiar = (texto: string) =>
 
 const SWITCH_CAPTIONS_EVERY_MS = 1100;
 
-const Pagina: React.FC<{ page: TikTokPage; claves: string[] }> = ({
-  page,
-  claves,
-}) => {
+export type EstiloSubtitulos = {
+  fontSize: number;
+  top: number;
+  borde: number;
+  // Cada cuánto cambia la frase: más alto = más palabras a la vez
+  agruparMs?: number;
+};
+
+const ESTILO_NORMAL: EstiloSubtitulos = { fontSize: 76, top: 1180, borde: 12 };
+
+const Pagina: React.FC<{
+  page: TikTokPage;
+  claves: string[];
+  estilo: EstiloSubtitulos;
+}> = ({ page, claves, estilo }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const absoluteTimeMs = page.startMs + (frame / fps) * 1000;
@@ -34,12 +45,12 @@ const Pagina: React.FC<{ page: TikTokPage; claves: string[] }> = ({
       <div
         style={{
           position: "absolute",
-          top: 1180,
+          top: estilo.top,
           width: 900,
           textAlign: "center",
           fontFamily,
           fontWeight: 900,
-          fontSize: 76,
+          fontSize: estilo.fontSize,
           lineHeight: 1.15,
           textTransform: "uppercase",
           whiteSpace: "pre-wrap",
@@ -66,7 +77,9 @@ const Pagina: React.FC<{ page: TikTokPage; claves: string[] }> = ({
                   padding: "0 8px",
                   borderRadius: 14,
                   backgroundColor: active ? ROJO : "transparent",
-                  WebkitTextStroke: active ? "0px" : `12px ${NEGRO}`,
+                  WebkitTextStroke: active
+                    ? "0px"
+                    : `${estilo.borde}px ${NEGRO}`,
                   paintOrder: "stroke fill",
                   display: "inline-block",
                   opacity: aparicion > 0.01 ? 1 : 0,
@@ -88,7 +101,14 @@ export const Subtitulos: React.FC<{
   hastaMs: number;
   palabrasClave: string[];
   destacados?: Destacado[];
-}> = ({ src, hastaMs, palabrasClave, destacados = [] }) => {
+  estilo?: EstiloSubtitulos;
+}> = ({
+  src,
+  hastaMs,
+  palabrasClave,
+  destacados = [],
+  estilo = ESTILO_NORMAL,
+}) => {
   const [captions, setCaptions] = useState<Caption[] | null>(null);
   const { delayRender, continueRender, cancelRender } = useDelayRender();
   const [handle] = useState(() => delayRender());
@@ -119,9 +139,10 @@ export const Subtitulos: React.FC<{
             (d) => c.startMs >= d.desdeMs && c.startMs < d.hastaMs,
           ),
       ),
-      combineTokensWithinMilliseconds: SWITCH_CAPTIONS_EVERY_MS,
+      combineTokensWithinMilliseconds:
+        estilo.agruparMs ?? SWITCH_CAPTIONS_EVERY_MS,
     }).pages;
-  }, [captions, hastaMs, destacados]);
+  }, [captions, hastaMs, destacados, estilo.agruparMs]);
 
   return (
     <AbsoluteFill>
@@ -148,7 +169,7 @@ export const Subtitulos: React.FC<{
             durationInFrames={endFrame - startFrame}
             name={page.text}
           >
-            <Pagina page={page} claves={palabrasClave} />
+            <Pagina page={page} claves={palabrasClave} estilo={estilo} />
           </Sequence>
         );
       })}

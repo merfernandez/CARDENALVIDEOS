@@ -1,0 +1,522 @@
+[
+ {
+  "text": " Les",
+  "startMs": 1130,
+  "endMs": 1290,
+  "timestampMs": 1130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cuento",
+  "startMs": 1290,
+  "endMs": 1610,
+  "timestampMs": 1290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 1610,
+  "endMs": 1770,
+  "timestampMs": 1610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Elder",
+  "startMs": 1770,
+  "endMs": 2110,
+  "timestampMs": 1770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Dayán",
+  "startMs": 2110,
+  "endMs": 2350,
+  "timestampMs": 2110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Díaz",
+  "startMs": 2350,
+  "endMs": 2710,
+  "timestampMs": 2350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 2710,
+  "endMs": 2910,
+  "timestampMs": 2710,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Eddy",
+  "startMs": 2910,
+  "endMs": 3150,
+  "timestampMs": 2910,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Herrera",
+  "startMs": 3150,
+  "endMs": 3990,
+  "timestampMs": 3150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " presentaron",
+  "startMs": 3990,
+  "endMs": 4890,
+  "timestampMs": 3990,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " La",
+  "startMs": 4890,
+  "endMs": 5270,
+  "timestampMs": 4890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Corriente,",
+  "startMs": 5270,
+  "endMs": 6230,
+  "timestampMs": 5270,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " un",
+  "startMs": 6230,
+  "endMs": 6570,
+  "timestampMs": 6230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " merengue",
+  "startMs": 6570,
+  "endMs": 7190,
+  "timestampMs": 6570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 7190,
+  "endMs": 7430,
+  "timestampMs": 7190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " todo",
+  "startMs": 7430,
+  "endMs": 7590,
+  "timestampMs": 7430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 7590,
+  "endMs": 8070,
+  "timestampMs": 7590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sabor",
+  "startMs": 8070,
+  "endMs": 8510,
+  "timestampMs": 8070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " colombiano,",
+  "startMs": 8510,
+  "endMs": 9710,
+  "timestampMs": 8510,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " uniendo",
+  "startMs": 10110,
+  "endMs": 11290,
+  "timestampMs": 10110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " dos",
+  "startMs": 11290,
+  "endMs": 11830,
+  "timestampMs": 11290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " generaciones.",
+  "startMs": 11830,
+  "endMs": 13030,
+  "timestampMs": 11830,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " De",
+  "startMs": 13170,
+  "endMs": 13410,
+  "timestampMs": 13170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " verdad",
+  "startMs": 13410,
+  "endMs": 13670,
+  "timestampMs": 13410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 13670,
+  "endMs": 13910,
+  "timestampMs": 13670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 13910,
+  "endMs": 14250,
+  "timestampMs": 13910,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cantor",
+  "startMs": 14250,
+  "endMs": 14630,
+  "timestampMs": 14250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " no",
+  "startMs": 14630,
+  "endMs": 15070,
+  "timestampMs": 14630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " deja",
+  "startMs": 15070,
+  "endMs": 15310,
+  "timestampMs": 15070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 15310,
+  "endMs": 15750,
+  "timestampMs": 15310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sorprendernos",
+  "startMs": 15750,
+  "endMs": 16790,
+  "timestampMs": 15750,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 16790,
+  "endMs": 17070,
+  "timestampMs": 16790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " esa",
+  "startMs": 17070,
+  "endMs": 17690,
+  "timestampMs": 17070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " versatilidad",
+  "startMs": 17690,
+  "endMs": 18850,
+  "timestampMs": 17690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 18850,
+  "endMs": 18970,
+  "timestampMs": 18850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 18970,
+  "endMs": 19170,
+  "timestampMs": 18970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " hora",
+  "startMs": 19170,
+  "endMs": 19570,
+  "timestampMs": 19170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 19570,
+  "endMs": 19870,
+  "timestampMs": 19570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cantar.",
+  "startMs": 19870,
+  "endMs": 20570,
+  "timestampMs": 19870,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Fue",
+  "startMs": 20570,
+  "endMs": 20730,
+  "timestampMs": 20570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 20730,
+  "endMs": 20930,
+  "timestampMs": 20730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " lanzamiento",
+  "startMs": 20930,
+  "endMs": 21470,
+  "timestampMs": 20930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 21470,
+  "endMs": 21790,
+  "timestampMs": 21470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " pasado",
+  "startMs": 21790,
+  "endMs": 22050,
+  "timestampMs": 21790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fin",
+  "startMs": 22050,
+  "endMs": 22210,
+  "timestampMs": 22050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 22210,
+  "endMs": 22590,
+  "timestampMs": 22210,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " semana.",
+  "startMs": 22590,
+  "endMs": 23150,
+  "timestampMs": 22590,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " La",
+  "startMs": 23150,
+  "endMs": 23390,
+  "timestampMs": 23150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Corriente",
+  "startMs": 23390,
+  "endMs": 23870,
+  "timestampMs": 23390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " está",
+  "startMs": 23870,
+  "endMs": 24170,
+  "timestampMs": 23870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " disponible",
+  "startMs": 24170,
+  "endMs": 25070,
+  "timestampMs": 24170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 25070,
+  "endMs": 25490,
+  "timestampMs": 25070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " todas",
+  "startMs": 25490,
+  "endMs": 25710,
+  "timestampMs": 25490,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 25710,
+  "endMs": 26050,
+  "timestampMs": 25710,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " plataformas",
+  "startMs": 26050,
+  "endMs": 26630,
+  "timestampMs": 26050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " digitales",
+  "startMs": 26630,
+  "endMs": 27550,
+  "timestampMs": 26630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 27550,
+  "endMs": 27970,
+  "timestampMs": 27550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Eddy",
+  "startMs": 27970,
+  "endMs": 28230,
+  "timestampMs": 27970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Herrera",
+  "startMs": 28230,
+  "endMs": 28530,
+  "timestampMs": 28230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 28530,
+  "endMs": 28670,
+  "timestampMs": 28530,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 28670,
+  "endMs": 28910,
+  "timestampMs": 28670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cantor",
+  "startMs": 28910,
+  "endMs": 29630,
+  "timestampMs": 28910,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Elder",
+  "startMs": 29630,
+  "endMs": 30050,
+  "timestampMs": 29630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Dayán",
+  "startMs": 30050,
+  "endMs": 30850,
+  "timestampMs": 30050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Díaz.",
+  "startMs": 30850,
+  "endMs": 31720,
+  "timestampMs": 30850,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]

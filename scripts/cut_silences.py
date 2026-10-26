@@ -24,7 +24,8 @@ keep, cursor = [], 0.0
 for s, e in zip(starts, ends):
     cut_from, cut_to = s + PAD, (e - PAD if e < dur - 0.01 else dur)
     if cut_to - cut_from > 0.05:
-        keep.append((cursor, cut_from))
+        if cut_from - cursor > 0.15:  # evita tramos diminutos (p. ej. al inicio)
+            keep.append((cursor, cut_from))
         cursor = cut_to
 if cursor < dur - 0.05:
     keep.append((cursor, dur))
