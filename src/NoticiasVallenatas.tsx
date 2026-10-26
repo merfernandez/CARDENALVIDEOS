@@ -97,7 +97,11 @@ export const NoticiasVallenatas: React.FC<z.infer<typeof noticiasSchema>> = ({
         />
       </Sequence>
       <Sequence from={cierreFrame} name="Cierre">
-        <CierreNoticias seccion={seccion} lema="Cardenal Stereo 91.7 FM" />
+        <CierreNoticias
+          seccion={seccion}
+          invitacion="Síguenos en"
+          web="www.cardenalstereo.com"
+        />
       </Sequence>
     </AbsoluteFill>
   );

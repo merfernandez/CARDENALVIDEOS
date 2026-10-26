@@ -89,9 +89,9 @@ export const RemotionRoot: React.FC = () => {
           nombre: "William de la Rosa",
           cargo: "Director artístico del Sistema Cardenal",
           instagram: "wdelarosac",
-          rotuloHastaSeg: 9.5,
+          rotuloHastaSeg: 15,
           cierreInicioSeg: 29.5,
-          cierreExtraSeg: 2.5,
+          cierreExtraSeg: 4,
         }}
         calculateMetadata={async ({ props }) => {
           const seconds = await getVideoDurationInSeconds(

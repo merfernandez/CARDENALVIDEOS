@@ -5,7 +5,7 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { BLANCO, fontFamily, NEGRO, ROJO } from "./brand";
+import { BLANCO, DORADO, fontFamily, NEGRO, ROJO } from "./brand";
 
 // Tarjetas informativas sobrias para las noticias (parte de arriba, sin tapar la cara)
 
@@ -70,11 +70,11 @@ export const TarjetaArtistas: React.FC<{
               {i > 0 ? (
                 <span
                   style={{
-                    color: ROJO,
+                    color: DORADO,
                     fontWeight: 900,
                     fontSize: 44,
                     opacity: p,
-                    textShadow: "0 2px 8px rgba(255,255,255,0.8)",
+                    textShadow: "0 2px 10px rgba(0,0,0,0.6)",
                   }}
                 >
                   ×
@@ -84,7 +84,7 @@ export const TarjetaArtistas: React.FC<{
                 style={{
                   backgroundColor: NEGRO,
                   color: BLANCO,
-                  borderBottom: `5px solid ${ROJO}`,
+                  borderBottom: `5px solid ${DORADO}`,
                   borderRadius: 12,
                   padding: "14px 24px 12px",
                   textAlign: "center",
@@ -97,7 +97,7 @@ export const TarjetaArtistas: React.FC<{
                   style={{
                     fontSize: 16,
                     letterSpacing: 4,
-                    color: "rgba(255,255,255,0.65)",
+                    color: DORADO,
                     fontWeight: 700,
                   }}
                 >

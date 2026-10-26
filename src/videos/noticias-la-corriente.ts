@@ -4,20 +4,13 @@ import type { ZoomClave } from "../tipos";
 
 const CARA = { x: 0.5, y: 0.38 };
 
+// Solo dos acercamientos, en los momentos que aportan: la canción y su versatilidad
 export const ZOOMS: ZoomClave[] = [
   { ms: 0, escala: 1.0, ...CARA },
-  { ms: 701, escala: 1.06, ...CARA }, // los artistas
-  { ms: 3821, escala: 1.12, ...CARA }, // «La Corriente»
-  { ms: 5161, escala: 1.04, ...CARA },
-  { ms: 8853, escala: 1.1, ...CARA }, // "uniendo dos generaciones"
-  { ms: 11246, escala: 1.0, ...CARA },
-  { ms: 13826, escala: 1.08, ...CARA }, // "sorprendernos"
-  { ms: 15766, escala: 1.14, ...CARA }, // "versatilidad"
+  { ms: 3821, escala: 1.08, ...CARA }, // «La Corriente»
+  { ms: 5161, escala: 1.0, ...CARA },
+  { ms: 15766, escala: 1.08, ...CARA }, // "versatilidad"
   { ms: 18581, escala: 1.0, ...CARA },
-  { ms: 21161, escala: 1.1, ...CARA }, // «La Corriente» disponible
-  { ms: 23081, escala: 1.03, ...CARA },
-  { ms: 25465, escala: 1.08, ...CARA },
-  { ms: 27421, escala: 1.13, ...CARA }, // "Elder Dayán Díaz"
 ];
 
 export const ARTISTAS_1 = {
