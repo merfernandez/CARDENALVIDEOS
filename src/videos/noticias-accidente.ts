@@ -1,4 +1,4 @@
-// Noticia seria: accidente del bus de la agrupación de Cabeto Zuleta
+// Noticia seria: accidente del bus de la agrupación de Kbeto Zuleta
 // (tiempos en ms, ya sin silencios). Tono sobrio: sin zoom, sin pop, sin sonidos.
 import type { ApoyoPlan } from "../ApoyoSobrio";
 
@@ -17,7 +17,7 @@ export const TARJETAS = [
     desdeMs: 1650,
     hastaMs: 4300,
     antetitulo: "Accidente de tránsito",
-    titulo: "Agrupación de Cabeto Zuleta",
+    titulo: "Agrupación de Kbeto Zuleta",
   },
   {
     desdeMs: 16800,
@@ -32,13 +32,3 @@ export const TARJETAS = [
     titulo: "Bosconia · Valledupar",
   },
 ];
-
-export const MEMORIA = {
-  desdeMs: 8850,
-  hastaMs: 16500,
-  titulo: "En memoria",
-  personas: [
-    { nombre: "Giovanni Lobo", rol: "Corista" },
-    { nombre: "Harold Santana", rol: "Guitarrista" },
-  ],
-};

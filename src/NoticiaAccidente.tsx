@@ -6,8 +6,8 @@ import { CierreNoticias } from "./CierreNoticias";
 import { noticiasSchema } from "./NoticiasVallenatas";
 import { RotuloNoticia } from "./RotuloNoticia";
 import { Subtitulos } from "./Subtitulos";
-import { TarjetaMemoria, TarjetaSobria } from "./TarjetasNoticia";
-import { APOYOS, MEMORIA, TARJETAS } from "./videos/noticias-accidente";
+import { TarjetaSobria } from "./TarjetasNoticia";
+import { APOYOS, TARJETAS } from "./videos/noticias-accidente";
 
 export const NoticiaAccidente: React.FC<z.infer<typeof noticiasSchema>> = ({
   video,
@@ -41,9 +41,6 @@ export const NoticiaAccidente: React.FC<z.infer<typeof noticiasSchema>> = ({
           <TarjetaSobria antetitulo={t.antetitulo} titulo={t.titulo} />
         </Sequence>
       ))}
-      <Sequence {...tramo(MEMORIA)} name="En memoria">
-        <TarjetaMemoria titulo={MEMORIA.titulo} personas={MEMORIA.personas} />
-      </Sequence>
       <Subtitulos
         src={subtitulos}
         hastaMs={cierreInicioSeg * 1000}
@@ -73,7 +70,6 @@ export const NoticiaAccidente: React.FC<z.infer<typeof noticiasSchema>> = ({
           seccion={seccion}
           invitacion="Síguenos en"
           web="www.cardenalstereo.com"
-          sobrio
         />
       </Sequence>
     </AbsoluteFill>
