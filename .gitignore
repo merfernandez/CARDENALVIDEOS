@@ -6,7 +6,7 @@ dist
 # Ignore the output video from Git but not videos you import into src/.
 out
 out/
-whisper.cpp/
+whisper.cpp
 
 # Los videos van por Google Drive, no en el repositorio
 *.mp4
