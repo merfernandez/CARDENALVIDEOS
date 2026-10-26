@@ -1,6 +1,5 @@
-import { Video } from "@remotion/media";
-import { AbsoluteFill, Sequence, staticFile, useVideoConfig } from "remotion";
-import { ApoyoVideo } from "./ApoyoVideo";
+import { AbsoluteFill, Sequence, useVideoConfig } from "remotion";
+import { MitadApoyo, useDivision, VideoPresentador } from "./PantallaDividida";
 import { CierreNoticias } from "./CierreNoticias";
 import { noticiasSchema } from "./NoticiasVallenatas";
 import { RotuloNoticia } from "./RotuloNoticia";
@@ -9,7 +8,7 @@ import { TarjetaCancion, TarjetaMarcador } from "./TarjetasNoticia";
 import {
   ALBUM,
   AMARILLO,
-  APOYOS,
+  TRAMOS_APOYO,
   NOMBRES,
   PALABRAS_CLAVE,
 } from "./videos/noticias-gamarra";
@@ -26,6 +25,7 @@ export const NoticiaGamarra: React.FC<z.infer<typeof noticiasSchema>> = ({
   cierreInicioSeg,
 }) => {
   const { fps } = useVideoConfig();
+  const division = useDivision(TRAMOS_APOYO);
   const f = (ms: number) => Math.round((ms / 1000) * fps);
   const tramo = (t: { desdeMs: number; hastaMs: number }) => ({
     from: f(t.desdeMs),
@@ -34,24 +34,18 @@ export const NoticiaGamarra: React.FC<z.infer<typeof noticiasSchema>> = ({
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#111" }}>
-      <Video src={staticFile(video)} objectFit="cover" />
+      <VideoPresentador src={video} division={division} />
       <AbsoluteFill
         style={{
           background:
             "linear-gradient(180deg, rgba(0,0,0,0) 55%, rgba(0,0,0,0.4) 100%)",
         }}
       />
-      {APOYOS.map((a) => (
-        <Sequence key={a.desdeMs} {...tramo(a)} name={`Apoyo ${a.src}`}>
-          <ApoyoVideo
-            src={a.src}
-            desdeSeg={a.desdeSeg}
-            estilo={a.estilo}
-            lado={a.lado}
-            colorBorde={AMARILLO}
-          />
-        </Sequence>
-      ))}
+      <MitadApoyo
+        tramos={TRAMOS_APOYO}
+        division={division}
+        colorLinea={AMARILLO}
+      />
       {NOMBRES.map((n) => (
         <Sequence
           key={n.desdeMs}
@@ -77,9 +71,6 @@ export const NoticiaGamarra: React.FC<z.infer<typeof noticiasSchema>> = ({
           top: 1250,
           borde: 9,
           agruparMs: 1700,
-          colorClave: AMARILLO,
-          colorActivo: AMARILLO,
-          textoActivo: "#16161A",
         }}
       />
       <Sequence

@@ -3,59 +3,31 @@
 
 export const AMARILLO = "#FFD100";
 
-type Apoyo = {
-  desdeMs: number;
-  hastaMs: number;
-  src: string;
-  // Segundo del video de apoyo desde el que se toma la imagen
-  desdeSeg: number;
-  estilo: "tarjeta" | "completa";
-  lado?: "izq" | "der";
-};
+import type { TramoDividido } from "../PantallaDividida";
 
-export const APOYOS: Apoyo[] = [
-  // "espectacular caravana de lanzamiento": camión y tarima
+// Pantalla dividida: William arriba, video de apoyo abajo. Solo en tres
+// momentos y nunca cuando habla del cumpleaños (no hay imágenes de eso).
+export const TRAMOS_APOYO: TramoDividido[] = [
   {
+    // "espectacular caravana de lanzamiento": camión y tarima
     desdeMs: 4700,
-    hastaMs: 8000,
-    src: "gamarra-a1.mp4",
-    desdeSeg: 6.2,
-    estilo: "tarjeta",
-    lado: "der",
+    hastaMs: 7900,
+    clips: [{ src: "gamarra-a1.mp4", desdeSeg: 6.2, hastaMs: 7900 }],
   },
-  // "El Gamarrazo": dron con el título del álbum
   {
+    // "El Gamarrazo" (dron con el título) → "vestidos de amarillo… calles y avenidas"
     desdeMs: 9450,
-    hastaMs: 11100,
-    src: "gamarra-a1.mp4",
-    desdeSeg: 1.3,
-    estilo: "completa",
-  },
-  // "salieron vestidos de amarillo… calles y avenidas"
-  {
-    desdeMs: 11900,
     hastaMs: 17300,
-    src: "gamarra-a2.mp4",
-    desdeSeg: 11,
-    estilo: "tarjeta",
-    lado: "izq",
+    clips: [
+      { src: "gamarra-a1.mp4", desdeSeg: 1.3, hastaMs: 11150 },
+      { src: "gamarra-a2.mp4", desdeSeg: 11, hastaMs: 17300 },
+    ],
   },
-  // "Rodeado del cariño de sus familiares, amigos y artistas"
   {
-    desdeMs: 26700,
-    hastaMs: 31600,
-    src: "gamarra-a2.mp4",
-    desdeSeg: 40.5,
-    estilo: "tarjeta",
-    lado: "der",
-  },
-  // "El Gamarrazo con una caravana espectacular": fuegos artificiales
-  {
+    // "El Gamarrazo con una caravana espectacular": fuegos artificiales
     desdeMs: 38100,
     hastaMs: 41950,
-    src: "gamarra-a2.mp4",
-    desdeSeg: 18,
-    estilo: "completa",
+    clips: [{ src: "gamarra-a2.mp4", desdeSeg: 18, hastaMs: 41950 }],
   },
 ];
 
