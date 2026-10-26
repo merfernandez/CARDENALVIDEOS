@@ -120,7 +120,7 @@ export const RemotionRoot: React.FC = () => {
           nombre: "William de la Rosa",
           cargo: "Director artístico del Sistema Cardenal",
           instagram: "wdelarosac",
-          rotuloHastaSeg: 10,
+          rotuloHastaSeg: 5,
           cierreInicioSeg: 41.95,
           cierreExtraSeg: 2.6,
         }}
