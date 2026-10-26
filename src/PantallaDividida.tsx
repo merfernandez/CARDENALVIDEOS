@@ -154,3 +154,76 @@ const Clip: React.FC<{ src: string; desdeSeg: number; primero: boolean }> = ({
     </AbsoluteFill>
   );
 };
+
+// Videos de apoyo a pantalla completa: entran con una cortina que barre de
+// izquierda a derecha (con línea de color en el borde) y salen igual.
+export const ApoyoCompleto: React.FC<{
+  tramos: TramoDividido[];
+  colorLinea: string;
+}> = ({ tramos, colorLinea }) => {
+  const { fps } = useVideoConfig();
+  const p = useDivision(tramos);
+  if (p <= 0.001) {
+    return null;
+  }
+  return (
+    <AbsoluteFill>
+      <AbsoluteFill style={{ clipPath: `inset(0 ${(1 - p) * 100}% 0 0)` }}>
+        {tramos.map((t) =>
+          t.clips.map((c, i) => {
+            const desde = i === 0 ? t.desdeMs : t.clips[i - 1].hastaMs;
+            return (
+              <Sequence
+                key={`${t.desdeMs}-${i}`}
+                from={f(desde, fps)}
+                durationInFrames={f(c.hastaMs - desde, fps)}
+                name={`Apoyo ${c.src}`}
+              >
+                <ClipCompleto
+                  src={c.src}
+                  desdeSeg={c.desdeSeg}
+                  primero={i === 0}
+                />
+              </Sequence>
+            );
+          }),
+        )}
+      </AbsoluteFill>
+      {p < 0.999 ? (
+        <div
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 1080 * p - 4,
+            width: 8,
+            height: 1920,
+            backgroundColor: colorLinea,
+            boxShadow: "0 0 18px rgba(0,0,0,0.5)",
+          }}
+        />
+      ) : null}
+    </AbsoluteFill>
+  );
+};
+
+const ClipCompleto: React.FC<{
+  src: string;
+  desdeSeg: number;
+  primero: boolean;
+}> = ({ src, desdeSeg, primero }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const o = primero
+    ? 1
+    : interpolate(frame, [0, 6], [0, 1], { extrapolateRight: "clamp" });
+  return (
+    <AbsoluteFill style={{ opacity: o }}>
+      <Video
+        src={staticFile(src)}
+        trimBefore={Math.round(desdeSeg * fps)}
+        muted
+        objectFit="cover"
+      />
+    </AbsoluteFill>
+  );
+};

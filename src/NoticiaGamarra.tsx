@@ -1,5 +1,6 @@
-import { AbsoluteFill, Sequence, useVideoConfig } from "remotion";
-import { MitadApoyo, useDivision, VideoPresentador } from "./PantallaDividida";
+import { AbsoluteFill, Sequence, staticFile, useVideoConfig } from "remotion";
+import { Video } from "@remotion/media";
+import { ApoyoCompleto } from "./PantallaDividida";
 import { CierreNoticias } from "./CierreNoticias";
 import { noticiasSchema } from "./NoticiasVallenatas";
 import { RotuloNoticia } from "./RotuloNoticia";
@@ -25,7 +26,6 @@ export const NoticiaGamarra: React.FC<z.infer<typeof noticiasSchema>> = ({
   cierreInicioSeg,
 }) => {
   const { fps } = useVideoConfig();
-  const division = useDivision(TRAMOS_APOYO);
   const f = (ms: number) => Math.round((ms / 1000) * fps);
   const tramo = (t: { desdeMs: number; hastaMs: number }) => ({
     from: f(t.desdeMs),
@@ -34,18 +34,14 @@ export const NoticiaGamarra: React.FC<z.infer<typeof noticiasSchema>> = ({
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#111" }}>
-      <VideoPresentador src={video} division={division} />
+      <Video src={staticFile(video)} objectFit="cover" />
       <AbsoluteFill
         style={{
           background:
             "linear-gradient(180deg, rgba(0,0,0,0) 55%, rgba(0,0,0,0.4) 100%)",
         }}
       />
-      <MitadApoyo
-        tramos={TRAMOS_APOYO}
-        division={division}
-        colorLinea={AMARILLO}
-      />
+      <ApoyoCompleto tramos={TRAMOS_APOYO} colorLinea={AMARILLO} />
       {NOMBRES.map((n) => (
         <Sequence
           key={n.desdeMs}

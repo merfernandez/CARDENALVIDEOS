@@ -5,8 +5,8 @@ export const AMARILLO = "#FFD100";
 
 import type { TramoDividido } from "../PantallaDividida";
 
-// Pantalla dividida: William arriba, video de apoyo abajo. Solo en tres
-// momentos y nunca cuando habla del cumpleaños (no hay imágenes de eso).
+// Videos de apoyo a pantalla completa (la voz de William sigue de fondo).
+// Solo en tres momentos y nunca cuando habla del cumpleaños (no hay imágenes de eso).
 export const TRAMOS_APOYO: TramoDividido[] = [
   {
     // "espectacular caravana de lanzamiento": camión y tarima
