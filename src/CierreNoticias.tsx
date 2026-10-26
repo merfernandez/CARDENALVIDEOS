@@ -50,7 +50,9 @@ export const CierreNoticias: React.FC<{
   web: string;
   // Versión más rápida con sonido (whoosh al caer el logo y campanita al aterrizar)
   rapido?: boolean;
-}> = ({ seccion, invitacion, web, rapido = false }) => {
+  // Noticias serias: sin rebote, brillo, ondas ni escritura animada
+  sobrio?: boolean;
+}> = ({ seccion, invitacion, web, rapido = false, sobrio = false }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const k = rapido ? 0.6 : 1;
@@ -80,12 +82,14 @@ export const CierreNoticias: React.FC<{
     config: { damping: 200 },
   });
   const web1 = spring({ frame, fps, delay: 52, config: { damping: 200 } });
-  const letrasWeb = Math.floor(
-    interpolate(frame, [d(58), d(58) + web.length * k], [0, web.length], {
-      extrapolateLeft: "clamp",
-      extrapolateRight: "clamp",
-    }),
-  );
+  const letrasWeb = sobrio
+    ? web.length
+    : Math.floor(
+        interpolate(frame, [d(58), d(58) + web.length * k], [0, web.length], {
+          extrapolateLeft: "clamp",
+          extrapolateRight: "clamp",
+        }),
+      );
 
   return (
     <AbsoluteFill style={{ fontFamily }}>
@@ -116,12 +120,15 @@ export const CierreNoticias: React.FC<{
             marginTop: -120,
           }}
         >
-          <Ondas frame={frame} inicio={d(26)} ciclo={d(42)} />
+          {sobrio ? null : <Ondas frame={frame} inicio={d(26)} ciclo={d(42)} />}
           <div
             style={{
               position: "relative",
               width: 520,
-              transform: `translateY(${(1 - logo) * -500 + flotar}px) rotate(${(1 - logo) * -8}deg)`,
+              opacity: sobrio ? logo : 1,
+              transform: sobrio
+                ? `translateY(${(1 - logo) * 30}px)`
+                : `translateY(${(1 - logo) * -500 + flotar}px) rotate(${(1 - logo) * -8}deg)`,
             }}
           >
             <Img
@@ -129,15 +136,17 @@ export const CierreNoticias: React.FC<{
               style={{ width: 520, display: "block" }}
             />
             {/* Brillo que cruza el logo (recortado a la forma del logo) */}
-            <div
-              style={{
-                position: "absolute",
-                inset: 0,
-                background: `linear-gradient(105deg, transparent ${brillo - 20}%, rgba(255,255,255,0.75) ${brillo}%, transparent ${brillo + 20}%)`,
-                WebkitMaskImage: `url(${staticFile(LOGO)})`,
-                WebkitMaskSize: "100% 100%",
-              }}
-            />
+            {sobrio ? null : (
+              <div
+                style={{
+                  position: "absolute",
+                  inset: 0,
+                  background: `linear-gradient(105deg, transparent ${brillo - 20}%, rgba(255,255,255,0.75) ${brillo}%, transparent ${brillo + 20}%)`,
+                  WebkitMaskImage: `url(${staticFile(LOGO)})`,
+                  WebkitMaskSize: "100% 100%",
+                }}
+              />
+            )}
           </div>
         </div>
         <div

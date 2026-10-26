@@ -376,3 +376,117 @@ export const TarjetaMarcador: React.FC<{
     </Contenedor>
   );
 };
+
+// Tarjeta sobria para noticias serias: aparece con un fundido lento
+const useFundidoLento = () => {
+  const frame = useCurrentFrame();
+  const { durationInFrames } = useVideoConfig();
+  return interpolate(
+    frame,
+    [0, 15, durationInFrames - 12, durationInFrames],
+    [0, 1, 1, 0],
+    { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
+  );
+};
+
+export const TarjetaSobria: React.FC<{
+  antetitulo: string;
+  titulo: string;
+}> = ({ antetitulo, titulo }) => {
+  const v = useFundidoLento();
+  return (
+    <AbsoluteFill style={{ alignItems: "center", fontFamily }}>
+      <div
+        style={{
+          position: "absolute",
+          top: 200,
+          opacity: v,
+          backgroundColor: "rgba(12,12,14,0.85)",
+          borderLeft: `6px solid ${ROJO}`,
+          borderRadius: 8,
+          padding: "16px 30px",
+          textAlign: "left",
+        }}
+      >
+        <div
+          style={{
+            color: "rgba(255,255,255,0.7)",
+            fontSize: 22,
+            fontWeight: 700,
+            letterSpacing: 5,
+            textTransform: "uppercase",
+          }}
+        >
+          {antetitulo}
+        </div>
+        <div
+          style={{ color: BLANCO, fontSize: 44, fontWeight: 800, marginTop: 4 }}
+        >
+          {titulo}
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+// En memoria de las personas fallecidas
+export const TarjetaMemoria: React.FC<{
+  titulo: string;
+  personas: { nombre: string; rol: string }[];
+}> = ({ titulo, personas }) => {
+  const v = useFundidoLento();
+  return (
+    <AbsoluteFill style={{ alignItems: "center", fontFamily }}>
+      <div
+        style={{
+          position: "absolute",
+          top: 180,
+          opacity: v,
+          backgroundColor: "rgba(10,10,12,0.88)",
+          borderRadius: 10,
+          padding: "22px 44px 26px",
+          textAlign: "center",
+          minWidth: 620,
+        }}
+      >
+        <div
+          style={{
+            color: "rgba(255,255,255,0.7)",
+            fontSize: 22,
+            fontWeight: 700,
+            letterSpacing: 6,
+            textTransform: "uppercase",
+          }}
+        >
+          {titulo}
+        </div>
+        <div
+          style={{
+            width: 80,
+            height: 2,
+            backgroundColor: "rgba(255,255,255,0.5)",
+            margin: "14px auto 16px",
+          }}
+        />
+        {personas.map((p) => (
+          <div key={p.nombre} style={{ marginTop: 8 }}>
+            <div style={{ color: BLANCO, fontSize: 40, fontWeight: 700 }}>
+              {p.nombre}
+            </div>
+            <div
+              style={{
+                color: "rgba(255,255,255,0.65)",
+                fontSize: 22,
+                fontWeight: 500,
+                letterSpacing: 3,
+                textTransform: "uppercase",
+              }}
+            >
+              {p.rol}
+            </div>
+          </div>
+        ))}
+      </div>
+    </AbsoluteFill>
+  );
+};

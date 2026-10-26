@@ -29,6 +29,8 @@ export type EstiloSubtitulos = {
   colorClave?: string;
   colorActivo?: string;
   textoActivo?: string;
+  // Noticias serias: sin recuadro en la palabra que se dice y sin "pop"
+  sobrio?: boolean;
 };
 
 const ESTILO_NORMAL: EstiloSubtitulos = { fontSize: 76, top: 1180, borde: 12 };
@@ -62,7 +64,9 @@ const Pagina: React.FC<{
       >
         {page.tokens.map((token, i) => {
           const active =
-            token.fromMs <= absoluteTimeMs && token.toMs > absoluteTimeMs;
+            !estilo.sobrio &&
+            token.fromMs <= absoluteTimeMs &&
+            token.toMs > absoluteTimeMs;
           const clave = claves.includes(limpiar(token.text));
           // Cada palabra aparece con un "pop" cuando se dice
           const aparicion = spring({
@@ -92,8 +96,14 @@ const Pagina: React.FC<{
                     : `${estilo.borde}px ${NEGRO}`,
                   paintOrder: "stroke fill",
                   display: "inline-block",
-                  opacity: aparicion > 0.01 ? 1 : 0,
-                  transform: `scale(${(0.5 + aparicion * 0.5) * (active ? 1.08 : 1)})`,
+                  opacity: estilo.sobrio
+                    ? Math.min(1, aparicion * 1.5)
+                    : aparicion > 0.01
+                      ? 1
+                      : 0,
+                  transform: estilo.sobrio
+                    ? undefined
+                    : `scale(${(0.5 + aparicion * 0.5) * (active ? 1.08 : 1)})`,
                 }}
               >
                 {token.text.trim()}

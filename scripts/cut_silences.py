@@ -9,7 +9,9 @@ import subprocess
 import sys
 
 src, captions_in, dst, captions_out = sys.argv[1:5]
-NOISE, MIN_SIL, PAD = "-28dB", 0.15, 0.06
+# Opcional: silencio mínimo a cortar (s). Más alto = ritmo más pausado (noticias serias)
+MIN_SIL = float(sys.argv[5]) if len(sys.argv) > 5 else 0.15
+NOISE, PAD = "-28dB", 0.06
 
 dur = float(subprocess.check_output(
     ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", src]))

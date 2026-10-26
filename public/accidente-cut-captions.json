@@ -1,0 +1,794 @@
+[
+ {
+  "text": " En",
+  "startMs": 131,
+  "endMs": 271,
+  "timestampMs": 1310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 271,
+  "endMs": 451,
+  "timestampMs": 1450,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " madrugada",
+  "startMs": 451,
+  "endMs": 931,
+  "timestampMs": 1630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 931,
+  "endMs": 1111,
+  "timestampMs": 2110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " este",
+  "startMs": 1111,
+  "endMs": 1351,
+  "timestampMs": 2290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " lunes",
+  "startMs": 1351,
+  "endMs": 1691,
+  "timestampMs": 2530,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 1691,
+  "endMs": 1811,
+  "timestampMs": 2870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " agrupación",
+  "startMs": 1811,
+  "endMs": 2411,
+  "timestampMs": 2990,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 2411,
+  "endMs": 2791,
+  "timestampMs": 3590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Cabeto",
+  "startMs": 2791,
+  "endMs": 3411,
+  "timestampMs": 3970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Zuleta",
+  "startMs": 3411,
+  "endMs": 4411,
+  "timestampMs": 4590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sufrió",
+  "startMs": 4411,
+  "endMs": 5071,
+  "timestampMs": 5590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " un",
+  "startMs": 5071,
+  "endMs": 5391,
+  "timestampMs": 6470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " trágico",
+  "startMs": 5391,
+  "endMs": 6471,
+  "timestampMs": 6790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " accidente,",
+  "startMs": 6471,
+  "endMs": 7350,
+  "timestampMs": 7870,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " el",
+  "startMs": 7350,
+  "endMs": 7650,
+  "timestampMs": 8970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " siniestro",
+  "startMs": 7650,
+  "endMs": 8527,
+  "timestampMs": 9270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " dejó",
+  "startMs": 8527,
+  "endMs": 8907,
+  "timestampMs": 10390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " dos",
+  "startMs": 8907,
+  "endMs": 9247,
+  "timestampMs": 10770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " músicos",
+  "startMs": 9247,
+  "endMs": 10047,
+  "timestampMs": 11110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fallecidos,",
+  "startMs": 10047,
+  "endMs": 10894,
+  "timestampMs": 11910,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " se",
+  "startMs": 10968,
+  "endMs": 11268,
+  "timestampMs": 13430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " trata",
+  "startMs": 11268,
+  "endMs": 11468,
+  "timestampMs": 13730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 11468,
+  "endMs": 11648,
+  "timestampMs": 13930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Giovanni",
+  "startMs": 11648,
+  "endMs": 12028,
+  "timestampMs": 14110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Lobo,",
+  "startMs": 12028,
+  "endMs": 12328,
+  "timestampMs": 14490,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " corista,",
+  "startMs": 12328,
+  "endMs": 12948,
+  "timestampMs": 14790,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " y",
+  "startMs": 12948,
+  "endMs": 13248,
+  "timestampMs": 15410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Harold",
+  "startMs": 13248,
+  "endMs": 13708,
+  "timestampMs": 15710,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Santana,",
+  "startMs": 13708,
+  "endMs": 14308,
+  "timestampMs": 16170,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " guitarrista",
+  "startMs": 14308,
+  "endMs": 15168,
+  "timestampMs": 16770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 15168,
+  "endMs": 15288,
+  "timestampMs": 17630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 15288,
+  "endMs": 15428,
+  "timestampMs": 17750,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " agrupación.",
+  "startMs": 15428,
+  "endMs": 16426,
+  "timestampMs": 17890,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " 21",
+  "startMs": 16866,
+  "endMs": 17166,
+  "timestampMs": 19530,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " músicos",
+  "startMs": 17166,
+  "endMs": 17706,
+  "timestampMs": 19830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " se",
+  "startMs": 17706,
+  "endMs": 17946,
+  "timestampMs": 20370,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " encuentran",
+  "startMs": 17946,
+  "endMs": 18446,
+  "timestampMs": 20610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " heridos",
+  "startMs": 18446,
+  "endMs": 19186,
+  "timestampMs": 21110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 19186,
+  "endMs": 19466,
+  "timestampMs": 21850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fueron",
+  "startMs": 19466,
+  "endMs": 19806,
+  "timestampMs": 22130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " trasladados",
+  "startMs": 19806,
+  "endMs": 21006,
+  "timestampMs": 22470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " bien",
+  "startMs": 21106,
+  "endMs": 21346,
+  "timestampMs": 23770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " temprano",
+  "startMs": 21346,
+  "endMs": 22166,
+  "timestampMs": 24010,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 22166,
+  "endMs": 22566,
+  "timestampMs": 24830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " diferentes",
+  "startMs": 22566,
+  "endMs": 22986,
+  "timestampMs": 25230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " centros",
+  "startMs": 22986,
+  "endMs": 23406,
+  "timestampMs": 25650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " asistenciales",
+  "startMs": 23406,
+  "endMs": 24226,
+  "timestampMs": 26070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 24226,
+  "endMs": 24466,
+  "timestampMs": 26890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Bosconia",
+  "startMs": 24466,
+  "endMs": 25326,
+  "timestampMs": 27130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 25326,
+  "endMs": 25706,
+  "timestampMs": 27990,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " luego",
+  "startMs": 25706,
+  "endMs": 26126,
+  "timestampMs": 28370,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 26126,
+  "endMs": 26406,
+  "timestampMs": 28790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 26406,
+  "endMs": 26866,
+  "timestampMs": 29070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ciudad",
+  "startMs": 26866,
+  "endMs": 27406,
+  "timestampMs": 29530,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 27406,
+  "endMs": 27786,
+  "timestampMs": 30070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Valledupar.",
+  "startMs": 27786,
+  "endMs": 28712,
+  "timestampMs": 30450,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Es",
+  "startMs": 28786,
+  "endMs": 28986,
+  "timestampMs": 31870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " una",
+  "startMs": 28986,
+  "endMs": 29246,
+  "timestampMs": 32070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " noticia",
+  "startMs": 29246,
+  "endMs": 29936,
+  "timestampMs": 32330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 29936,
+  "endMs": 30224,
+  "timestampMs": 33250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " está",
+  "startMs": 30224,
+  "endMs": 30544,
+  "timestampMs": 33550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 30544,
+  "endMs": 31684,
+  "timestampMs": 33870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " desarrollo",
+  "startMs": 31684,
+  "endMs": 32284,
+  "timestampMs": 35010,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " durante",
+  "startMs": 32284,
+  "endMs": 32904,
+  "timestampMs": 35610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " todo",
+  "startMs": 32904,
+  "endMs": 33064,
+  "timestampMs": 36230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 33064,
+  "endMs": 33304,
+  "timestampMs": 36390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " día,",
+  "startMs": 33304,
+  "endMs": 33964,
+  "timestampMs": 36630,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " estaremos",
+  "startMs": 33964,
+  "endMs": 34584,
+  "timestampMs": 37290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " informando",
+  "startMs": 34584,
+  "endMs": 35164,
+  "timestampMs": 37910,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cómo",
+  "startMs": 35164,
+  "endMs": 35324,
+  "timestampMs": 38490,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " avanza",
+  "startMs": 35324,
+  "endMs": 35724,
+  "timestampMs": 38650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 35724,
+  "endMs": 36244,
+  "timestampMs": 39050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " recuperación",
+  "startMs": 36244,
+  "endMs": 37384,
+  "timestampMs": 39570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 37384,
+  "endMs": 37904,
+  "timestampMs": 40710,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cada",
+  "startMs": 37904,
+  "endMs": 38224,
+  "timestampMs": 41230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " uno",
+  "startMs": 38224,
+  "endMs": 38364,
+  "timestampMs": 41550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 38364,
+  "endMs": 38564,
+  "timestampMs": 41690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 38564,
+  "endMs": 38804,
+  "timestampMs": 41890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " músicos",
+  "startMs": 38804,
+  "endMs": 39624,
+  "timestampMs": 42130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 39624,
+  "endMs": 39744,
+  "timestampMs": 42950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 39724,
+  "endMs": 39844,
+  "timestampMs": 43050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " agrupación",
+  "startMs": 39844,
+  "endMs": 40704,
+  "timestampMs": 43170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 40704,
+  "endMs": 41064,
+  "timestampMs": 44030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Cabeto",
+  "startMs": 41064,
+  "endMs": 41524,
+  "timestampMs": 44390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Zuleta.",
+  "startMs": 41524,
+  "endMs": 42144,
+  "timestampMs": 44850,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " El",
+  "startMs": 42144,
+  "endMs": 42344,
+  "timestampMs": 45470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " artista",
+  "startMs": 42344,
+  "endMs": 43265,
+  "timestampMs": 45670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " también",
+  "startMs": 43265,
+  "endMs": 44025,
+  "timestampMs": 46790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " iba",
+  "startMs": 44025,
+  "endMs": 44565,
+  "timestampMs": 47550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 44565,
+  "endMs": 44745,
+  "timestampMs": 48090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 44745,
+  "endMs": 45045,
+  "timestampMs": 48270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " bus.",
+  "startMs": 45045,
+  "endMs": 45685,
+  "timestampMs": 48570,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Noticia",
+  "startMs": 45685,
+  "endMs": 46085,
+  "timestampMs": 49210,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 46085,
+  "endMs": 46565,
+  "timestampMs": 49610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " desarrollo",
+  "startMs": 46565,
+  "endMs": 47165,
+  "timestampMs": 50090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 47165,
+  "endMs": 47345,
+  "timestampMs": 50690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Sistema",
+  "startMs": 47345,
+  "endMs": 48005,
+  "timestampMs": 50870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Cardenal.",
+  "startMs": 48005,
+  "endMs": 48515,
+  "timestampMs": 51530,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]
