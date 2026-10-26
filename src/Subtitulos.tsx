@@ -25,6 +25,10 @@ export type EstiloSubtitulos = {
   borde: number;
   // Cada cuánto cambia la frase: más alto = más palabras a la vez
   agruparMs?: number;
+  // Color de las palabras clave y del recuadro de la palabra que se dice
+  colorClave?: string;
+  colorActivo?: string;
+  textoActivo?: string;
 };
 
 const ESTILO_NORMAL: EstiloSubtitulos = { fontSize: 76, top: 1180, borde: 12 };
@@ -73,10 +77,16 @@ const Pagina: React.FC<{
               {token.text.startsWith(" ") ? " " : ""}
               <span
                 style={{
-                  color: active || !clave ? BLANCO : ROJO,
+                  color: active
+                    ? (estilo.textoActivo ?? BLANCO)
+                    : clave
+                      ? (estilo.colorClave ?? ROJO)
+                      : BLANCO,
                   padding: "0 8px",
                   borderRadius: 14,
-                  backgroundColor: active ? ROJO : "transparent",
+                  backgroundColor: active
+                    ? (estilo.colorActivo ?? ROJO)
+                    : "transparent",
                   WebkitTextStroke: active
                     ? "0px"
                     : `${estilo.borde}px ${NEGRO}`,

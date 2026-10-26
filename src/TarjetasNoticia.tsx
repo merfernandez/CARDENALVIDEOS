@@ -126,7 +126,8 @@ export const TarjetaCancion: React.FC<{
   etiqueta: string;
   titulo: string;
   detalle: string;
-}> = ({ etiqueta, titulo, detalle }) => {
+  color?: string;
+}> = ({ etiqueta, titulo, detalle, color = ROJO }) => {
   const { frame, v } = useEntradaSalida();
   return (
     <Contenedor v={v}>
@@ -153,7 +154,7 @@ export const TarjetaCancion: React.FC<{
                 strokeWidth="1.5"
               />
             ))}
-            <circle r="17" fill={ROJO} />
+            <circle r="17" fill={color} />
             <rect
               x="-2"
               y="-17"
@@ -168,7 +169,7 @@ export const TarjetaCancion: React.FC<{
         <div>
           <div
             style={{
-              color: ROJO,
+              color,
               fontSize: 20,
               fontWeight: 800,
               letterSpacing: 4,
@@ -220,7 +221,7 @@ export const TarjetaCancion: React.FC<{
                   style={{
                     width: 6,
                     borderRadius: 3,
-                    backgroundColor: ROJO,
+                    backgroundColor: color,
                     height: interpolate(
                       Math.sin(frame / 3 + i * 1.7),
                       [-1, 1],
@@ -287,6 +288,88 @@ export const TarjetaPlataformas: React.FC<{
             }}
           >
             {texto}
+          </div>
+        </div>
+      </div>
+    </Contenedor>
+  );
+};
+
+// Nombre del artista con efecto de resaltador: la franja de color se pinta y
+// luego aparecen las letras encima.
+export const TarjetaMarcador: React.FC<{
+  nombre: string;
+  etiqueta: string;
+  color: string;
+}> = ({ nombre, etiqueta, color }) => {
+  const { frame, fps, v } = useEntradaSalida();
+  const trazo = spring({
+    frame,
+    fps,
+    delay: 2,
+    durationInFrames: 12,
+    config: { damping: 200 },
+  });
+  return (
+    <Contenedor v={v}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
+      >
+        <div
+          style={{
+            color: BLANCO,
+            fontSize: 22,
+            fontWeight: 800,
+            letterSpacing: 6,
+            textTransform: "uppercase",
+            textShadow: "0 2px 10px rgba(0,0,0,0.8)",
+            marginBottom: 8,
+          }}
+        >
+          {etiqueta}
+        </div>
+        <div style={{ position: "relative", padding: "6px 30px" }}>
+          <div
+            style={{
+              position: "absolute",
+              inset: 0,
+              backgroundColor: color,
+              borderRadius: "10px 30px 10px 30px",
+              transform: "rotate(-2deg) skewX(-8deg)",
+              clipPath: `inset(0 ${(1 - trazo) * 100}% 0 0)`,
+              boxShadow: "0 12px 26px rgba(0,0,0,0.35)",
+            }}
+          />
+          <div style={{ position: "relative", display: "flex" }}>
+            {nombre.split("").map((ch, i) => {
+              const p = spring({
+                frame,
+                fps,
+                delay: 8 + i * 0.9,
+                config: { damping: 12, stiffness: 200 },
+              });
+              return (
+                <span
+                  key={i}
+                  style={{
+                    whiteSpace: "pre",
+                    color: NEGRO,
+                    fontSize: 64,
+                    fontWeight: 900,
+                    textTransform: "uppercase",
+                    opacity: p,
+                    display: "inline-block",
+                    transform: `translateY(${(1 - p) * 20}px) scale(${0.6 + p * 0.4})`,
+                  }}
+                >
+                  {ch}
+                </span>
+              );
+            })}
           </div>
         </div>
       </div>

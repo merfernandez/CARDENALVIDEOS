@@ -2,6 +2,7 @@ import { Composition, staticFile } from "remotion";
 import { z } from "zod";
 import { CardenalReel, cardenalReelSchema } from "./CardenalReel";
 import { FiestaDuo, fiestaDuoSchema } from "./FiestaDuo";
+import { NoticiaGamarra } from "./NoticiaGamarra";
 import { NoticiasVallenatas, noticiasSchema } from "./NoticiasVallenatas";
 import { getVideoDurationInSeconds } from "./get-video-duration";
 
@@ -92,6 +93,36 @@ export const RemotionRoot: React.FC = () => {
           rotuloHastaSeg: 15,
           cierreInicioSeg: 29.5,
           cierreExtraSeg: 4,
+        }}
+        calculateMetadata={async ({ props }) => {
+          const seconds = await getVideoDurationInSeconds(
+            staticFile(props.video),
+          );
+          return {
+            durationInFrames: Math.floor(
+              (seconds + props.cierreExtraSeg) * FPS,
+            ),
+          };
+        }}
+      />
+      <Composition
+        id="NoticiaGamarra"
+        component={NoticiaGamarra}
+        fps={FPS}
+        width={1080}
+        height={1920}
+        durationInFrames={FPS * 10}
+        schema={noticiasSchema}
+        defaultProps={{
+          video: "gamarra-cut.mp4",
+          subtitulos: "gamarra-cut-captions.json",
+          seccion: "Noticias vallenatas",
+          nombre: "William de la Rosa",
+          cargo: "Director artístico del Sistema Cardenal",
+          instagram: "wdelarosac",
+          rotuloHastaSeg: 10,
+          cierreInicioSeg: 41.95,
+          cierreExtraSeg: 2.6,
         }}
         calculateMetadata={async ({ props }) => {
           const seconds = await getVideoDurationInSeconds(

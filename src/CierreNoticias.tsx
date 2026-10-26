@@ -1,5 +1,7 @@
+import { Audio } from "@remotion/media";
 import {
   AbsoluteFill,
+  Sequence,
   Img,
   interpolate,
   spring,
@@ -12,15 +14,17 @@ import { BLANCO, fontFamily, ROJO } from "./brand";
 const LOGO = "logo-cardenal-sticker.png";
 
 // Ondas de radio que salen del logo
-const Ondas: React.FC<{ frame: number; inicio: number }> = ({
+const Ondas: React.FC<{ frame: number; inicio: number; ciclo: number }> = ({
   frame,
   inicio,
+  ciclo,
 }) => (
   <>
     {[0, 1, 2].map((i) => {
-      const t = (((frame - inicio - i * 14) % 42) + 42) % 42;
-      const p = t / 42;
-      return frame < inicio + i * 14 ? null : (
+      const paso = ciclo / 3;
+      const t = (((frame - inicio - i * paso) % ciclo) + ciclo) % ciclo;
+      const p = t / ciclo;
+      return frame < inicio + i * paso ? null : (
         <div
           key={i}
           style={{
@@ -44,9 +48,13 @@ export const CierreNoticias: React.FC<{
   seccion: string;
   invitacion: string;
   web: string;
-}> = ({ seccion, invitacion, web }) => {
+  // Versión más rápida con sonido (whoosh al caer el logo y campanita al aterrizar)
+  rapido?: boolean;
+}> = ({ seccion, invitacion, web, rapido = false }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
+  const k = rapido ? 0.6 : 1;
+  const d = (n: number) => Math.round(n * k);
   const fondo = interpolate(frame, [0, 10], [0, 1], {
     extrapolateRight: "clamp",
   });
@@ -56,7 +64,7 @@ export const CierreNoticias: React.FC<{
     delay: 4,
     config: { damping: 9, stiffness: 120 },
   });
-  const brillo = interpolate(frame, [22, 40], [-60, 160], {
+  const brillo = interpolate(frame, [d(22), d(40)], [-60, 160], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
@@ -73,7 +81,7 @@ export const CierreNoticias: React.FC<{
   });
   const web1 = spring({ frame, fps, delay: 52, config: { damping: 200 } });
   const letrasWeb = Math.floor(
-    interpolate(frame, [58, 58 + web.length * 1.2], [0, web.length], {
+    interpolate(frame, [d(58), d(58) + web.length * k], [0, web.length], {
       extrapolateLeft: "clamp",
       extrapolateRight: "clamp",
     }),
@@ -81,6 +89,16 @@ export const CierreNoticias: React.FC<{
 
   return (
     <AbsoluteFill style={{ fontFamily }}>
+      {rapido ? (
+        <>
+          <Sequence from={d(2)} name="Whoosh">
+            <Audio src={staticFile("sfx/whoosh.wav")} volume={0.5} />
+          </Sequence>
+          <Sequence from={d(12)} name="Campanita">
+            <Audio src={staticFile("sfx/ding.wav")} volume={0.45} />
+          </Sequence>
+        </>
+      ) : null}
       <AbsoluteFill
         style={{
           opacity: fondo,
@@ -98,7 +116,7 @@ export const CierreNoticias: React.FC<{
             marginTop: -120,
           }}
         >
-          <Ondas frame={frame} inicio={26} />
+          <Ondas frame={frame} inicio={d(26)} ciclo={d(42)} />
           <div
             style={{
               position: "relative",

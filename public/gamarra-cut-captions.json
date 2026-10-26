@@ -1,0 +1,674 @@
+[
+ {
+  "text": " Oscar",
+  "startMs": 230,
+  "endMs": 510,
+  "timestampMs": 2150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Gamarra",
+  "startMs": 510,
+  "endMs": 1250,
+  "timestampMs": 2430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " paralizó",
+  "startMs": 1250,
+  "endMs": 1910,
+  "timestampMs": 3170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Riohacha",
+  "startMs": 1910,
+  "endMs": 2870,
+  "timestampMs": 3830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 2870,
+  "endMs": 3230,
+  "timestampMs": 4790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " una",
+  "startMs": 3230,
+  "endMs": 3670,
+  "timestampMs": 5150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " espectacular",
+  "startMs": 3670,
+  "endMs": 4850,
+  "timestampMs": 5590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " caravana",
+  "startMs": 4850,
+  "endMs": 5350,
+  "timestampMs": 6770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 5350,
+  "endMs": 5650,
+  "timestampMs": 7270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " lanzamiento",
+  "startMs": 5650,
+  "endMs": 6710,
+  "timestampMs": 7570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 6710,
+  "endMs": 6910,
+  "timestampMs": 8630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 6910,
+  "endMs": 7110,
+  "timestampMs": 8830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " más",
+  "startMs": 7110,
+  "endMs": 7390,
+  "timestampMs": 9030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " reciente",
+  "startMs": 7390,
+  "endMs": 7930,
+  "timestampMs": 9310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " álbum",
+  "startMs": 7930,
+  "endMs": 8510,
+  "timestampMs": 9850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " titulado",
+  "startMs": 8510,
+  "endMs": 9517,
+  "timestampMs": 10430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " El",
+  "startMs": 9517,
+  "endMs": 10057,
+  "timestampMs": 11490,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Gamarrazo.",
+  "startMs": 10057,
+  "endMs": 11131,
+  "timestampMs": 12030,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Los",
+  "startMs": 11171,
+  "endMs": 11291,
+  "timestampMs": 13270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " riohacheros",
+  "startMs": 11291,
+  "endMs": 12491,
+  "timestampMs": 13390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " salieron",
+  "startMs": 12491,
+  "endMs": 13171,
+  "timestampMs": 14590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " vestidos",
+  "startMs": 13171,
+  "endMs": 13711,
+  "timestampMs": 15270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 13711,
+  "endMs": 14071,
+  "timestampMs": 15810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " amarillo",
+  "startMs": 14071,
+  "endMs": 14591,
+  "timestampMs": 16170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 14591,
+  "endMs": 14731,
+  "timestampMs": 16690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 14731,
+  "endMs": 15171,
+  "timestampMs": 16830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " diferentes",
+  "startMs": 15171,
+  "endMs": 15571,
+  "timestampMs": 17270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " calles",
+  "startMs": 15571,
+  "endMs": 15851,
+  "timestampMs": 17670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 15851,
+  "endMs": 16011,
+  "timestampMs": 17950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " avenidas",
+  "startMs": 16011,
+  "endMs": 16391,
+  "timestampMs": 18110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 16391,
+  "endMs": 16511,
+  "timestampMs": 18490,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Riohacha",
+  "startMs": 16491,
+  "endMs": 17333,
+  "timestampMs": 18590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " para",
+  "startMs": 17333,
+  "endMs": 17733,
+  "timestampMs": 19590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " apoyar",
+  "startMs": 17733,
+  "endMs": 18173,
+  "timestampMs": 19990,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 18173,
+  "endMs": 18453,
+  "timestampMs": 20430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 18453,
+  "endMs": 18733,
+  "timestampMs": 20710,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " artista",
+  "startMs": 18733,
+  "endMs": 19513,
+  "timestampMs": 20990,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " guajiro.",
+  "startMs": 19513,
+  "endMs": 20197,
+  "timestampMs": 21770,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Oscar",
+  "startMs": 20502,
+  "endMs": 20762,
+  "timestampMs": 23310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Gamarra",
+  "startMs": 20762,
+  "endMs": 21744,
+  "timestampMs": 23570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " celebró",
+  "startMs": 21744,
+  "endMs": 22064,
+  "timestampMs": 24610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 22064,
+  "endMs": 22204,
+  "timestampMs": 24930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cumpleaños",
+  "startMs": 22204,
+  "endMs": 23024,
+  "timestampMs": 25070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 23024,
+  "endMs": 23424,
+  "timestampMs": 25890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " noche",
+  "startMs": 23424,
+  "endMs": 24024,
+  "timestampMs": 26290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " anterior",
+  "startMs": 24024,
+  "endMs": 24556,
+  "timestampMs": 26890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " aquí",
+  "startMs": 24556,
+  "endMs": 24956,
+  "timestampMs": 27670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 24956,
+  "endMs": 25216,
+  "timestampMs": 28070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 25216,
+  "endMs": 25576,
+  "timestampMs": 28330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tierra",
+  "startMs": 25576,
+  "endMs": 25796,
+  "timestampMs": 28690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Riohacha.",
+  "startMs": 25796,
+  "endMs": 26736,
+  "timestampMs": 28910,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Rodeado",
+  "startMs": 26736,
+  "endMs": 27176,
+  "timestampMs": 29850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 27176,
+  "endMs": 27396,
+  "timestampMs": 30290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cariño",
+  "startMs": 27396,
+  "endMs": 27716,
+  "timestampMs": 30510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 27716,
+  "endMs": 27916,
+  "timestampMs": 30830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sus",
+  "startMs": 27916,
+  "endMs": 28336,
+  "timestampMs": 31030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " familiares,",
+  "startMs": 28336,
+  "endMs": 29036,
+  "timestampMs": 31450,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " amigos",
+  "startMs": 29036,
+  "endMs": 29536,
+  "timestampMs": 32150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 29536,
+  "endMs": 29856,
+  "timestampMs": 32650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " artistas",
+  "startMs": 29856,
+  "endMs": 30336,
+  "timestampMs": 32970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 30336,
+  "endMs": 30516,
+  "timestampMs": 33450,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " llegaron",
+  "startMs": 30516,
+  "endMs": 30816,
+  "timestampMs": 33630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 30816,
+  "endMs": 31056,
+  "timestampMs": 33930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cantarle",
+  "startMs": 31056,
+  "endMs": 31850,
+  "timestampMs": 34170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 31850,
+  "endMs": 32030,
+  "timestampMs": 35030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cumpleaños",
+  "startMs": 32030,
+  "endMs": 32970,
+  "timestampMs": 35210,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 32970,
+  "endMs": 33390,
+  "timestampMs": 36150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Oscar",
+  "startMs": 33390,
+  "endMs": 33630,
+  "timestampMs": 36570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Gamarra",
+  "startMs": 33630,
+  "endMs": 34417,
+  "timestampMs": 36810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 34417,
+  "endMs": 35057,
+  "timestampMs": 37650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " celebró",
+  "startMs": 35057,
+  "endMs": 35377,
+  "timestampMs": 38290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 35377,
+  "endMs": 35637,
+  "timestampMs": 38610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " lanzamiento",
+  "startMs": 35637,
+  "endMs": 36737,
+  "timestampMs": 38870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 36737,
+  "endMs": 36917,
+  "timestampMs": 39970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 36917,
+  "endMs": 37077,
+  "timestampMs": 40150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " más",
+  "startMs": 37077,
+  "endMs": 37317,
+  "timestampMs": 40310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " reciente",
+  "startMs": 37317,
+  "endMs": 37757,
+  "timestampMs": 40550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " álbum",
+  "startMs": 37757,
+  "endMs": 38137,
+  "timestampMs": 40990,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " El",
+  "startMs": 38137,
+  "endMs": 38377,
+  "timestampMs": 41370,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Gamarrazo",
+  "startMs": 38377,
+  "endMs": 39117,
+  "timestampMs": 41610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 39117,
+  "endMs": 39397,
+  "timestampMs": 42350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " una",
+  "startMs": 39397,
+  "endMs": 39737,
+  "timestampMs": 42630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " caravana",
+  "startMs": 39737,
+  "endMs": 40799,
+  "timestampMs": 42970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " espectacular.",
+  "startMs": 40799,
+  "endMs": 41529,
+  "timestampMs": 44090,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]
