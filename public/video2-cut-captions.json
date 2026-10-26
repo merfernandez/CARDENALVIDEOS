@@ -1,0 +1,642 @@
+[
+ {
+  "text": "La",
+  "startMs": 50,
+  "endMs": 120,
+  "timestampMs": 180,
+  "confidence": 0.961527,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " gran",
+  "startMs": 120,
+  "endMs": 360,
+  "timestampMs": 400,
+  "confidence": 0.991938,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fiesta",
+  "startMs": 360,
+  "endMs": 760,
+  "timestampMs": 580,
+  "confidence": 0.99975,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 760,
+  "endMs": 840,
+  "timestampMs": 920,
+  "confidence": 0.994124,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 840,
+  "endMs": 1020,
+  "timestampMs": 1060,
+  "confidence": 0.988246,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cardenalitos",
+  "startMs": 1020,
+  "endMs": 1780,
+  "timestampMs": 1340,
+  "confidence": 0.617513,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 1780,
+  "endMs": 1960,
+  "timestampMs": 1920,
+  "confidence": 0.962972,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 1960,
+  "endMs": 2210,
+  "timestampMs": 2100,
+  "confidence": 0.979808,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sintonía",
+  "startMs": 2210,
+  "endMs": 2900,
+  "timestampMs": 2280,
+  "confidence": 0.795001,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " es",
+  "startMs": 2900,
+  "endMs": 3060,
+  "timestampMs": 3200,
+  "confidence": 0.825152,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " este",
+  "startMs": 3060,
+  "endMs": 3360,
+  "timestampMs": 3400,
+  "confidence": 0.999457,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 31",
+  "startMs": 3360,
+  "endMs": 3800,
+  "timestampMs": 3960,
+  "confidence": 0.990874,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 3800,
+  "endMs": 3940,
+  "timestampMs": 4100,
+  "confidence": 0.99972,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " octubre",
+  "startMs": 3940,
+  "endMs": 4500,
+  "timestampMs": 4280,
+  "confidence": 0.995975,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 4500,
+  "endMs": 4620,
+  "timestampMs": 4640,
+  "confidence": 0.92738,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Suchiimma",
+  "startMs": 4620,
+  "endMs": 5060,
+  "timestampMs": 4760,
+  "confidence": 0.407207,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Centro",
+  "startMs": 5060,
+  "endMs": 5390,
+  "timestampMs": 5380,
+  "confidence": 0.632341,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Comercial",
+  "startMs": 5390,
+  "endMs": 5900,
+  "timestampMs": 5620,
+  "confidence": 0.991851,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 5900,
+  "endMs": 6130,
+  "timestampMs": 6180,
+  "confidence": 0.973901,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Cardenal",
+  "startMs": 6130,
+  "endMs": 6740,
+  "timestampMs": 6580,
+  "confidence": 0.986492,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Stereo.",
+  "startMs": 6740,
+  "endMs": 7620,
+  "timestampMs": 7100,
+  "confidence": 0.925943,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Todos",
+  "startMs": 7620,
+  "endMs": 7853,
+  "timestampMs": 8340,
+  "confidence": 0.996999,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 7853,
+  "endMs": 8065,
+  "timestampMs": 8580,
+  "confidence": 0.999973,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " niños",
+  "startMs": 8065,
+  "endMs": 8565,
+  "timestampMs": 8800,
+  "confidence": 0.999729,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 8565,
+  "endMs": 8775,
+  "timestampMs": 9020,
+  "confidence": 0.997037,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Riohacha",
+  "startMs": 8775,
+  "endMs": 9345,
+  "timestampMs": 9120,
+  "confidence": 0.503458,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " están",
+  "startMs": 9345,
+  "endMs": 9915,
+  "timestampMs": 9620,
+  "confidence": 0.976905,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cordialmente",
+  "startMs": 9915,
+  "endMs": 10825,
+  "timestampMs": 9900,
+  "confidence": 0.997832,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " invitados",
+  "startMs": 10825,
+  "endMs": 11504,
+  "timestampMs": 10600,
+  "confidence": 0.999949,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 11504,
+  "endMs": 11625,
+  "timestampMs": 11380,
+  "confidence": 0.992432,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " gozar,",
+  "startMs": 11625,
+  "endMs": 12017,
+  "timestampMs": 11620,
+  "confidence": 0.999474,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " a",
+  "startMs": 12017,
+  "endMs": 12097,
+  "timestampMs": 12580,
+  "confidence": 0.999197,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " disfrutar",
+  "startMs": 12097,
+  "endMs": 12837,
+  "timestampMs": 12980,
+  "confidence": 0.99999,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " este",
+  "startMs": 12837,
+  "endMs": 13167,
+  "timestampMs": 14160,
+  "confidence": 0.732251,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 31",
+  "startMs": 13167,
+  "endMs": 13531,
+  "timestampMs": 14860,
+  "confidence": 0.999901,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 13531,
+  "endMs": 13691,
+  "timestampMs": 15040,
+  "confidence": 0.999998,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " octubre",
+  "startMs": 13691,
+  "endMs": 14251,
+  "timestampMs": 15240,
+  "confidence": 0.999907,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 14251,
+  "endMs": 14321,
+  "timestampMs": 15520,
+  "confidence": 0.998711,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " partir",
+  "startMs": 14321,
+  "endMs": 14811,
+  "timestampMs": 15800,
+  "confidence": 0.999958,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 14811,
+  "endMs": 15221,
+  "timestampMs": 15960,
+  "confidence": 0.999992,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 15221,
+  "endMs": 15221,
+  "timestampMs": 16120,
+  "confidence": 0.999968,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 4",
+  "startMs": 15221,
+  "endMs": 15461,
+  "timestampMs": 16420,
+  "confidence": 0.95724,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 15461,
+  "endMs": 15621,
+  "timestampMs": 16640,
+  "confidence": 0.999577,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 15621,
+  "endMs": 15781,
+  "timestampMs": 16760,
+  "confidence": 0.999966,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tarde.",
+  "startMs": 15781,
+  "endMs": 16621,
+  "timestampMs": 17100,
+  "confidence": 0.999985,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Tendremos",
+  "startMs": 16621,
+  "endMs": 17381,
+  "timestampMs": 17960,
+  "confidence": 0.996827,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " dulces,",
+  "startMs": 17381,
+  "endMs": 18051,
+  "timestampMs": 18800,
+  "confidence": 0.999811,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " regalos,",
+  "startMs": 18051,
+  "endMs": 18831,
+  "timestampMs": 19460,
+  "confidence": 0.999849,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " sorpresas",
+  "startMs": 18831,
+  "endMs": 19601,
+  "timestampMs": 20080,
+  "confidence": 0.999796,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 19601,
+  "endMs": 19681,
+  "timestampMs": 20840,
+  "confidence": 0.999546,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " lo",
+  "startMs": 19681,
+  "endMs": 19851,
+  "timestampMs": 21180,
+  "confidence": 0.976993,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " mejor,",
+  "startMs": 19851,
+  "endMs": 20461,
+  "timestampMs": 21620,
+  "confidence": 0.99999,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " un",
+  "startMs": 20461,
+  "endMs": 20621,
+  "timestampMs": 22020,
+  "confidence": 0.999937,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " show",
+  "startMs": 20621,
+  "endMs": 20961,
+  "timestampMs": 22340,
+  "confidence": 0.99976,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 20961,
+  "endMs": 21131,
+  "timestampMs": 22560,
+  "confidence": 0.999994,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Halloween",
+  "startMs": 21131,
+  "endMs": 21901,
+  "timestampMs": 23060,
+  "confidence": 0.999819,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 21901,
+  "endMs": 22161,
+  "timestampMs": 23600,
+  "confidence": 0.999975,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tus",
+  "startMs": 22161,
+  "endMs": 22411,
+  "timestampMs": 23860,
+  "confidence": 0.999866,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " personajes",
+  "startMs": 22411,
+  "endMs": 23120,
+  "timestampMs": 24460,
+  "confidence": 0.999931,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " animados",
+  "startMs": 23120,
+  "endMs": 23801,
+  "timestampMs": 24800,
+  "confidence": 0.999758,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " favoritos.",
+  "startMs": 23801,
+  "endMs": 24674,
+  "timestampMs": 25820,
+  "confidence": 0.998134,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " El",
+  "startMs": 25684,
+  "endMs": 25814,
+  "timestampMs": 26740,
+  "confidence": 0.976306,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Centro",
+  "startMs": 25814,
+  "endMs": 26394,
+  "timestampMs": 27040,
+  "confidence": 0.993894,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Comercial",
+  "startMs": 26394,
+  "endMs": 27164,
+  "timestampMs": 27340,
+  "confidence": 0.999655,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Suchiimma",
+  "startMs": 27164,
+  "endMs": 27794,
+  "timestampMs": 27840,
+  "confidence": 0.998938,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 27794,
+  "endMs": 27884,
+  "timestampMs": 28780,
+  "confidence": 0.999535,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Cardenal",
+  "startMs": 27884,
+  "endMs": 28604,
+  "timestampMs": 29340,
+  "confidence": 0.999369,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Stereo,",
+  "startMs": 28604,
+  "endMs": 29514,
+  "timestampMs": 29980,
+  "confidence": 0.999232,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " te",
+  "startMs": 29514,
+  "endMs": 29694,
+  "timestampMs": 30860,
+  "confidence": 0.894133,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " esperamos.",
+  "startMs": 29694,
+  "endMs": 30637,
+  "timestampMs": 31400,
+  "confidence": 0.999796,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " En",
+  "startMs": 30637,
+  "endMs": 30787,
+  "timestampMs": 32200,
+  "confidence": 0.983911,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 30787,
+  "endMs": 30937,
+  "timestampMs": 32340,
+  "confidence": 0.99802,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " gran",
+  "startMs": 30937,
+  "endMs": 31237,
+  "timestampMs": 32560,
+  "confidence": 0.995158,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fiesta",
+  "startMs": 31237,
+  "endMs": 31687,
+  "timestampMs": 32760,
+  "confidence": 0.999891,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 31687,
+  "endMs": 31837,
+  "timestampMs": 33120,
+  "confidence": 0.999853,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 31837,
+  "endMs": 32067,
+  "timestampMs": 33300,
+  "confidence": 0.999718,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cardenalitos",
+  "startMs": 32067,
+  "endMs": 32967,
+  "timestampMs": 33560,
+  "confidence": 0.993509,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 32967,
+  "endMs": 33137,
+  "timestampMs": 34220,
+  "confidence": 0.999969,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 33137,
+  "endMs": 33277,
+  "timestampMs": 34440,
+  "confidence": 0.999872,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sintonía.",
+  "startMs": 33277,
+  "endMs": 34257,
+  "timestampMs": 34680,
+  "confidence": 0.99748,
+  "pageBreakAfter": true
+ }
+]
