@@ -11,6 +11,15 @@ Proyecto de [Remotion](https://www.remotion.dev) para editar los Reels y TikToks
 - **Palabras clave gigantes** (fecha, hora, lugar, marca): las letras caen una por una con rebote. Sin rayas ni fondos detrás.
 - **Nombre del orador:** franja oscura con línea roja, nombre en mayúsculas, cargo (opcional) e ícono de Instagram a color con el @. Aparece mientras esa persona habla por primera vez.
 - **Sin emojis ni logo encima de las personas.** El logo grande va en el cierre.
+- **Sin zoom sobre el video.** Nada de punch-in/punch-out en la imagen: cansa. Las animaciones van solo en letras y gráficos.
+- **El audio del video principal manda.** No se agregan otras pistas de audio; los videos de apoyo van sin sonido.
+
+### Noticias vallenatas
+
+- Estilo sobrio: subtítulos pequeños (54 px) en frases de 3–5 palabras, tiempos con Whisper DTW (`scripts/dtw_captions.py`).
+- Rótulo de William tipo noticiero (`src/RotuloNoticia.tsx`) durante unos 15 s.
+- Tarjetas arriba con artistas, canción y plataformas (`src/TarjetasNoticia.tsx`). Se puede usar el color del artista (ej. Oscar Gamarra: amarillo).
+- Cierre animado: logo con rebote, brillo y ondas de radio + "Síguenos en www.cardenalstereo.com" (`src/CierreNoticias.tsx`).
 - **Cierre:** logo + fecha + hora + lugar (`src/CierreHalloween.tsx` para eventos de Halloween).
 
 ## Pasos para un video nuevo
