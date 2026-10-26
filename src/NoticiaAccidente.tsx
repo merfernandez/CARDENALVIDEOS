@@ -1,15 +1,26 @@
 import { Video } from "@remotion/media";
 import { AbsoluteFill, Sequence, staticFile, useVideoConfig } from "remotion";
-import type { z } from "zod";
+import { z } from "zod";
 import { ApoyoSobrio } from "./ApoyoSobrio";
 import { CierreNoticias } from "./CierreNoticias";
 import { noticiasSchema } from "./NoticiasVallenatas";
 import { RotuloNoticia } from "./RotuloNoticia";
 import { Subtitulos } from "./Subtitulos";
 import { TarjetaSobria } from "./TarjetasNoticia";
-import { APOYOS, TARJETAS } from "./videos/noticias-accidente";
+import * as accidente from "./videos/noticias-accidente";
+import * as seguimiento from "./videos/noticias-seguimiento";
 
-export const NoticiaAccidente: React.FC<z.infer<typeof noticiasSchema>> = ({
+// Planes de edición de las noticias serias (mismo estilo, distinto contenido)
+const PLANES = { accidente, seguimiento };
+
+export const noticiaSeriaSchema = noticiasSchema.extend({
+  plan: z.enum(["accidente", "seguimiento"]),
+  cierreTitulo: z.string(),
+});
+
+export const NoticiaAccidente: React.FC<z.infer<typeof noticiaSeriaSchema>> = ({
+  plan,
+  cierreTitulo,
   video,
   subtitulos,
   seccion,
@@ -20,6 +31,7 @@ export const NoticiaAccidente: React.FC<z.infer<typeof noticiasSchema>> = ({
   cierreInicioSeg,
 }) => {
   const { fps } = useVideoConfig();
+  const { APOYOS, TARJETAS } = PLANES[plan];
   const f = (ms: number) => Math.round((ms / 1000) * fps);
   const tramo = (t: { desdeMs: number; hastaMs: number }) => ({
     from: f(t.desdeMs),
@@ -67,7 +79,7 @@ export const NoticiaAccidente: React.FC<z.infer<typeof noticiasSchema>> = ({
       </Sequence>
       <Sequence from={f(cierreInicioSeg * 1000)} name="Cierre">
         <CierreNoticias
-          seccion={seccion}
+          seccion={cierreTitulo}
           invitacion="Síguenos en"
           web="www.cardenalstereo.com"
         />

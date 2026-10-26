@@ -8,6 +8,7 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
+import { fontFamily } from "./brand";
 
 export type ApoyoPlan = {
   desdeMs: number;
@@ -17,6 +18,8 @@ export type ApoyoPlan = {
   desdeSeg?: number;
   // Proporción ancho/alto del medio (por defecto 3:4)
   proporcion?: number;
+  // Texto pequeño en la esquina, p. ej. "Imágenes de archivo"
+  etiqueta?: string;
 };
 
 const W = 1080;
@@ -65,6 +68,28 @@ const Medio: React.FC<{
   );
 };
 
+const Etiqueta: React.FC<{ texto: string }> = ({ texto }) => (
+  <div
+    style={{
+      position: "absolute",
+      zIndex: 1,
+      top: 150,
+      left: 50,
+      backgroundColor: "rgba(0,0,0,0.6)",
+      color: "rgba(255,255,255,0.9)",
+      fontFamily,
+      fontWeight: 700,
+      fontSize: 22,
+      letterSpacing: 4,
+      textTransform: "uppercase",
+      padding: "8px 16px",
+      borderRadius: 6,
+    }}
+  >
+    {texto}
+  </div>
+);
+
 const Fundido: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
@@ -90,6 +115,7 @@ export const ApoyoSobrio: React.FC<{ apoyos: ApoyoPlan[] }> = ({ apoyos }) => {
           name={`Apoyo ${a.src}`}
         >
           <Fundido>
+            {a.etiqueta ? <Etiqueta texto={a.etiqueta} /> : null}
             <Medio
               src={a.src}
               desdeSeg={a.desdeSeg ?? 0}

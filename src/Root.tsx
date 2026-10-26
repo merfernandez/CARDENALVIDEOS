@@ -2,7 +2,7 @@ import { Composition, staticFile } from "remotion";
 import { z } from "zod";
 import { CardenalReel, cardenalReelSchema } from "./CardenalReel";
 import { FiestaDuo, fiestaDuoSchema } from "./FiestaDuo";
-import { NoticiaAccidente } from "./NoticiaAccidente";
+import { NoticiaAccidente, noticiaSeriaSchema } from "./NoticiaAccidente";
 import { NoticiaGamarra } from "./NoticiaGamarra";
 import { NoticiasVallenatas, noticiasSchema } from "./NoticiasVallenatas";
 import { getVideoDurationInSeconds } from "./get-video-duration";
@@ -143,8 +143,10 @@ export const RemotionRoot: React.FC = () => {
         width={1080}
         height={1920}
         durationInFrames={FPS * 10}
-        schema={noticiasSchema}
+        schema={noticiaSeriaSchema}
         defaultProps={{
+          plan: "accidente",
+          cierreTitulo: "Noticia en desarrollo",
           video: "accidente-cut.mp4",
           subtitulos: "accidente-cut-captions.json",
           seccion: "Noticia en desarrollo",
@@ -154,6 +156,38 @@ export const RemotionRoot: React.FC = () => {
           rotuloHastaSeg: 5,
           cierreInicioSeg: 48.6,
           cierreExtraSeg: 3,
+        }}
+        calculateMetadata={async ({ props }) => {
+          const seconds = await getVideoDurationInSeconds(
+            staticFile(props.video),
+          );
+          return {
+            durationInFrames: Math.floor(
+              (seconds + props.cierreExtraSeg) * FPS,
+            ),
+          };
+        }}
+      />
+      <Composition
+        id="NoticiaSeguimiento"
+        component={NoticiaAccidente}
+        fps={FPS}
+        width={1080}
+        height={1920}
+        durationInFrames={FPS * 10}
+        schema={noticiaSeriaSchema}
+        defaultProps={{
+          plan: "seguimiento",
+          cierreTitulo: "Seguiremos informando",
+          video: "seguimiento-cut.mp4",
+          subtitulos: "seguimiento-cut-captions.json",
+          seccion: "Seguimiento",
+          nombre: "William de la Rosa",
+          cargo: "Director artístico del Sistema Cardenal",
+          instagram: "wdelarosac",
+          rotuloHastaSeg: 5,
+          cierreInicioSeg: 66.85,
+          cierreExtraSeg: 4,
         }}
         calculateMetadata={async ({ props }) => {
           const seconds = await getVideoDurationInSeconds(
