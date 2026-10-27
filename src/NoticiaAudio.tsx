@@ -114,6 +114,7 @@ export const NoticiaAudio: React.FC = () => {
           <TarjetaCifras
             antetitulo={CIFRAS.antetitulo}
             cifras={CIFRAS.cifras}
+            top={1420}
           />
         </Sequence>
         <EtiquetaDesarrollo />

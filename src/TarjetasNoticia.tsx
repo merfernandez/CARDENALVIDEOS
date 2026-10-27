@@ -495,14 +495,15 @@ export const TarjetaMemoria: React.FC<{
 export const TarjetaCifras: React.FC<{
   antetitulo: string;
   cifras: { numero: string; texto: string }[];
-}> = ({ antetitulo, cifras }) => {
+  top?: number;
+}> = ({ antetitulo, cifras, top = 200 }) => {
   const v = useFundidoLento();
   return (
     <AbsoluteFill style={{ alignItems: "center", fontFamily }}>
       <div
         style={{
           position: "absolute",
-          top: 200,
+          top,
           opacity: v,
           backgroundColor: "rgba(12,12,14,0.88)",
           borderTop: `5px solid ${ROJO}`,

@@ -62,12 +62,6 @@ export const TARJETAS_NOTA = [
     titulo: "Estable en cuidados intensivos",
   },
   {
-    desdeMs: 5300,
-    hastaMs: 16900,
-    antetitulo: "Clínica Sinais Vitais",
-    titulo: "Bosconia, Cesar",
-  },
-  {
     desdeMs: 17100,
     hastaMs: 22900,
     antetitulo: "Continúan hospitalizadas",
