@@ -144,13 +144,13 @@ export const Audiograma: React.FC<{
         }}
       />
       <AbsoluteFill style={{ alignItems: "center" }}>
-        <div style={{ marginTop: 300 }}>
+        <div style={{ marginTop: 420 }}>
           <FotoVoz
             foto="kbeto/william.jpg"
-            tamano={480}
-            anchoFoto={1150}
-            caraX={612}
-            caraY={700}
+            tamano={420}
+            anchoFoto={1006}
+            caraX={535}
+            caraY={613}
             nivel={nivel}
           />
         </div>
@@ -176,7 +176,7 @@ export const Audiograma: React.FC<{
         >
           {cargo}
         </div>
-        <div style={{ marginTop: 50 }}>
+        <div style={{ marginTop: 36 }}>
           <OndaVoz
             datos={datos}
             frame={frame}

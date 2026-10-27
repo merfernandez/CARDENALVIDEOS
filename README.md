@@ -20,7 +20,8 @@ Proyecto de [Remotion](https://www.remotion.dev) para editar los Reels y TikToks
 - Rótulo de William tipo noticiero (`src/RotuloNoticia.tsx`) durante unos 15 s.
 - Tarjetas arriba con artistas, canción y plataformas (`src/TarjetasNoticia.tsx`). Se puede usar el color del artista (ej. Oscar Gamarra: amarillo).
 - Cierre animado: logo con rebote, brillo y ondas de radio + "Síguenos en www.cardenalstereo.com" (`src/CierreNoticias.tsx`).
-- **Todos los cierres** llevan el crédito "Edición: Equipo Digital Sistema Cardenal" (`CREDITO_EDICION` en `src/brand.ts`).
+- **Todos los cierres** llevan los créditos (`src/Creditos.tsx`), grandes y destacados: "Edición: Equipo Digital Sistema Cardenal", Mercy Edith Fernández Pacheco (Directora General Sistema Cardenal) y Adaluz Trespalacios (Asistente Ejecutiva Sistema Cardenal).
+- **Notas de audio (audiograma):** el círculo con la foto va más abajo (`src/Audiograma.tsx`) para que las tarjetas de arriba no le tapen la cabeza.
 - **Cierre:** logo + fecha + hora + lugar (`src/CierreHalloween.tsx` para eventos de Halloween).
 
 ## Pasos para un video nuevo
