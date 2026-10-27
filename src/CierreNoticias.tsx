@@ -52,7 +52,16 @@ export const CierreNoticias: React.FC<{
   rapido?: boolean;
   // Noticias serias: sin rebote, brillo, ondas ni escritura animada
   sobrio?: boolean;
-}> = ({ seccion, invitacion, web, rapido = false, sobrio = false }) => {
+  // Crédito pequeño al final, p. ej. "Edición: Equipo Digital Sistema Cardenal"
+  credito?: string;
+}> = ({
+  seccion,
+  invitacion,
+  web,
+  rapido = false,
+  sobrio = false,
+  credito,
+}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const k = rapido ? 0.6 : 1;
@@ -250,6 +259,21 @@ export const CierreNoticias: React.FC<{
             </span>
           </div>
         </div>
+        {credito ? (
+          <div
+            style={{
+              marginTop: 50,
+              color: "rgba(255,255,255,0.6)",
+              fontWeight: 600,
+              fontSize: 24,
+              letterSpacing: 3,
+              textTransform: "uppercase",
+              opacity: web1,
+            }}
+          >
+            {credito}
+          </div>
+        ) : null}
       </AbsoluteFill>
     </AbsoluteFill>
   );
