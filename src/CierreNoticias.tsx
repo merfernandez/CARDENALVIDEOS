@@ -10,6 +10,7 @@ import {
   useVideoConfig,
 } from "remotion";
 import { BLANCO, CREDITO_EDICION, fontFamily, ROJO } from "./brand";
+import { Creditos } from "./Creditos";
 
 const LOGO = "logo-cardenal-sticker.png";
 
@@ -260,18 +261,8 @@ export const CierreNoticias: React.FC<{
           </div>
         </div>
         {credito ? (
-          <div
-            style={{
-              marginTop: 50,
-              color: "rgba(255,255,255,0.6)",
-              fontWeight: 600,
-              fontSize: 24,
-              letterSpacing: 3,
-              textTransform: "uppercase",
-              opacity: web1,
-            }}
-          >
-            {credito}
+          <div style={{ marginTop: 50 }}>
+            <Creditos opacidad={web1} credito={credito} />
           </div>
         ) : null}
       </AbsoluteFill>
