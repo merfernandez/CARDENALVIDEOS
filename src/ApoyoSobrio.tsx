@@ -73,7 +73,7 @@ const Etiqueta: React.FC<{ texto: string }> = ({ texto }) => (
     style={{
       position: "absolute",
       zIndex: 1,
-      top: 150,
+      top: 1360,
       left: 50,
       backgroundColor: "rgba(0,0,0,0.6)",
       color: "rgba(255,255,255,0.9)",

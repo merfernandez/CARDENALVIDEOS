@@ -3,6 +3,7 @@ import { z } from "zod";
 import { CardenalReel, cardenalReelSchema } from "./CardenalReel";
 import { FiestaDuo, fiestaDuoSchema } from "./FiestaDuo";
 import { NoticiaAccidente, noticiaSeriaSchema } from "./NoticiaAccidente";
+import { DURACION_TOTAL_MS, NoticiaAudio } from "./NoticiaAudio";
 import { NoticiaGamarra } from "./NoticiaGamarra";
 import { NoticiasVallenatas, noticiasSchema } from "./NoticiasVallenatas";
 import { getVideoDurationInSeconds } from "./get-video-duration";
@@ -199,6 +200,14 @@ export const RemotionRoot: React.FC = () => {
             ),
           };
         }}
+      />
+      <Composition
+        id="NoticiaAudioKbeto"
+        component={NoticiaAudio}
+        fps={FPS}
+        width={1080}
+        height={1920}
+        durationInFrames={Math.round((DURACION_TOTAL_MS / 1000) * FPS)}
       />
     </>
   );

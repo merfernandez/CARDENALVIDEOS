@@ -490,3 +490,67 @@ export const TarjetaMemoria: React.FC<{
     </AbsoluteFill>
   );
 };
+
+// Cifras del boletín médico en columnas (sobrio)
+export const TarjetaCifras: React.FC<{
+  antetitulo: string;
+  cifras: { numero: string; texto: string }[];
+}> = ({ antetitulo, cifras }) => {
+  const v = useFundidoLento();
+  return (
+    <AbsoluteFill style={{ alignItems: "center", fontFamily }}>
+      <div
+        style={{
+          position: "absolute",
+          top: 200,
+          opacity: v,
+          backgroundColor: "rgba(12,12,14,0.88)",
+          borderTop: `5px solid ${ROJO}`,
+          borderRadius: 10,
+          padding: "18px 34px 22px",
+          textAlign: "center",
+        }}
+      >
+        <div
+          style={{
+            color: "rgba(255,255,255,0.7)",
+            fontSize: 22,
+            fontWeight: 700,
+            letterSpacing: 5,
+            textTransform: "uppercase",
+          }}
+        >
+          {antetitulo}
+        </div>
+        <div style={{ display: "flex", gap: 40, marginTop: 12 }}>
+          {cifras.map((c) => (
+            <div key={c.texto}>
+              <div
+                style={{
+                  color: BLANCO,
+                  fontSize: 72,
+                  fontWeight: 900,
+                  lineHeight: 1,
+                }}
+              >
+                {c.numero}
+              </div>
+              <div
+                style={{
+                  color: "rgba(255,255,255,0.75)",
+                  fontSize: 22,
+                  fontWeight: 600,
+                  textTransform: "uppercase",
+                  letterSpacing: 2,
+                  marginTop: 6,
+                }}
+              >
+                {c.texto}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};

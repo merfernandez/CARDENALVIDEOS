@@ -1,0 +1,298 @@
+[
+ {
+  "text": " familiares",
+  "startMs": 241,
+  "endMs": 841,
+  "timestampMs": 1770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " artistas",
+  "startMs": 841,
+  "endMs": 1401,
+  "timestampMs": 2370,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 1401,
+  "endMs": 1561,
+  "timestampMs": 2930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 1561,
+  "endMs": 1961,
+  "timestampMs": 3090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " medio",
+  "startMs": 1961,
+  "endMs": 2241,
+  "timestampMs": 3490,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 2241,
+  "endMs": 2901,
+  "timestampMs": 3770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " general",
+  "startMs": 2901,
+  "endMs": 3257,
+  "timestampMs": 4430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " unidos",
+  "startMs": 3257,
+  "endMs": 3757,
+  "timestampMs": 4990,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 3757,
+  "endMs": 3997,
+  "timestampMs": 5490,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cadena",
+  "startMs": 3997,
+  "endMs": 4377,
+  "timestampMs": 5730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 4377,
+  "endMs": 4557,
+  "timestampMs": 6110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " oración",
+  "startMs": 4557,
+  "endMs": 5077,
+  "timestampMs": 6290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " por",
+  "startMs": 5077,
+  "endMs": 5257,
+  "timestampMs": 6810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 5257,
+  "endMs": 5777,
+  "timestampMs": 6990,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " recuperación",
+  "startMs": 5777,
+  "endMs": 6377,
+  "timestampMs": 7510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 6377,
+  "endMs": 6677,
+  "timestampMs": 8110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Kbeto",
+  "startMs": 6677,
+  "endMs": 7177,
+  "timestampMs": 8410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Zuleta",
+  "startMs": 7177,
+  "endMs": 7809,
+  "timestampMs": 8910,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 7809,
+  "endMs": 8269,
+  "timestampMs": 9870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cada",
+  "startMs": 8269,
+  "endMs": 8549,
+  "timestampMs": 10330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " uno",
+  "startMs": 8549,
+  "endMs": 8689,
+  "timestampMs": 10610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 8689,
+  "endMs": 8889,
+  "timestampMs": 10750,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 8889,
+  "endMs": 9209,
+  "timestampMs": 10950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " integrantes",
+  "startMs": 9209,
+  "endMs": 10034,
+  "timestampMs": 11270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 10034,
+  "endMs": 10314,
+  "timestampMs": 12330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 10314,
+  "endMs": 10474,
+  "timestampMs": 12610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " agrupación",
+  "startMs": 10474,
+  "endMs": 11183,
+  "timestampMs": 12770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Sistema",
+  "startMs": 11243,
+  "endMs": 11983,
+  "timestampMs": 14030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Cardenal",
+  "startMs": 11983,
+  "endMs": 12495,
+  "timestampMs": 14770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 12495,
+  "endMs": 12695,
+  "timestampMs": 15610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 12695,
+  "endMs": 12935,
+  "timestampMs": 15810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " noticia",
+  "startMs": 12935,
+  "endMs": 13735,
+  "timestampMs": 16050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " más",
+  "startMs": 13735,
+  "endMs": 14475,
+  "timestampMs": 16850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " importante",
+  "startMs": 14475,
+  "endMs": 14902,
+  "timestampMs": 17590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 14902,
+  "endMs": 15062,
+  "timestampMs": 18350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 15062,
+  "endMs": 15202,
+  "timestampMs": 18510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " vallenato",
+  "startMs": 15202,
+  "endMs": 15832,
+  "timestampMs": 18650,
+  "confidence": null,
+  "pageBreakAfter": false
+ }
+]

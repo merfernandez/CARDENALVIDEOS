@@ -12,3 +12,5 @@ whisper.cpp
 *.mp4
 *.mov
 *.MOV
+*.m4a
+public/kbeto/*.jpg
