@@ -146,7 +146,6 @@ export const NoticiaAudio: React.FC = () => {
           seccion="Seguiremos informando"
           invitacion="Síguenos en"
           web="www.cardenalstereo.com"
-          credito="Edición: Equipo Digital Sistema Cardenal"
         />
       </Sequence>
     </AbsoluteFill>

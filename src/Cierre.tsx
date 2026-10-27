@@ -7,7 +7,7 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { BLANCO, fontFamily, NEGRO, ROJO } from "./brand";
+import { BLANCO, fontFamily, NEGRO, ROJO, CREDITO_EDICION } from "./brand";
 
 const Pin: React.FC<{ size: number }> = ({ size }) => (
   <svg width={size} height={size} viewBox="0 0 24 24">
@@ -129,6 +129,23 @@ export const Cierre: React.FC<{
         >
           {lugar}
         </div>
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          bottom: 120,
+          width: "100%",
+          textAlign: "center",
+          color: "rgba(255,255,255,0.75)",
+          fontWeight: 600,
+          fontSize: 24,
+          letterSpacing: 3,
+          textTransform: "uppercase",
+          textShadow: "0 2px 8px rgba(0,0,0,0.6)",
+          opacity: Math.min(1, Math.max(0, (frame - 40) / 15)),
+        }}
+      >
+        {CREDITO_EDICION}
       </div>
     </AbsoluteFill>
   );

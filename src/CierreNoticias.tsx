@@ -9,7 +9,7 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { BLANCO, fontFamily, ROJO } from "./brand";
+import { BLANCO, CREDITO_EDICION, fontFamily, ROJO } from "./brand";
 
 const LOGO = "logo-cardenal-sticker.png";
 
@@ -60,7 +60,7 @@ export const CierreNoticias: React.FC<{
   web,
   rapido = false,
   sobrio = false,
-  credito,
+  credito = CREDITO_EDICION,
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();

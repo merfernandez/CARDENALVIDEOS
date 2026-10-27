@@ -10,3 +10,6 @@ export const BLANCO = "#FFFFFF";
 
 // Acento dorado para las noticias vallenatas (tarjetas de artistas)
 export const DORADO = "#F2B705";
+
+// Crédito que va en todos los cierres
+export const CREDITO_EDICION = "Edición: Equipo Digital Sistema Cardenal";
