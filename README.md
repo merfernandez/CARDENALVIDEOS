@@ -14,6 +14,23 @@ Proyecto de [Remotion](https://www.remotion.dev) para editar los Reels y TikToks
 - **Sin zoom sobre el video.** Nada de punch-in/punch-out en la imagen: cansa. Las animaciones van solo en letras y gráficos.
 - **El audio del video principal manda.** No se agregan otras pistas de audio; los videos de apoyo van sin sonido.
 
+### Imágenes de apoyo: variar el formato
+
+La directora pide **no repetir siempre el mismo formato**: si en el día hay 2 videos con apoyo, cada uno con un formato distinto. Formatos disponibles:
+
+1. **Tarjetas en las esquinas de arriba** (`src/FotoEsquina.tsx`): fotos o videos al lado de la cara, sin taparla. Usado en Silvestre Dangond y Kbeto en Barranquilla.
+2. **Pantalla completa con cortina** (`ApoyoCompleto` en `src/PantallaDividida.tsx`): entra barriendo con una línea de color. Usado en Oscar Gamarra.
+3. **Pantalla completa con fundido y fondo desenfocado** (`src/ApoyoSobrio.tsx`): para noticias serias o medios que no son verticales.
+4. Ideas nuevas por probar: el video de William se reduce (sin recortarlo) y el apoyo sale abajo; fotos tipo polaroid que se apilan; apoyo que sube desde abajo sobre los subtítulos.
+
+No usar la pantalla dividida que corta a William por la cintura (a la directora no le gustó).
+
+### Color
+
+- William desactivó el **Video HDR** del iPhone: los próximos videos deberían llegar en formato normal. En ese caso, respetar el color original (ajuste mínimo).
+- Si llegan en HDR (`color_transfer=arib-std-b67`), usar `bash scripts/preparar_video.sh entrada salida calido` (el color del video de Peter).
+- Los videos de William suelen venir **en espejo** (modo selfie): voltear con `hflip` para que las letras del fondo y de la camiseta se lean bien.
+
 ### Noticias vallenatas
 
 - Estilo sobrio: subtítulos pequeños (54 px) en frases de 3–5 palabras, tiempos con Whisper DTW (`scripts/dtw_captions.py`).
