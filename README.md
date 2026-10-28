@@ -59,7 +59,9 @@ No usar la pantalla dividida que corta a William por la cintura (a la directora 
    ```
 4. **Plan de edición:** copiar `src/videos/fiesta-duo.ts` y ajustar oradores (nombre, cargo, Instagram, cuándo hablan), zooms y palabras destacadas, usando los tiempos que imprime el paso 3.
 5. **Vista previa:** `npm run dev`
-6. **Exportar en máxima calidad:**
+6. **Exportar (calidad máxima que se puede descargar):** `bash scripts/exportar.sh ComposicionId out/video.mp4` — render maestro sin pérdidas y compresión final con tope de ~48 MB (100 MB no se descargó en la app).
+
+   Alternativa, solo maestro pesado:
    ```bash
    npx remotion render FiestaDuo out/video.mp4 --image-format=png --crf=12 --x264-preset=slow --audio-bitrate=320k --color-space=bt709
    ```
