@@ -1,13 +1,17 @@
 #!/bin/bash
 # Convierte un video de iPhone (4K, HDR, vertical) a 1080x1920 a 30 fps con el
 # color corregido.
-# Uso: bash scripts/preparar_video.sh original.mov public/mi-video.mp4 [calido|natural]
-#   calido (por defecto): el color correcto de los videos de la emisora
+# Uso: bash scripts/preparar_video.sh original.mov public/mi-video.mp4 [noticias|calido|natural]
+#   noticias (por defecto): el color de las noticias de Elder, Gamarra y el accidente,
+#            que la directora considera el correcto
+#   calido: más saturado y cálido (primeros videos de William)
 #   natural: neutro, solo se usó en el seguimiento del accidente (opción "D")
 set -euo pipefail
-ESTILO="${3:-calido}"
+ESTILO="${3:-noticias}"
 BASE="scale=1080:1920:flags=lanczos:in_color_matrix=bt2020:out_color_matrix=bt709"
-if [ "$ESTILO" = "calido" ]; then
+if [ "$ESTILO" = "noticias" ]; then
+  COLOR="eq=contrast=1.07:saturation=1.15:brightness=-0.02,colorbalance=rm=0.03:bm=-0.03"
+elif [ "$ESTILO" = "calido" ]; then
   COLOR="eq=saturation=1.35:contrast=1.08:brightness=-0.05,colorbalance=rs=0.04:bs=-0.04:rm=0.08:gm=0.01:bm=-0.08,curves=all='0/0 0.5/0.47 1/0.97'"
 else
   COLOR="eq=saturation=1.2:contrast=1.06"
