@@ -53,6 +53,8 @@ export const CierreNoticias: React.FC<{
   rapido?: boolean;
   // Noticias serias: sin rebote, brillo, ondas ni escritura animada
   sobrio?: boolean;
+  // Whoosh al caer el logo y campanita al aterrizar (la directora lo quiere en todos)
+  sonido?: boolean;
   // Crédito pequeño al final, p. ej. "Edición: Equipo Digital Sistema Cardenal"
   credito?: string;
 }> = ({
@@ -62,6 +64,7 @@ export const CierreNoticias: React.FC<{
   rapido = false,
   sobrio = false,
   credito = CREDITO_EDICION,
+  sonido = true,
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -103,7 +106,7 @@ export const CierreNoticias: React.FC<{
 
   return (
     <AbsoluteFill style={{ fontFamily }}>
-      {rapido ? (
+      {sonido ? (
         <>
           <Sequence from={d(2)} name="Whoosh">
             <Audio src={staticFile("sfx/whoosh.wav")} volume={0.5} />

@@ -14,6 +14,7 @@ import {
 } from "./TarjetasNoticia";
 import { plan as v1 } from "./videos/hoy-v1";
 import { plan as v2 } from "./videos/hoy-v2";
+import { plan as v3 } from "./videos/hoy-v3";
 
 type Tramo = { desdeMs: number; hastaMs: number };
 export type TarjetaPlan = Tramo &
@@ -38,10 +39,10 @@ export type PlanNoticia = {
   sobrio?: boolean;
 };
 
-export const PLANES_HOY = { v1, v2 };
+export const PLANES_HOY = { v1, v2, v3 };
 
 export const noticiaHoySchema = z.object({
-  plan: z.enum(["v1", "v2"]),
+  plan: z.enum(["v1", "v2", "v3"]),
   rotuloSeg: z.number(),
   cierreExtraSeg: z.number(),
 });
@@ -79,7 +80,7 @@ export const NoticiaHoy: React.FC<z.infer<typeof noticiaHoySchema>> = ({
           {...tramo(ft)}
           name={`Foto ${ft.src}`}
         >
-          <FotoEsquina src={ft.src} lado={ft.lado} />
+          <FotoEsquina src={ft.src} lado={ft.lado} desdeSeg={ft.desdeSeg} />
         </Sequence>
       ))}
       {p.tarjetas.map((t) => (

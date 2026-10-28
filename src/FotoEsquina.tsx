@@ -1,3 +1,4 @@
+import { Video } from "@remotion/media";
 import {
   AbsoluteFill,
   Img,
@@ -13,14 +14,17 @@ export type FotoPlan = {
   hastaMs: number;
   src: string;
   lado: "izq" | "der";
+  // Para videos: segundo desde el que se toma la imagen
+  desdeSeg?: number;
 };
 
 // Foto de apoyo en una esquina de arriba, al lado de la cara del presentador
 // (sin taparla). Entra deslizándose desde su lado y se va con un fundido.
-export const FotoEsquina: React.FC<{ src: string; lado: "izq" | "der" }> = ({
-  src,
-  lado,
-}) => {
+export const FotoEsquina: React.FC<{
+  src: string;
+  lado: "izq" | "der";
+  desdeSeg?: number;
+}> = ({ src, lado, desdeSeg = 0 }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
   const entrada = spring({
@@ -55,10 +59,20 @@ export const FotoEsquina: React.FC<{ src: string; lado: "izq" | "der" }> = ({
           transform: `translateX(${(1 - entrada) * 460 * signo}px) rotate(${signo * (3 - entrada * 1)}deg) scale(${1 - salida * 0.1})`,
         }}
       >
-        <Img
-          src={staticFile(src)}
-          style={{ width: "100%", height: "100%", objectFit: "cover" }}
-        />
+        {/\.(mp4|mov|webm)$/i.test(src) ? (
+          <Video
+            src={staticFile(src)}
+            trimBefore={Math.round(desdeSeg * fps)}
+            muted
+            objectFit="cover"
+            style={{ width: "100%", height: "100%" }}
+          />
+        ) : (
+          <Img
+            src={staticFile(src)}
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          />
+        )}
       </div>
     </AbsoluteFill>
   );
