@@ -48,7 +48,7 @@ export const plan: PlanNoticia = {
   palabrasClave: [
     "silvestre",
     "dangond",
-    "urumitera",
+    "urumita",
     "álbum",
     "grabación",
     "dios",
