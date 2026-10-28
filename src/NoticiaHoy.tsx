@@ -3,14 +3,17 @@ import { AbsoluteFill, Sequence, staticFile, useVideoConfig } from "remotion";
 import { z } from "zod";
 import { ApoyoSobrio, type ApoyoPlan } from "./ApoyoSobrio";
 import { CierreNoticias } from "./CierreNoticias";
+import { FotoEsquina, type FotoPlan } from "./FotoEsquina";
 import { RotuloNoticia } from "./RotuloNoticia";
 import { Subtitulos } from "./Subtitulos";
 import {
   TarjetaArtistas,
   TarjetaCancion,
+  TarjetaRedes,
   TarjetaSobria,
 } from "./TarjetasNoticia";
 import { plan as v1 } from "./videos/hoy-v1";
+import { plan as v2 } from "./videos/hoy-v2";
 
 type Tramo = { desdeMs: number; hastaMs: number };
 export type TarjetaPlan = Tramo &
@@ -18,6 +21,7 @@ export type TarjetaPlan = Tramo &
     | { tipo: "sobria"; antetitulo: string; titulo: string }
     | { tipo: "artistas"; artistas: { nombre: string; ms: number }[] }
     | { tipo: "cancion"; etiqueta: string; titulo: string; detalle: string }
+    | { tipo: "redes"; texto: string; redes: string[] }
   );
 
 // Plan de una noticia del día: video de William, tarjetas, apoyos y cierre
@@ -27,15 +31,17 @@ export type PlanNoticia = {
   seccion: string;
   tarjetas: TarjetaPlan[];
   apoyos?: ApoyoPlan[];
+  // Fotos de apoyo en las esquinas de arriba (no tapan la cara)
+  fotos?: FotoPlan[];
   palabrasClave: string[];
   // Noticias serias: subtítulos sin recuadro ni pop
   sobrio?: boolean;
 };
 
-export const PLANES_HOY = { v1 };
+export const PLANES_HOY = { v1, v2 };
 
 export const noticiaHoySchema = z.object({
-  plan: z.enum(["v1"]),
+  plan: z.enum(["v1", "v2"]),
   rotuloSeg: z.number(),
   cierreExtraSeg: z.number(),
 });
@@ -67,10 +73,21 @@ export const NoticiaHoy: React.FC<z.infer<typeof noticiaHoySchema>> = ({
             "linear-gradient(180deg, rgba(0,0,0,0) 55%, rgba(0,0,0,0.4) 100%)",
         }}
       />
+      {(p.fotos ?? []).map((ft) => (
+        <Sequence
+          key={`foto-${ft.desdeMs}`}
+          {...tramo(ft)}
+          name={`Foto ${ft.src}`}
+        >
+          <FotoEsquina src={ft.src} lado={ft.lado} />
+        </Sequence>
+      ))}
       {p.tarjetas.map((t) => (
         <Sequence key={t.desdeMs} {...tramo(t)} name={t.tipo}>
           {t.tipo === "sobria" ? (
             <TarjetaSobria antetitulo={t.antetitulo} titulo={t.titulo} />
+          ) : t.tipo === "redes" ? (
+            <TarjetaRedes texto={t.texto} redes={t.redes} />
           ) : t.tipo === "artistas" ? (
             <TarjetaArtistas desdeMs={t.desdeMs} artistas={t.artistas} />
           ) : (

@@ -1,0 +1,634 @@
+[
+ {
+  "text": " Con",
+  "startMs": 1190,
+  "endMs": 1510,
+  "timestampMs": 1190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " unas",
+  "startMs": 1510,
+  "endMs": 1690,
+  "timestampMs": 1510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " imágenes",
+  "startMs": 1690,
+  "endMs": 2750,
+  "timestampMs": 1690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " naturales",
+  "startMs": 2750,
+  "endMs": 3570,
+  "timestampMs": 2750,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 3570,
+  "endMs": 3750,
+  "timestampMs": 3570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " un",
+  "startMs": 3750,
+  "endMs": 4170,
+  "timestampMs": 3750,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " entorno",
+  "startMs": 4170,
+  "endMs": 4650,
+  "timestampMs": 4170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 4650,
+  "endMs": 5090,
+  "timestampMs": 4650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tranquilidad",
+  "startMs": 5090,
+  "endMs": 5870,
+  "timestampMs": 5090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " desde",
+  "startMs": 5870,
+  "endMs": 6390,
+  "timestampMs": 5870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 6390,
+  "endMs": 6830,
+  "timestampMs": 6390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tierra",
+  "startMs": 6830,
+  "endMs": 7250,
+  "timestampMs": 6830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " urumitera,",
+  "startMs": 7250,
+  "endMs": 8430,
+  "timestampMs": 7250,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Silvestre",
+  "startMs": 8430,
+  "endMs": 9310,
+  "timestampMs": 8430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Dangond",
+  "startMs": 9310,
+  "endMs": 10170,
+  "timestampMs": 9310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " anunció",
+  "startMs": 10170,
+  "endMs": 10350,
+  "timestampMs": 10170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 10350,
+  "endMs": 10470,
+  "timestampMs": 10350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 10410,
+  "endMs": 10630,
+  "timestampMs": 10410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " opinión",
+  "startMs": 10630,
+  "endMs": 11330,
+  "timestampMs": 10630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " pública",
+  "startMs": 11330,
+  "endMs": 11950,
+  "timestampMs": 11330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 11950,
+  "endMs": 12190,
+  "timestampMs": 11950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " está",
+  "startMs": 12190,
+  "endMs": 12370,
+  "timestampMs": 12190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 12370,
+  "endMs": 12550,
+  "timestampMs": 12370,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 12550,
+  "endMs": 13010,
+  "timestampMs": 12550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " grabación",
+  "startMs": 13010,
+  "endMs": 13650,
+  "timestampMs": 13010,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 13650,
+  "endMs": 13930,
+  "timestampMs": 13650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 13930,
+  "endMs": 14510,
+  "timestampMs": 13930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " próximo",
+  "startMs": 14510,
+  "endMs": 15070,
+  "timestampMs": 14510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " álbum",
+  "startMs": 15070,
+  "endMs": 16270,
+  "timestampMs": 15070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical.",
+  "startMs": 16790,
+  "endMs": 17950,
+  "timestampMs": 16790,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Dándole",
+  "startMs": 17950,
+  "endMs": 18770,
+  "timestampMs": 17950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " gracias",
+  "startMs": 18770,
+  "endMs": 19090,
+  "timestampMs": 18770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 19090,
+  "endMs": 19410,
+  "timestampMs": 19090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Dios",
+  "startMs": 19410,
+  "endMs": 20190,
+  "timestampMs": 19410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 20190,
+  "endMs": 20770,
+  "timestampMs": 20190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " diferentes",
+  "startMs": 20770,
+  "endMs": 21210,
+  "timestampMs": 20770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " paisajes,",
+  "startMs": 21210,
+  "endMs": 22130,
+  "timestampMs": 21210,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " calles",
+  "startMs": 22130,
+  "endMs": 22810,
+  "timestampMs": 22130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 22810,
+  "endMs": 23050,
+  "timestampMs": 22810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 23050,
+  "endMs": 23490,
+  "timestampMs": 23050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tierra",
+  "startMs": 23490,
+  "endMs": 23850,
+  "timestampMs": 23490,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " urumitera,",
+  "startMs": 23850,
+  "endMs": 24670,
+  "timestampMs": 23850,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " el",
+  "startMs": 24670,
+  "endMs": 25050,
+  "timestampMs": 24670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " origen",
+  "startMs": 25050,
+  "endMs": 25830,
+  "timestampMs": 25050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " donde",
+  "startMs": 25830,
+  "endMs": 26190,
+  "timestampMs": 25830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " todo",
+  "startMs": 26190,
+  "endMs": 26530,
+  "timestampMs": 26190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " comenzó,",
+  "startMs": 26530,
+  "endMs": 27330,
+  "timestampMs": 26530,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Silvestre",
+  "startMs": 27330,
+  "endMs": 28030,
+  "timestampMs": 27330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Dangond",
+  "startMs": 28030,
+  "endMs": 28370,
+  "timestampMs": 28030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " le",
+  "startMs": 28370,
+  "endMs": 28690,
+  "timestampMs": 28370,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " trabaja",
+  "startMs": 28690,
+  "endMs": 29450,
+  "timestampMs": 28690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 29450,
+  "endMs": 29670,
+  "timestampMs": 29450,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 29670,
+  "endMs": 30030,
+  "timestampMs": 29670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nuevo",
+  "startMs": 30030,
+  "endMs": 30470,
+  "timestampMs": 30030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " álbum",
+  "startMs": 30470,
+  "endMs": 31630,
+  "timestampMs": 30470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical.",
+  "startMs": 31630,
+  "endMs": 32530,
+  "timestampMs": 31630,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Automáticamente,",
+  "startMs": 32530,
+  "endMs": 33730,
+  "timestampMs": 32530,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " el",
+  "startMs": 33830,
+  "endMs": 34210,
+  "timestampMs": 33830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " silvestrismo",
+  "startMs": 34210,
+  "endMs": 34950,
+  "timestampMs": 34210,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 34950,
+  "endMs": 35090,
+  "timestampMs": 34950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " pleno",
+  "startMs": 35090,
+  "endMs": 35810,
+  "timestampMs": 35090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " está",
+  "startMs": 35810,
+  "endMs": 36170,
+  "timestampMs": 35810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " contento",
+  "startMs": 36170,
+  "endMs": 36530,
+  "timestampMs": 36170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " o",
+  "startMs": 36530,
+  "endMs": 36830,
+  "timestampMs": 36530,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " feliz",
+  "startMs": 36830,
+  "endMs": 37410,
+  "timestampMs": 36830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " por",
+  "startMs": 37410,
+  "endMs": 37630,
+  "timestampMs": 37410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 37630,
+  "endMs": 37930,
+  "timestampMs": 37630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " noticia",
+  "startMs": 37930,
+  "endMs": 38390,
+  "timestampMs": 37930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 38390,
+  "endMs": 38570,
+  "timestampMs": 38390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " les",
+  "startMs": 38570,
+  "endMs": 38750,
+  "timestampMs": 38570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " dio",
+  "startMs": 38750,
+  "endMs": 39010,
+  "timestampMs": 38750,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Silvestre",
+  "startMs": 39010,
+  "endMs": 39630,
+  "timestampMs": 39010,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Dangond",
+  "startMs": 39630,
+  "endMs": 40390,
+  "timestampMs": 39630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 40390,
+  "endMs": 40670,
+  "timestampMs": 40390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " través",
+  "startMs": 40670,
+  "endMs": 40870,
+  "timestampMs": 40670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 40870,
+  "endMs": 41050,
+  "timestampMs": 40870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sus",
+  "startMs": 41050,
+  "endMs": 41350,
+  "timestampMs": 41050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " redes",
+  "startMs": 41350,
+  "endMs": 42330,
+  "timestampMs": 41350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sociales.",
+  "startMs": 42330,
+  "endMs": 42500,
+  "timestampMs": 42330,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]

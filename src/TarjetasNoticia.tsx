@@ -2,6 +2,7 @@ import {
   AbsoluteFill,
   interpolate,
   spring,
+  staticFile,
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
@@ -550,6 +551,83 @@ export const TarjetaCifras: React.FC<{
               </div>
             </div>
           ))}
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+// Íconos de redes sociales que entran uno por uno (abajo, bajo los subtítulos)
+export const TarjetaRedes: React.FC<{ texto: string; redes: string[] }> = ({
+  texto,
+  redes,
+}) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames } = useVideoConfig();
+  const salida = interpolate(
+    frame,
+    [durationInFrames - 8, durationInFrames],
+    [1, 0],
+    {
+      extrapolateLeft: "clamp",
+      extrapolateRight: "clamp",
+    },
+  );
+  return (
+    <AbsoluteFill style={{ alignItems: "center", fontFamily }}>
+      <div
+        style={{
+          position: "absolute",
+          top: 1420,
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: 14,
+          opacity: salida,
+        }}
+      >
+        <div style={{ display: "flex", gap: 22 }}>
+          {redes.map((r, i) => {
+            const p = spring({
+              frame,
+              fps,
+              delay: i * 4,
+              config: { damping: 12 },
+            });
+            return (
+              <div
+                key={r}
+                style={{
+                  width: 92,
+                  height: 92,
+                  borderRadius: 24,
+                  backgroundColor: ROJO,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  boxShadow: "0 10px 24px rgba(0,0,0,0.35)",
+                  transform: `scale(${p}) translateY(${(1 - p) * 30}px)`,
+                }}
+              >
+                <img
+                  src={staticFile(`hoy/${r}.svg`)}
+                  style={{ width: 50, height: 50 }}
+                />
+              </div>
+            );
+          })}
+        </div>
+        <div
+          style={{
+            color: BLANCO,
+            fontWeight: 800,
+            fontSize: 28,
+            letterSpacing: 3,
+            textTransform: "uppercase",
+            textShadow: "0 2px 10px rgba(0,0,0,0.7)",
+          }}
+        >
+          {texto}
         </div>
       </div>
     </AbsoluteFill>
