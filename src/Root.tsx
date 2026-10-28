@@ -4,6 +4,7 @@ import { CardenalReel, cardenalReelSchema } from "./CardenalReel";
 import { FiestaDuo, fiestaDuoSchema } from "./FiestaDuo";
 import { NoticiaAccidente, noticiaSeriaSchema } from "./NoticiaAccidente";
 import { DURACION_TOTAL_MS, NoticiaAudio } from "./NoticiaAudio";
+import { NoticiaHoy, noticiaHoySchema, PLANES_HOY } from "./NoticiaHoy";
 import { NoticiaGamarra } from "./NoticiaGamarra";
 import { NoticiasVallenatas, noticiasSchema } from "./NoticiasVallenatas";
 import { getVideoDurationInSeconds } from "./get-video-duration";
@@ -209,6 +210,29 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         durationInFrames={Math.round((DURACION_TOTAL_MS / 1000) * FPS)}
       />
+      {(Object.keys(PLANES_HOY) as (keyof typeof PLANES_HOY)[]).map((k) => (
+        <Composition
+          key={k}
+          id={`Hoy-${k}`}
+          component={NoticiaHoy}
+          fps={FPS}
+          width={1080}
+          height={1920}
+          durationInFrames={FPS * 10}
+          schema={noticiaHoySchema}
+          defaultProps={{ plan: k, rotuloSeg: 5, cierreExtraSeg: 4 }}
+          calculateMetadata={async ({ props }) => {
+            const seconds = await getVideoDurationInSeconds(
+              staticFile(PLANES_HOY[props.plan].video),
+            );
+            return {
+              durationInFrames: Math.floor(
+                (seconds + props.cierreExtraSeg) * FPS,
+              ),
+            };
+          }}
+        />
+      ))}
     </>
   );
 };
