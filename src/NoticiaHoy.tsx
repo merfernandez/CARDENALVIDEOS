@@ -113,6 +113,7 @@ export const NoticiaHoy: React.FC<z.infer<typeof noticiaHoySchema>> = ({
         src={p.subtitulos}
         hastaMs={(cierre / fps) * 1000}
         palabrasClave={p.palabrasClave}
+        ocultos={p.ventana}
         estilo={{
           fontSize: 54,
           top: 1250,

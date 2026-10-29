@@ -122,12 +122,15 @@ export const Subtitulos: React.FC<{
   palabrasClave: string[];
   destacados?: Destacado[];
   estilo?: EstiloSubtitulos;
+  // Tramos sin subtítulos (p. ej. mientras un afiche "habla solo")
+  ocultos?: { desdeMs: number; hastaMs: number }[];
 }> = ({
   src,
   hastaMs,
   palabrasClave,
   destacados = [],
   estilo = ESTILO_NORMAL,
+  ocultos = [],
 }) => {
   const [captions, setCaptions] = useState<Caption[] | null>(null);
   const { delayRender, continueRender, cancelRender } = useDelayRender();
@@ -157,12 +160,13 @@ export const Subtitulos: React.FC<{
           c.startMs < hastaMs &&
           !destacados.some(
             (d) => c.startMs >= d.desdeMs && c.startMs < d.hastaMs,
-          ),
+          ) &&
+          !ocultos.some((d) => c.startMs >= d.desdeMs && c.startMs < d.hastaMs),
       ),
       combineTokensWithinMilliseconds:
         estilo.agruparMs ?? SWITCH_CAPTIONS_EVERY_MS,
     }).pages;
-  }, [captions, hastaMs, destacados, estilo.agruparMs]);
+  }, [captions, hastaMs, destacados, ocultos, estilo.agruparMs]);
 
   return (
     <AbsoluteFill>
@@ -172,7 +176,7 @@ export const Subtitulos: React.FC<{
         const endFrame = Math.round(
           (Math.min(
             nextPage ? nextPage.startMs : Infinity,
-            ...destacados
+            ...[...destacados, ...ocultos]
               .map((d) => d.desdeMs)
               .filter((ms) => ms > page.startMs),
             page.startMs + page.durationMs + 400,
