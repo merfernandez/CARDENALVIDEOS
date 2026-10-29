@@ -42,13 +42,6 @@ export const plan: PlanNoticia = {
         { nombre: "César David Ochoa", ms: 5300 },
       ],
     },
-    {
-      tipo: "sobria",
-      desdeMs: 15400,
-      hastaMs: 20600,
-      antetitulo: "Fundador de Zona 8",
-      titulo: "Rolando Ochoa",
-    },
   ],
   palabrasClave: [
     "zona",
