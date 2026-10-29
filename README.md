@@ -11,6 +11,8 @@ Proyecto de [Remotion](https://www.remotion.dev) para editar los Reels y TikToks
 - **Palabras clave gigantes** (fecha, hora, lugar, marca): las letras caen una por una con rebote. Sin rayas ni fondos detrás.
 - **Nombre del orador:** franja oscura con línea roja, nombre en mayúsculas, cargo (opcional) e ícono de Instagram a color con el @. Aparece mientras esa persona habla por primera vez.
 - **Sin emojis ni logo encima de las personas.** El logo grande va en el cierre.
+- **Ningún cuadro (tarjeta, foto o video de apoyo) puede caer sobre la cara, la cabeza o los hombros de nadie.** Antes de exportar, revisar en la muestra dónde está la persona en ESE video (a veces William está corrido a un lado) y elegir el lado y tamaño del cuadro según eso. Las tarjetas de esquina son de 320×400 (`src/FotoEsquina.tsx`).
+- **No usar la versión "experimental"** (pantalla de dato gigante, pantalla dividida con William abajo, píldoras, pantalla "Síguenos" con flecha): a la directora no le gustó.
 - **Las tarjetas de arriba nunca pueden caer sobre la cabeza o la cara de nadie** (`ALTURA_TARJETAS` en `src/TarjetasNoticia.tsx`). Revisar en la muestra antes de exportar.
 - **Sin zoom sobre el video.** Nada de punch-in/punch-out en la imagen: cansa. Las animaciones van solo en letras y gráficos.
 - **El audio del video principal manda.** No se agregan otras pistas de audio; los videos de apoyo van sin sonido.

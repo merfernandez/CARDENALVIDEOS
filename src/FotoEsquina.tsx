@@ -52,9 +52,9 @@ export const FotoEsquina: React.FC<{
         style={{
           position: "absolute",
           top: 215,
-          [lado === "izq" ? "left" : "right"]: 40,
-          width: 380,
-          height: 475,
+          [lado === "izq" ? "left" : "right"]: 30,
+          width: 320,
+          height: 400,
           borderRadius: 18,
           overflow: "hidden",
           border: "8px solid #fff",
@@ -72,7 +72,7 @@ export const FotoEsquina: React.FC<{
                     top: 0,
                     left: 0,
                     width: "100%",
-                    height: (380 * 16) / 9,
+                    height: (320 * 16) / 9,
                   }
                 : { width: "100%", height: "100%" }
             }
