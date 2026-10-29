@@ -11,6 +11,7 @@ Proyecto de [Remotion](https://www.remotion.dev) para editar los Reels y TikToks
 - **Palabras clave gigantes** (fecha, hora, lugar, marca): las letras caen una por una con rebote. Sin rayas ni fondos detrás.
 - **Nombre del orador:** franja oscura con línea roja, nombre en mayúsculas, cargo (opcional) e ícono de Instagram a color con el @. Aparece mientras esa persona habla por primera vez.
 - **Sin emojis ni logo encima de las personas.** El logo grande va en el cierre.
+- **Las tarjetas de arriba nunca pueden caer sobre la cabeza o la cara de nadie** (`ALTURA_TARJETAS` en `src/TarjetasNoticia.tsx`). Revisar en la muestra antes de exportar.
 - **Sin zoom sobre el video.** Nada de punch-in/punch-out en la imagen: cansa. Las animaciones van solo en letras y gráficos.
 - **El audio del video principal manda.** No se agregan otras pistas de audio; los videos de apoyo van sin sonido.
 

@@ -10,6 +10,10 @@ import { BLANCO, DORADO, fontFamily, NEGRO, ROJO } from "./brand";
 
 // Tarjetas informativas sobrias para las noticias (parte de arriba, sin tapar la cara)
 
+// Altura de las tarjetas de arriba: lo más arriba posible para no caer nunca
+// sobre la cabeza o la cara de nadie (debajo de la barra superior de Reels/TikTok)
+export const ALTURA_TARJETAS = 95;
+
 const useEntradaSalida = () => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
@@ -37,7 +41,7 @@ const Contenedor: React.FC<{ v: number; children: React.ReactNode }> = ({
     <div
       style={{
         position: "absolute",
-        top: 200,
+        top: ALTURA_TARJETAS,
         opacity: v,
         transform: `translateY(${(1 - v) * -40}px)`,
       }}
@@ -400,7 +404,7 @@ export const TarjetaSobria: React.FC<{
       <div
         style={{
           position: "absolute",
-          top: 200,
+          top: ALTURA_TARJETAS,
           opacity: v,
           backgroundColor: "rgba(12,12,14,0.85)",
           borderLeft: `6px solid ${ROJO}`,
@@ -441,7 +445,7 @@ export const TarjetaMemoria: React.FC<{
       <div
         style={{
           position: "absolute",
-          top: 180,
+          top: ALTURA_TARJETAS,
           opacity: v,
           backgroundColor: "rgba(10,10,12,0.88)",
           borderRadius: 10,
@@ -497,7 +501,7 @@ export const TarjetaCifras: React.FC<{
   antetitulo: string;
   cifras: { numero: string; texto: string }[];
   top?: number;
-}> = ({ antetitulo, cifras, top = 200 }) => {
+}> = ({ antetitulo, cifras, top = ALTURA_TARJETAS }) => {
   const v = useFundidoLento();
   return (
     <AbsoluteFill style={{ alignItems: "center", fontFamily }}>
