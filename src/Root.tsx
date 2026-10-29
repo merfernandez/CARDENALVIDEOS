@@ -5,6 +5,7 @@ import { FiestaDuo, fiestaDuoSchema } from "./FiestaDuo";
 import { NoticiaAccidente, noticiaSeriaSchema } from "./NoticiaAccidente";
 import { DURACION_TOTAL_MS, NoticiaAudio } from "./NoticiaAudio";
 import { NoticiaHoy, noticiaHoySchema, PLANES_HOY } from "./NoticiaHoy";
+import { DURACION_ZONA8_EXP_MS, Zona8Experimento } from "./Zona8Experimento";
 import { NoticiaGamarra } from "./NoticiaGamarra";
 import { NoticiasVallenatas, noticiasSchema } from "./NoticiasVallenatas";
 import { getVideoDurationInSeconds } from "./get-video-duration";
@@ -233,6 +234,14 @@ export const RemotionRoot: React.FC = () => {
           }}
         />
       ))}
+      <Composition
+        id="Zona8Experimento"
+        component={Zona8Experimento}
+        fps={FPS}
+        width={1080}
+        height={1920}
+        durationInFrames={Math.round((DURACION_ZONA8_EXP_MS / 1000) * FPS)}
+      />
     </>
   );
 };

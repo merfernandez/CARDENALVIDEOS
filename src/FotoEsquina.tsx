@@ -16,6 +16,9 @@ export type FotoPlan = {
   lado: "izq" | "der";
   // Para videos: segundo desde el que se toma la imagen
   desdeSeg?: number;
+  // "arriba": muestra la parte de arriba del clip y recorta la de abajo
+  // (donde suelen ir las etiquetas de Instagram)
+  encuadre?: "centro" | "arriba";
 };
 
 // Foto de apoyo en una esquina de arriba, al lado de la cara del presentador
@@ -24,7 +27,8 @@ export const FotoEsquina: React.FC<{
   src: string;
   lado: "izq" | "der";
   desdeSeg?: number;
-}> = ({ src, lado, desdeSeg = 0 }) => {
+  encuadre?: "centro" | "arriba";
+}> = ({ src, lado, desdeSeg = 0, encuadre = "centro" }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
   const entrada = spring({
@@ -47,7 +51,7 @@ export const FotoEsquina: React.FC<{
       <div
         style={{
           position: "absolute",
-          top: 170,
+          top: 215,
           [lado === "izq" ? "left" : "right"]: 40,
           width: 380,
           height: 475,
@@ -60,17 +64,36 @@ export const FotoEsquina: React.FC<{
         }}
       >
         {/\.(mp4|mov|webm)$/i.test(src) ? (
-          <Video
-            src={staticFile(src)}
-            trimBefore={Math.round(desdeSeg * fps)}
-            muted
-            objectFit="cover"
-            style={{ width: "100%", height: "100%" }}
-          />
+          <div
+            style={
+              encuadre === "arriba"
+                ? {
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: (380 * 16) / 9,
+                  }
+                : { width: "100%", height: "100%" }
+            }
+          >
+            <Video
+              src={staticFile(src)}
+              trimBefore={Math.round(desdeSeg * fps)}
+              muted
+              objectFit="cover"
+              style={{ width: "100%", height: "100%" }}
+            />
+          </div>
         ) : (
           <Img
             src={staticFile(src)}
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              objectPosition: encuadre === "arriba" ? "top" : "center",
+            }}
           />
         )}
       </div>

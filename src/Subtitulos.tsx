@@ -124,6 +124,8 @@ export const Subtitulos: React.FC<{
   estilo?: EstiloSubtitulos;
   // Tramos sin subtítulos (p. ej. mientras un afiche "habla solo")
   ocultos?: { desdeMs: number; hastaMs: number }[];
+  // Si se indica, solo muestra subtítulos dentro de estos tramos
+  soloEn?: { desdeMs: number; hastaMs: number }[];
 }> = ({
   src,
   hastaMs,
@@ -131,6 +133,7 @@ export const Subtitulos: React.FC<{
   destacados = [],
   estilo = ESTILO_NORMAL,
   ocultos = [],
+  soloEn,
 }) => {
   const [captions, setCaptions] = useState<Caption[] | null>(null);
   const { delayRender, continueRender, cancelRender } = useDelayRender();
@@ -161,12 +164,18 @@ export const Subtitulos: React.FC<{
           !destacados.some(
             (d) => c.startMs >= d.desdeMs && c.startMs < d.hastaMs,
           ) &&
-          !ocultos.some((d) => c.startMs >= d.desdeMs && c.startMs < d.hastaMs),
+          !ocultos.some(
+            (d) => c.startMs >= d.desdeMs && c.startMs < d.hastaMs,
+          ) &&
+          (!soloEn ||
+            soloEn.some(
+              (d) => c.startMs >= d.desdeMs && c.startMs < d.hastaMs,
+            )),
       ),
       combineTokensWithinMilliseconds:
         estilo.agruparMs ?? SWITCH_CAPTIONS_EVERY_MS,
     }).pages;
-  }, [captions, hastaMs, destacados, ocultos, estilo.agruparMs]);
+  }, [captions, hastaMs, destacados, ocultos, soloEn, estilo.agruparMs]);
 
   return (
     <AbsoluteFill>

@@ -5,24 +5,31 @@ export const plan: PlanNoticia = {
   video: "d29/v3-cut.mp4",
   subtitulos: "d29/v3-cut-captions.json",
   seccion: "Noticias vallenatas",
-  completa: [
+  // Clips de Instagram en tarjetas de esquina, recortando las etiquetas de abajo
+  fotos: [
     {
-      // "Karolay Murra y César David Ochoa desfilaron por la alfombra roja…"
       desdeMs: 4150,
       hastaMs: 13850,
-      clips: [{ src: "d29/v3-ig2.mp4", desdeSeg: 0.3, hastaMs: 13850 }],
+      src: "d29/v3-ig2.mp4",
+      desdeSeg: 0.3,
+      lado: "izq",
+      encuadre: "arriba",
     },
     {
-      // "Luego llegó su fundador, Rolando Ochoa…"
       desdeMs: 14250,
       hastaMs: 20700,
-      clips: [{ src: "d29/v3-ig3.mp4", desdeSeg: 0.3, hastaMs: 20700 }],
+      src: "d29/v3-ig3.mp4",
+      desdeSeg: 0.3,
+      lado: "der",
+      encuadre: "arriba",
     },
     {
-      // "Zona 8 le sigue trabajando por toda Colombia…" (Bucaramanga)
       desdeMs: 20900,
-      hastaMs: 26950,
-      clips: [{ src: "d29/v3-ig1.mp4", desdeSeg: 3, hastaMs: 26950 }],
+      hastaMs: 26900,
+      src: "d29/v3-ig1.mp4",
+      desdeSeg: 3,
+      lado: "izq",
+      encuadre: "arriba",
     },
   ],
   tarjetas: [
@@ -38,7 +45,7 @@ export const plan: PlanNoticia = {
       desdeMs: 4300,
       hastaMs: 9300,
       artistas: [
-        { nombre: "Karolay Murra", ms: 4300 },
+        { nombre: "Karolaym Murra", ms: 4300 },
         { nombre: "César David Ochoa", ms: 5300 },
       ],
     },
@@ -49,7 +56,7 @@ export const plan: PlanNoticia = {
     "premios",
     "monitor",
     "monitor.",
-    "karolay",
+    "karolaym",
     "murra",
     "césar",
     "david",

@@ -97,7 +97,12 @@ export const NoticiaHoy: React.FC<z.infer<typeof noticiaHoySchema>> = ({
           {...tramo(ft)}
           name={`Foto ${ft.src}`}
         >
-          <FotoEsquina src={ft.src} lado={ft.lado} desdeSeg={ft.desdeSeg} />
+          <FotoEsquina
+            src={ft.src}
+            lado={ft.lado}
+            desdeSeg={ft.desdeSeg}
+            encuadre={ft.encuadre}
+          />
         </Sequence>
       ))}
       {p.tarjetas.map((t) => (

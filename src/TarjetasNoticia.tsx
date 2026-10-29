@@ -82,8 +82,8 @@ export const TarjetaArtistas: React.FC<{
   const { frame, fps, v } = useEntradaSalida();
   return (
     <Contenedor v={v}>
-      <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
-        <Cardenalito tamano={70} />
+      <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+        <Cardenalito tamano={58} />
         {artistas.map((a, i) => {
           const p = spring({
             frame,
@@ -115,7 +115,7 @@ export const TarjetaArtistas: React.FC<{
                   color: BLANCO,
                   borderBottom: `5px solid ${DORADO}`,
                   borderRadius: 12,
-                  padding: "14px 24px 12px",
+                  padding: "12px 18px 10px",
                   textAlign: "center",
                   opacity: p,
                   transform: `scale(${0.7 + p * 0.3})`,
@@ -134,9 +134,10 @@ export const TarjetaArtistas: React.FC<{
                 </div>
                 <div
                   style={{
-                    fontSize: 38,
+                    fontSize: 30,
                     fontWeight: 800,
                     textTransform: "uppercase",
+                    whiteSpace: "nowrap",
                   }}
                 >
                   {a.nombre}
