@@ -1,6 +1,7 @@
 import {
   AbsoluteFill,
   interpolate,
+  Img,
   spring,
   staticFile,
   useCurrentFrame,
@@ -13,6 +14,28 @@ import { BLANCO, DORADO, fontFamily, NEGRO, ROJO } from "./brand";
 // Altura de las tarjetas de arriba: lo más arriba posible para no caer nunca
 // sobre la cabeza o la cara de nadie (debajo de la barra superior de Reels/TikTok)
 export const ALTURA_TARJETAS = 95;
+
+// Cabecita del cardenal (del logo) en un círculo blanco, al frente del texto
+export const Cardenalito: React.FC<{ tamano?: number }> = ({ tamano = 64 }) => (
+  <div
+    style={{
+      width: tamano,
+      height: tamano,
+      borderRadius: "50%",
+      backgroundColor: BLANCO,
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      flexShrink: 0,
+      boxShadow: "0 4px 12px rgba(0,0,0,0.3)",
+    }}
+  >
+    <Img
+      src={staticFile("cardenal-cabeza.png")}
+      style={{ height: tamano * 0.78, marginLeft: tamano * 0.04 }}
+    />
+  </div>
+);
 
 const useEntradaSalida = () => {
   const frame = useCurrentFrame();
@@ -60,6 +83,7 @@ export const TarjetaArtistas: React.FC<{
   return (
     <Contenedor v={v}>
       <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
+        <Cardenalito tamano={70} />
         {artistas.map((a, i) => {
           const p = spring({
             frame,
@@ -409,25 +433,36 @@ export const TarjetaSobria: React.FC<{
           backgroundColor: "rgba(12,12,14,0.85)",
           borderLeft: `6px solid ${ROJO}`,
           borderRadius: 8,
-          padding: "16px 30px",
+          padding: "14px 30px 14px 16px",
           textAlign: "left",
+          display: "flex",
+          alignItems: "center",
+          gap: 18,
         }}
       >
-        <div
-          style={{
-            color: "rgba(255,255,255,0.7)",
-            fontSize: 22,
-            fontWeight: 700,
-            letterSpacing: 5,
-            textTransform: "uppercase",
-          }}
-        >
-          {antetitulo}
-        </div>
-        <div
-          style={{ color: BLANCO, fontSize: 44, fontWeight: 800, marginTop: 4 }}
-        >
-          {titulo}
+        <Cardenalito />
+        <div>
+          <div
+            style={{
+              color: "rgba(255,255,255,0.7)",
+              fontSize: 22,
+              fontWeight: 700,
+              letterSpacing: 5,
+              textTransform: "uppercase",
+            }}
+          >
+            {antetitulo}
+          </div>
+          <div
+            style={{
+              color: BLANCO,
+              fontSize: 44,
+              fontWeight: 800,
+              marginTop: 4,
+            }}
+          >
+            {titulo}
+          </div>
         </div>
       </div>
     </AbsoluteFill>
@@ -519,6 +554,10 @@ export const TarjetaCifras: React.FC<{
       >
         <div
           style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: 12,
             color: "rgba(255,255,255,0.7)",
             fontSize: 22,
             fontWeight: 700,
@@ -526,6 +565,7 @@ export const TarjetaCifras: React.FC<{
             textTransform: "uppercase",
           }}
         >
+          <Cardenalito tamano={44} />
           {antetitulo}
         </div>
         <div style={{ display: "flex", gap: 40, marginTop: 12 }}>

@@ -1,0 +1,466 @@
+[
+ {
+  "text": " La",
+  "startMs": 670,
+  "endMs": 790,
+  "timestampMs": 670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " agrupación",
+  "startMs": 790,
+  "endMs": 1310,
+  "timestampMs": 790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Zona",
+  "startMs": 1310,
+  "endMs": 1690,
+  "timestampMs": 1310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 8",
+  "startMs": 1690,
+  "endMs": 2170,
+  "timestampMs": 1690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " brilló",
+  "startMs": 2170,
+  "endMs": 2470,
+  "timestampMs": 2170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 2470,
+  "endMs": 2630,
+  "timestampMs": 2470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 2630,
+  "endMs": 2850,
+  "timestampMs": 2630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " premios",
+  "startMs": 2850,
+  "endMs": 3690,
+  "timestampMs": 2850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Monitor.",
+  "startMs": 3690,
+  "endMs": 4870,
+  "timestampMs": 3690,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Karolay",
+  "startMs": 4870,
+  "endMs": 5370,
+  "timestampMs": 4870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Murra",
+  "startMs": 5370,
+  "endMs": 5630,
+  "timestampMs": 5370,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 5630,
+  "endMs": 5850,
+  "timestampMs": 5630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " César",
+  "startMs": 5850,
+  "endMs": 6510,
+  "timestampMs": 5850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " David",
+  "startMs": 6510,
+  "endMs": 6810,
+  "timestampMs": 6510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Ochoa",
+  "startMs": 6810,
+  "endMs": 7310,
+  "timestampMs": 6810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " desfilaron",
+  "startMs": 7310,
+  "endMs": 8470,
+  "timestampMs": 7310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " por",
+  "startMs": 8470,
+  "endMs": 8670,
+  "timestampMs": 8470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 8670,
+  "endMs": 8890,
+  "timestampMs": 8670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " alfombra",
+  "startMs": 8890,
+  "endMs": 9730,
+  "timestampMs": 8890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " roja,",
+  "startMs": 9730,
+  "endMs": 10410,
+  "timestampMs": 9730,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " donde",
+  "startMs": 10410,
+  "endMs": 10710,
+  "timestampMs": 10410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " dieron",
+  "startMs": 10710,
+  "endMs": 11450,
+  "timestampMs": 10710,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " entrevistas",
+  "startMs": 11450,
+  "endMs": 11890,
+  "timestampMs": 11450,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 11890,
+  "endMs": 12250,
+  "timestampMs": 11890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " diferentes",
+  "startMs": 12250,
+  "endMs": 12630,
+  "timestampMs": 12250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " medios",
+  "startMs": 12630,
+  "endMs": 12830,
+  "timestampMs": 12630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 12830,
+  "endMs": 13250,
+  "timestampMs": 12830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " comunicación",
+  "startMs": 13250,
+  "endMs": 14130,
+  "timestampMs": 13250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 14130,
+  "endMs": 14410,
+  "timestampMs": 14130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nivel",
+  "startMs": 14410,
+  "endMs": 15090,
+  "timestampMs": 14410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nacional.",
+  "startMs": 15090,
+  "endMs": 15810,
+  "timestampMs": 15090,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Luego",
+  "startMs": 15810,
+  "endMs": 16170,
+  "timestampMs": 15810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " llegó",
+  "startMs": 16170,
+  "endMs": 16450,
+  "timestampMs": 16170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 16450,
+  "endMs": 16970,
+  "timestampMs": 16450,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fundador,",
+  "startMs": 16970,
+  "endMs": 17730,
+  "timestampMs": 16970,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Rolando",
+  "startMs": 17730,
+  "endMs": 18650,
+  "timestampMs": 17730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Ochoa,",
+  "startMs": 18650,
+  "endMs": 19090,
+  "timestampMs": 18650,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " quien",
+  "startMs": 19090,
+  "endMs": 19470,
+  "timestampMs": 19090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " también",
+  "startMs": 19470,
+  "endMs": 20230,
+  "timestampMs": 19470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " estaba",
+  "startMs": 20230,
+  "endMs": 20610,
+  "timestampMs": 20230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nominado",
+  "startMs": 20610,
+  "endMs": 21230,
+  "timestampMs": 20610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 21230,
+  "endMs": 21470,
+  "timestampMs": 21230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 21470,
+  "endMs": 21710,
+  "timestampMs": 21470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " premios",
+  "startMs": 21710,
+  "endMs": 22370,
+  "timestampMs": 21710,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Monitor.",
+  "startMs": 22370,
+  "endMs": 22910,
+  "timestampMs": 22370,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Zona",
+  "startMs": 22910,
+  "endMs": 23270,
+  "timestampMs": 22910,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 8",
+  "startMs": 23270,
+  "endMs": 23510,
+  "timestampMs": 23270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " le",
+  "startMs": 23510,
+  "endMs": 23730,
+  "timestampMs": 23510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sigue",
+  "startMs": 23730,
+  "endMs": 24430,
+  "timestampMs": 23730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " trabajando",
+  "startMs": 24430,
+  "endMs": 24790,
+  "timestampMs": 24430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " por",
+  "startMs": 24790,
+  "endMs": 25070,
+  "timestampMs": 24790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " toda",
+  "startMs": 25070,
+  "endMs": 25530,
+  "timestampMs": 25070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Colombia,",
+  "startMs": 25530,
+  "endMs": 25790,
+  "timestampMs": 25530,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " impulsando",
+  "startMs": 25790,
+  "endMs": 26690,
+  "timestampMs": 25790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 26690,
+  "endMs": 27010,
+  "timestampMs": 26690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nueva",
+  "startMs": 27010,
+  "endMs": 27570,
+  "timestampMs": 27010,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " producción",
+  "startMs": 27570,
+  "endMs": 28510,
+  "timestampMs": 27570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical.",
+  "startMs": 28510,
+  "endMs": 28680,
+  "timestampMs": 28510,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]
