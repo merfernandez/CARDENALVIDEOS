@@ -11,7 +11,7 @@ export const plan: PlanNoticia = {
       desdeMs: 6750,
       hastaMs: 28950,
       apoyos: [
-        { src: "d29/v2-a.mp4", hastaMs: 17450 },
+        { src: "d29/v2-a.mp4", hastaMs: 17450, posicion: "abajo" },
         { src: "d29/v2-b.mp4", hastaMs: 28950 },
       ],
     },
