@@ -1,0 +1,642 @@
+[
+ {
+  "text": " La",
+  "startMs": 510,
+  "endMs": 950,
+  "timestampMs": 510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " experiencia",
+  "startMs": 950,
+  "endMs": 1650,
+  "timestampMs": 950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical",
+  "startMs": 1650,
+  "endMs": 1870,
+  "timestampMs": 1650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " La",
+  "startMs": 1870,
+  "endMs": 2150,
+  "timestampMs": 1870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Historia",
+  "startMs": 2150,
+  "endMs": 2510,
+  "timestampMs": 2150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Mía",
+  "startMs": 2510,
+  "endMs": 2870,
+  "timestampMs": 2510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 2870,
+  "endMs": 3250,
+  "timestampMs": 2870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Jorge",
+  "startMs": 3250,
+  "endMs": 3570,
+  "timestampMs": 3250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Celedón",
+  "startMs": 3570,
+  "endMs": 4070,
+  "timestampMs": 3570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " llega",
+  "startMs": 4070,
+  "endMs": 4330,
+  "timestampMs": 4070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " este",
+  "startMs": 4330,
+  "endMs": 4670,
+  "timestampMs": 4330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " viernes",
+  "startMs": 4670,
+  "endMs": 5430,
+  "timestampMs": 4670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 5430,
+  "endMs": 6030,
+  "timestampMs": 5430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Medellín.",
+  "startMs": 6030,
+  "endMs": 6810,
+  "timestampMs": 6030,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Los",
+  "startMs": 6810,
+  "endMs": 6970,
+  "timestampMs": 6810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " asistentes",
+  "startMs": 6970,
+  "endMs": 8090,
+  "timestampMs": 6970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " van",
+  "startMs": 8090,
+  "endMs": 8210,
+  "timestampMs": 8090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 8190,
+  "endMs": 8430,
+  "timestampMs": 8190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " disfrutar",
+  "startMs": 8430,
+  "endMs": 8810,
+  "timestampMs": 8430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 8810,
+  "endMs": 8950,
+  "timestampMs": 8810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " un",
+  "startMs": 8950,
+  "endMs": 9350,
+  "timestampMs": 8950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " espectáculo",
+  "startMs": 9350,
+  "endMs": 9870,
+  "timestampMs": 9350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 9870,
+  "endMs": 10130,
+  "timestampMs": 9870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " más",
+  "startMs": 10130,
+  "endMs": 10310,
+  "timestampMs": 10130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 10310,
+  "endMs": 10770,
+  "timestampMs": 10310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tres",
+  "startMs": 10770,
+  "endMs": 11330,
+  "timestampMs": 10770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " horas",
+  "startMs": 11330,
+  "endMs": 11790,
+  "timestampMs": 11330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 11790,
+  "endMs": 12070,
+  "timestampMs": 11790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " todo",
+  "startMs": 12070,
+  "endMs": 12210,
+  "timestampMs": 12070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 12210,
+  "endMs": 12470,
+  "timestampMs": 12210,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " catálogo",
+  "startMs": 12470,
+  "endMs": 13350,
+  "timestampMs": 12470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical",
+  "startMs": 13350,
+  "endMs": 14150,
+  "timestampMs": 13350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 14150,
+  "endMs": 14450,
+  "timestampMs": 14150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Jorgito",
+  "startMs": 14450,
+  "endMs": 15270,
+  "timestampMs": 14450,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Celedón.",
+  "startMs": 15270,
+  "endMs": 15870,
+  "timestampMs": 15270,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " El",
+  "startMs": 15870,
+  "endMs": 16030,
+  "timestampMs": 15870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " artista",
+  "startMs": 16030,
+  "endMs": 17170,
+  "timestampMs": 16030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " confirmó",
+  "startMs": 17170,
+  "endMs": 17790,
+  "timestampMs": 17170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " gira",
+  "startMs": 17790,
+  "endMs": 18750,
+  "timestampMs": 17790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " internacional",
+  "startMs": 18750,
+  "endMs": 19270,
+  "timestampMs": 18750,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " para",
+  "startMs": 19270,
+  "endMs": 19670,
+  "timestampMs": 19270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " febrero",
+  "startMs": 19670,
+  "endMs": 20110,
+  "timestampMs": 19670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 20110,
+  "endMs": 20350,
+  "timestampMs": 20110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 2027",
+  "startMs": 20350,
+  "endMs": 21550,
+  "timestampMs": 20350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " por",
+  "startMs": 21730,
+  "endMs": 22070,
+  "timestampMs": 21730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 22070,
+  "endMs": 22450,
+  "timestampMs": 22070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Estados",
+  "startMs": 22450,
+  "endMs": 23130,
+  "timestampMs": 22450,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Unidos.",
+  "startMs": 23130,
+  "endMs": 23690,
+  "timestampMs": 23130,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Jorgito",
+  "startMs": 23690,
+  "endMs": 24230,
+  "timestampMs": 23690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Celedón",
+  "startMs": 24230,
+  "endMs": 24730,
+  "timestampMs": 24230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " está",
+  "startMs": 24730,
+  "endMs": 25070,
+  "timestampMs": 24730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " muy",
+  "startMs": 25070,
+  "endMs": 25550,
+  "timestampMs": 25070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " contento",
+  "startMs": 25550,
+  "endMs": 26030,
+  "timestampMs": 25550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " por",
+  "startMs": 26030,
+  "endMs": 26350,
+  "timestampMs": 26030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 26350,
+  "endMs": 27090,
+  "timestampMs": 26350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " resultados",
+  "startMs": 27090,
+  "endMs": 27670,
+  "timestampMs": 27090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " obtenidos",
+  "startMs": 27670,
+  "endMs": 28670,
+  "timestampMs": 27670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 28670,
+  "endMs": 29430,
+  "timestampMs": 28670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " México,",
+  "startMs": 29430,
+  "endMs": 30090,
+  "timestampMs": 29430,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Bogotá",
+  "startMs": 30090,
+  "endMs": 30950,
+  "timestampMs": 30090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 30950,
+  "endMs": 31190,
+  "timestampMs": 30950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ahora",
+  "startMs": 31190,
+  "endMs": 31350,
+  "timestampMs": 31190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " le",
+  "startMs": 31350,
+  "endMs": 31570,
+  "timestampMs": 31350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " toca",
+  "startMs": 31570,
+  "endMs": 31770,
+  "timestampMs": 31570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 31770,
+  "endMs": 31970,
+  "timestampMs": 31770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " turno",
+  "startMs": 31970,
+  "endMs": 32410,
+  "timestampMs": 31970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 32410,
+  "endMs": 32650,
+  "timestampMs": 32410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Medellín",
+  "startMs": 32650,
+  "endMs": 33130,
+  "timestampMs": 32650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 33130,
+  "endMs": 33270,
+  "timestampMs": 33130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " La",
+  "startMs": 33270,
+  "endMs": 33470,
+  "timestampMs": 33270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Historia",
+  "startMs": 33470,
+  "endMs": 33770,
+  "timestampMs": 33470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Mía",
+  "startMs": 33770,
+  "endMs": 34470,
+  "timestampMs": 33770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 34470,
+  "endMs": 34810,
+  "timestampMs": 34470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Jorge",
+  "startMs": 34810,
+  "endMs": 35070,
+  "timestampMs": 34810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Celedón,",
+  "startMs": 35070,
+  "endMs": 35930,
+  "timestampMs": 35070,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " el",
+  "startMs": 35930,
+  "endMs": 36070,
+  "timestampMs": 35930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ídolo",
+  "startMs": 36070,
+  "endMs": 36670,
+  "timestampMs": 36070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " mundial",
+  "startMs": 36670,
+  "endMs": 37370,
+  "timestampMs": 36670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 37370,
+  "endMs": 37610,
+  "timestampMs": 37370,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " vallenato.",
+  "startMs": 37610,
+  "endMs": 38190,
+  "timestampMs": 37610,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]

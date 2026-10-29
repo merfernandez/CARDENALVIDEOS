@@ -15,6 +15,7 @@ import {
 import { plan as v1 } from "./videos/hoy-v1";
 import { plan as v2 } from "./videos/hoy-v2";
 import { plan as v3 } from "./videos/hoy-v3";
+import { plan as d29v1 } from "./videos/d29-v1";
 
 type Tramo = { desdeMs: number; hastaMs: number };
 export type TarjetaPlan = Tramo &
@@ -39,10 +40,10 @@ export type PlanNoticia = {
   sobrio?: boolean;
 };
 
-export const PLANES_HOY = { v1, v2, v3 };
+export const PLANES_HOY = { v1, v2, v3, d29v1 };
 
 export const noticiaHoySchema = z.object({
-  plan: z.enum(["v1", "v2", "v3"]),
+  plan: z.enum(["v1", "v2", "v3", "d29v1"]),
   rotuloSeg: z.number(),
   cierreExtraSeg: z.number(),
 });

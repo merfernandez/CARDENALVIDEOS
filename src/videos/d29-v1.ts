@@ -1,0 +1,72 @@
+// Jorge Celedón: «La Historia Mía» llega a Medellín (tiempos en ms, ya sin silencios)
+import type { PlanNoticia } from "../NoticiaHoy";
+
+export const plan: PlanNoticia = {
+  video: "d29/v1-cut.mp4",
+  subtitulos: "d29/v1-cut-captions.json",
+  seccion: "Noticias vallenatas",
+  tarjetas: [
+    {
+      tipo: "cancion",
+      desdeMs: 1300,
+      hastaMs: 3750,
+      etiqueta: "Experiencia musical",
+      titulo: "La Historia Mía",
+      detalle: "Jorge Celedón",
+    },
+    {
+      tipo: "sobria",
+      desdeMs: 3800,
+      hastaMs: 6250,
+      antetitulo: "Este viernes",
+      titulo: "Medellín",
+    },
+    {
+      tipo: "sobria",
+      desdeMs: 8500,
+      hastaMs: 12900,
+      antetitulo: "Espectáculo",
+      titulo: "Más de 3 horas",
+    },
+    {
+      tipo: "sobria",
+      desdeMs: 15650,
+      hastaMs: 21700,
+      antetitulo: "Gira internacional",
+      titulo: "Febrero 2027 · Estados Unidos",
+    },
+    {
+      tipo: "sobria",
+      desdeMs: 26400,
+      hastaMs: 31700,
+      antetitulo: "Recorrido",
+      titulo: "México · Bogotá · Medellín",
+    },
+    {
+      tipo: "artistas",
+      desdeMs: 32000,
+      hastaMs: 35800,
+      artistas: [{ nombre: "Jorge Celedón", ms: 32123 }],
+    },
+  ],
+  palabrasClave: [
+    "jorge",
+    "celedón",
+    "celedón,",
+    "jorgito",
+    "historia",
+    "mía",
+    "medellín",
+    "viernes",
+    "tres",
+    "horas",
+    "gira",
+    "internacional",
+    "2027",
+    "estados",
+    "unidos",
+    "méxico",
+    "bogotá",
+    "vallenato",
+  ],
+};
