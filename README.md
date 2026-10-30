@@ -34,6 +34,11 @@ No usar la pantalla dividida que corta a William por la cintura (a la directora 
 - Si llegan en HDR (`color_transfer=arib-std-b67`), usar `bash scripts/preparar_video.sh entrada salida calido` (el color del video de Peter).
 - Los videos de William suelen venir **en espejo** (modo selfie): voltear con `hflip` para que las letras del fondo y de la camiseta se lean bien.
 
+### Las Más Virales (viernes)
+
+- Un solo video de William con las 3 noticias más importantes de la semana; estilo más ágil y moderno.
+- **Logo aprobado: opción 1 "Viral"** (`LogoMasVirales` / `LogoMasViralesAnimado` en `src/MasVirales.tsx`): entra grande al centro y queda pequeño arriba a la izquierda todo el video.
+
 ### Noticias vallenatas
 
 - Estilo sobrio: subtítulos pequeños (54 px) en frases de 3–5 palabras, tiempos con Whisper DTW (`scripts/dtw_captions.py`).
