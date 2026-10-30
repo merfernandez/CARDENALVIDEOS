@@ -7,6 +7,7 @@ import { DURACION_TOTAL_MS, NoticiaAudio } from "./NoticiaAudio";
 import { NoticiaHoy, noticiaHoySchema, PLANES_HOY } from "./NoticiaHoy";
 import { DURACION_ZONA8_EXP_MS, Zona8Experimento } from "./Zona8Experimento";
 import { DemoMasVirales } from "./MasVirales";
+import { HojaLogos, PropuestasMasVirales } from "./PropuestasMasVirales";
 import { NoticiaGamarra } from "./NoticiaGamarra";
 import { NoticiasVallenatas, noticiasSchema } from "./NoticiasVallenatas";
 import { getVideoDurationInSeconds } from "./get-video-duration";
@@ -250,6 +251,22 @@ export const RemotionRoot: React.FC = () => {
         width={1080}
         height={1920}
         durationInFrames={FPS * 7}
+      />
+      <Composition
+        id="PropuestasMasVirales"
+        component={PropuestasMasVirales}
+        fps={FPS}
+        width={1080}
+        height={1920}
+        durationInFrames={FPS * 12}
+      />
+      <Composition
+        id="HojaLogos"
+        component={HojaLogos}
+        fps={FPS}
+        width={1080}
+        height={1920}
+        durationInFrames={FPS * 3}
       />
     </>
   );
