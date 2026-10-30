@@ -1576,155 +1576,283 @@
   "pageBreakAfter": false
  },
  {
+  "text": " en",
+  "startMs": 96550,
+  "endMs": 96710,
+  "timestampMs": 96550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " un",
+  "startMs": 96710,
+  "endMs": 97050,
+  "timestampMs": 96710,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " entorno",
+  "startMs": 97050,
+  "endMs": 97890,
+  "timestampMs": 97050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " natural,",
+  "startMs": 97890,
+  "endMs": 98250,
+  "timestampMs": 97890,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " en",
+  "startMs": 98250,
+  "endMs": 98370,
+  "timestampMs": 98250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " un",
+  "startMs": 98370,
+  "endMs": 98850,
+  "timestampMs": 98370,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ambiente",
+  "startMs": 98850,
+  "endMs": 99230,
+  "timestampMs": 98850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tranquilo,",
+  "startMs": 99230,
+  "endMs": 99930,
+  "timestampMs": 99230,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " se",
+  "startMs": 99930,
+  "endMs": 100030,
+  "timestampMs": 99930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " le",
+  "startMs": 100030,
+  "endMs": 100090,
+  "timestampMs": 100030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ha",
+  "startMs": 100090,
+  "endMs": 100330,
+  "timestampMs": 100090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " visto",
+  "startMs": 100330,
+  "endMs": 100450,
+  "timestampMs": 100330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " al",
+  "startMs": 100450,
+  "endMs": 100650,
+  "timestampMs": 100450,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " artista",
+  "startMs": 100650,
+  "endMs": 101190,
+  "timestampMs": 100650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Silvestre",
+  "startMs": 101190,
+  "endMs": 102010,
+  "timestampMs": 101190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Dangond.",
+  "startMs": 102010,
+  "endMs": 102710,
+  "timestampMs": 102010,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
   "text": " Fueron",
-  "startMs": 96220,
-  "endMs": 96620,
-  "timestampMs": 96220,
+  "startMs": 103150,
+  "endMs": 103413,
+  "timestampMs": 103150,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " las",
-  "startMs": 96620,
-  "endMs": 96820,
-  "timestampMs": 96620,
+  "startMs": 103413,
+  "endMs": 103545,
+  "timestampMs": 103413,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " tres",
-  "startMs": 96820,
-  "endMs": 97086,
-  "timestampMs": 96820,
+  "startMs": 103545,
+  "endMs": 103720,
+  "timestampMs": 103545,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " noticias",
-  "startMs": 97086,
-  "endMs": 97620,
-  "timestampMs": 97086,
+  "startMs": 103720,
+  "endMs": 104071,
+  "timestampMs": 103720,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " más",
-  "startMs": 97620,
-  "endMs": 97820,
-  "timestampMs": 97620,
+  "startMs": 104071,
+  "endMs": 104203,
+  "timestampMs": 104071,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " virales",
-  "startMs": 97820,
-  "endMs": 98286,
-  "timestampMs": 97820,
+  "startMs": 104203,
+  "endMs": 104510,
+  "timestampMs": 104203,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " en",
-  "startMs": 98286,
-  "endMs": 98420,
-  "timestampMs": 98286,
+  "startMs": 104510,
+  "endMs": 104598,
+  "timestampMs": 104510,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " el",
-  "startMs": 98420,
-  "endMs": 98553,
-  "timestampMs": 98420,
+  "startMs": 104598,
+  "endMs": 104686,
+  "timestampMs": 104598,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " vallenato,",
-  "startMs": 98553,
-  "endMs": 99220,
-  "timestampMs": 98553,
+  "startMs": 104686,
+  "endMs": 105125,
+  "timestampMs": 104686,
   "confidence": null,
   "pageBreakAfter": true
  },
  {
   "text": " con",
-  "startMs": 99220,
-  "endMs": 99420,
-  "timestampMs": 99220,
+  "startMs": 105125,
+  "endMs": 105257,
+  "timestampMs": 105125,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " William",
-  "startMs": 99420,
-  "endMs": 99886,
-  "timestampMs": 99420,
+  "startMs": 105257,
+  "endMs": 105564,
+  "timestampMs": 105257,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " de",
-  "startMs": 99886,
-  "endMs": 100020,
-  "timestampMs": 99886,
+  "startMs": 105564,
+  "endMs": 105652,
+  "timestampMs": 105564,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " la",
-  "startMs": 100020,
-  "endMs": 100153,
-  "timestampMs": 100020,
+  "startMs": 105652,
+  "endMs": 105740,
+  "timestampMs": 105652,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " Rosa",
-  "startMs": 100153,
-  "endMs": 100420,
-  "timestampMs": 100153,
+  "startMs": 105740,
+  "endMs": 105915,
+  "timestampMs": 105740,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " para",
-  "startMs": 100420,
-  "endMs": 100686,
-  "timestampMs": 100420,
+  "startMs": 105915,
+  "endMs": 106091,
+  "timestampMs": 105915,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " Sistema",
-  "startMs": 100686,
-  "endMs": 101153,
-  "timestampMs": 100686,
+  "startMs": 106091,
+  "endMs": 106398,
+  "timestampMs": 106091,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " Cardenal",
-  "startMs": 101153,
-  "endMs": 102353,
-  "timestampMs": 101153,
+  "startMs": 106398,
+  "endMs": 106750,
+  "timestampMs": 106398,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " Cardenal",
-  "startMs": 108610,
-  "endMs": 109750,
-  "timestampMs": 108610,
+  "startMs": 108600,
+  "endMs": 109700,
+  "timestampMs": 108600,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
-  "text": " Stereo",
+  "text": " Stereo.",
   "startMs": 109750,
-  "endMs": 110470,
+  "endMs": 110600,
   "timestampMs": 109750,
   "confidence": null,
-  "pageBreakAfter": false
+  "pageBreakAfter": true
  }
 ]
