@@ -7,6 +7,7 @@ import { DURACION_TOTAL_MS, NoticiaAudio } from "./NoticiaAudio";
 import { NoticiaHoy, noticiaHoySchema, PLANES_HOY } from "./NoticiaHoy";
 import { DURACION_ZONA8_EXP_MS, Zona8Experimento } from "./Zona8Experimento";
 import { DemoMasVirales } from "./MasVirales";
+import { DURACION_MV_MS, MasViralesVideo } from "./MasViralesVideo";
 import { HojaLogos, PropuestasMasVirales } from "./PropuestasMasVirales";
 import { NoticiaGamarra } from "./NoticiaGamarra";
 import { NoticiasVallenatas, noticiasSchema } from "./NoticiasVallenatas";
@@ -267,6 +268,14 @@ export const RemotionRoot: React.FC = () => {
         width={1080}
         height={1920}
         durationInFrames={FPS * 3}
+      />
+      <Composition
+        id="MasVirales-30oct"
+        component={MasViralesVideo}
+        fps={FPS}
+        width={1080}
+        height={1920}
+        durationInFrames={Math.round((DURACION_MV_MS / 1000) * FPS)}
       />
     </>
   );

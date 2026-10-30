@@ -1,6 +1,7 @@
 import { Video } from "@remotion/media";
 import {
   AbsoluteFill,
+  Img,
   interpolate,
   Sequence,
   spring,
@@ -143,12 +144,19 @@ const ApoyoFondo: React.FC<{
     <AbsoluteFill
       style={{ opacity: o, backgroundColor: primero ? "#000" : undefined }}
     >
-      <Video
-        src={staticFile(src)}
-        trimBefore={Math.round(desdeSeg * fps)}
-        muted
-        objectFit="cover"
-      />
+      {/\.(jpe?g|png|webp)$/i.test(src) ? (
+        <Img
+          src={staticFile(src)}
+          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+        />
+      ) : (
+        <Video
+          src={staticFile(src)}
+          trimBefore={Math.round(desdeSeg * fps)}
+          muted
+          objectFit="cover"
+        />
+      )}
     </AbsoluteFill>
   );
 };
