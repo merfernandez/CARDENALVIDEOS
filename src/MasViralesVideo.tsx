@@ -152,6 +152,8 @@ const Separador: React.FC<{
             color: BLANCO,
             fontWeight: 900,
             fontSize: 64,
+            lineHeight: 1.1,
+            maxWidth: 960,
             textTransform: "uppercase",
             textAlign: "center",
             opacity: txt,
@@ -178,9 +180,9 @@ const Separador: React.FC<{
   );
 };
 
-// Las tarjetas de arriba van un poco más abajo para no chocar con el logo fijo
+// En "Las Más Virales" las tarjetas van ABAJO, bajo los subtítulos, para no saturar el logo ni tapar a William
 const Bajar: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <AbsoluteFill style={{ transform: "translateY(120px)" }}>
+  <AbsoluteFill style={{ transform: "translateY(1330px)" }}>
     {children}
   </AbsoluteFill>
 );
@@ -190,8 +192,8 @@ const SEPARADORES = [
     desdeMs: 7650,
     hastaMs: 9150,
     numero: 1,
-    titulo: "Accidente de Kbeto Zuleta",
-    detalle: "Su agrupación en el río Ariguaní",
+    titulo: "Accidente de Kbeto Zuleta y su agrupación",
+    detalle: "En el río Ariguaní",
   },
   {
     desdeMs: 44150,

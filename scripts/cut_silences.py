@@ -9,6 +9,9 @@ import subprocess
 import sys
 
 src, captions_in, dst, captions_out = sys.argv[1:5]
+# --solo-subtitulos: recalcula solo los subtítulos (el video cortado ya existe)
+SOLO_SUBS = "--solo-subtitulos" in sys.argv
+sys.argv = [a for a in sys.argv if a != "--solo-subtitulos"]
 # Opcional: silencio mínimo a cortar (s). Más alto = ritmo más pausado (noticias serias)
 MIN_SIL = float(sys.argv[5]) if len(sys.argv) > 5 else 0.15
 NOISE, PAD = "-28dB", 0.06
@@ -38,7 +41,8 @@ for i, (a, b) in enumerate(keep):
     parts.append(f"[0:v]trim={a}:{b},setpts=PTS-STARTPTS[v{i}];[0:a]atrim={a}:{b},asetpts=PTS-STARTPTS[a{i}]")
     labels.append(f"[v{i}][a{i}]")
 fc = ";".join(parts) + ";" + "".join(labels) + f"concat=n={len(keep)}:v=1:a=1[v][a]"
-subprocess.check_call(["ffmpeg", "-v", "error", "-y", "-i", src, "-filter_complex", fc,
+if not SOLO_SUBS:
+  subprocess.check_call(["ffmpeg", "-v", "error", "-y", "-i", src, "-filter_complex", fc,
                        "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", "10", "-preset", "slow",
                        "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709",
                        "-c:a", "aac", "-b:a", "320k", "-movflags", "+faststart", dst])

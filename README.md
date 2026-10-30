@@ -28,6 +28,10 @@ La directora pide **no repetir siempre el mismo formato**: si en el día hay 2 v
 
 No usar la pantalla dividida que corta a William por la cintura (a la directora no le gustó).
 
+### Subtítulos en audios largos
+
+En audios de más de ~1 minuto el alineado DTW de Whisper se "corre" al final. `scripts/dtw_captions.py` detecta las frases afectadas y reparte las palabras con ritmo natural. Para recalcular solo los subtítulos sin volver a cortar el video: `python3 scripts/cut_silences.py ... --solo-subtitulos`.
+
 ### Color
 
 - William desactivó el **Video HDR** del iPhone: los próximos videos deberían llegar en formato normal. En ese caso, respetar el color original (ajuste mínimo).
@@ -37,6 +41,8 @@ No usar la pantalla dividida que corta a William por la cintura (a la directora 
 ### Las Más Virales (viernes)
 
 - Un solo video de William con las 3 noticias más importantes de la semana; estilo más ágil y moderno.
+- Las tarjetas de resumen van **abajo**, bajo los subtítulos (arriba está el logo fijo y saturaba / tapaba la cabeza).
+- Separadores rápidos #1 #2 #3 con whoosh antes de cada noticia.
 - **Logo aprobado: opción 1 "Viral"** (`LogoMasVirales` / `LogoMasViralesAnimado` en `src/MasVirales.tsx`): entra grande al centro y queda pequeño arriba a la izquierda todo el video.
 
 ### Noticias vallenatas
