@@ -11,6 +11,7 @@ import { DURACION_MV_MS, MasViralesVideo } from "./MasViralesVideo";
 import { HojaLogos, PropuestasMasVirales } from "./PropuestasMasVirales";
 import { NoticiaGamarra } from "./NoticiaGamarra";
 import { NoticiasVallenatas, noticiasSchema } from "./NoticiasVallenatas";
+import { DURACION_HALLOWEEN_HIJA, HalloweenHija } from "./HalloweenHija";
 import { getVideoDurationInSeconds } from "./get-video-duration";
 
 const FPS = 30;
@@ -276,6 +277,14 @@ export const RemotionRoot: React.FC = () => {
         width={1080}
         height={1920}
         durationInFrames={Math.round((DURACION_MV_MS / 1000) * FPS)}
+      />
+      <Composition
+        id="HalloweenHija"
+        component={HalloweenHija}
+        fps={FPS}
+        width={1080}
+        height={1920}
+        durationInFrames={DURACION_HALLOWEEN_HIJA}
       />
     </>
   );
