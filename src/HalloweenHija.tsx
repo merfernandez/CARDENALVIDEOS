@@ -12,7 +12,7 @@ import {
   useVideoConfig,
 } from "remotion";
 
-// Video familiar de Halloween 2026 de Francesca "France" (28 s, 1080x1920, 30 fps).
+// Video familiar de Halloween 2026 de Francesca "France" (29.6 s, 1080x1920, 30 fps).
 // Inicio: France lanza un hechizo con la varita (cámara lenta) y el destello
 // abre un montaje rápido al ritmo de la música (150 bpm = 12 cuadros por pulso).
 // Sin textos: solo "HALLOWEEN 2026" en el cierre.
@@ -27,8 +27,8 @@ const VERDE = "#8CFF3F";
 const PULSO = 12; // cuadros por pulso
 const COMPAS = PULSO * 4; // 48 cuadros
 const DROP = 120;
-const FINAL = DROP + COMPAS * 13; // 744
-export const DURACION_HALLOWEEN_HIJA = 840;
+const FINAL = DROP + COMPAS * 14; // 792
+export const DURACION_HALLOWEEN_HIJA = 888;
 
 const compas = (n: number) => DROP + COMPAS * n;
 
@@ -200,59 +200,6 @@ const Clip: React.FC<{
           muted
           playbackRate={velocidad}
           trimBefore={Math.round(desde * fps)}
-        />
-      </AbsoluteFill>
-      <Vineta />
-    </AbsoluteFill>
-  );
-};
-
-// Foto a pantalla completa que, en el pulso 2, hace zoom sobre un punto
-const FotoZoom: React.FC<{
-  src: string;
-  posicion: string; // object-position del encuadre
-  foco: string; // transform-origin del zoom
-  zoom?: number;
-  entrada?: Entrada;
-  retraso?: number;
-  mover?: [number, number]; // desplazamiento en px al hacer zoom
-}> = ({
-  src,
-  posicion,
-  foco,
-  zoom = 1.9,
-  entrada = "zoom",
-  retraso = PULSO * 2,
-  mover = [0, 0],
-}) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const e = useEntrada(entrada);
-  const z = spring({
-    frame,
-    fps,
-    delay: retraso,
-    config: { damping: 13, stiffness: 150 },
-  });
-  return (
-    <AbsoluteFill style={{ overflow: "hidden", backgroundColor: "#0B0414" }}>
-      <AbsoluteFill
-        style={{
-          transform: `${e.transform} translate(${z * mover[0]}px, ${z * mover[1]}px)`,
-          filter: `blur(${e.blur}px)`,
-        }}
-      >
-        <Img
-          src={staticFile(`${CARPETA}/${src}`)}
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-            objectPosition: posicion,
-            transformOrigin: foco,
-            transform: `scale(${1.04 + frame * 0.001 + z * (zoom - 1)})`,
-            filter: "saturate(1.2) contrast(1.05)",
-          }}
         />
       </AbsoluteFill>
       <Vineta />
@@ -761,6 +708,17 @@ const NINOS: Parada[] = [
   { x: 972, y: 950, s: 2 }, // Spider-Man
 ];
 
+// Foto del castillo: plano general y los 5 niños (6 paradas en 2 compases)
+const PASO_CASTILLO = (COMPAS * 2) / 6;
+const NINOS_CASTILLO: Parada[] = [
+  { x: 0, y: 0, s: 1 }, // plano general
+  { x: 101, y: 730, s: 2 }, // France
+  { x: 382, y: 826, s: 2 }, // S.W.A.T.
+  { x: 622, y: 883, s: 2 }, // la calabaza
+  { x: 737, y: 897, s: 2 }, // el niño del alien
+  { x: 1025, y: 1066, s: 2 }, // Spider-Man
+];
+
 const TOMAS: Toma[] = [
   // Compases 1-3: la foto protagonista, acercamiento a cada niño
   {
@@ -804,35 +762,39 @@ const TOMAS: Toma[] = [
     color: NARANJA,
     el: <Clip src="c_calle.mp4" velocidad={2.5} entrada="der" />,
   },
-  // Compás 6: la pandilla en el castillo, y zoom a France
+  // Compases 6-7: la pandilla en el castillo, acercamiento a cada niño
   {
     desde: compas(5),
-    dur: COMPAS,
+    dur: COMPAS * 2,
     color: MORADO,
     el: (
       <>
-        <FotoZoom
+        <RecorridoFoto
           src="grupo.jpg"
-          posicion="0% 50%"
-          foco="26% 37%"
-          zoom={2.1}
-          mover={[260, 60]}
+          paradas={NINOS_CASTILLO}
+          paso={PASO_CASTILLO}
         />
-        <Sticker src="buho" x={810} y={130} size={200} delay={26} />
-        <Sticker src="escoba" x={760} y={1560} size={240} delay={30} />
+        <Sequence
+          from={PASO_CASTILLO}
+          durationInFrames={PASO_CASTILLO}
+          layout="none"
+        >
+          <Sticker src="buho" x={810} y={130} size={200} delay={2} />
+          <Sticker src="escoba" x={760} y={1560} size={240} delay={5} />
+        </Sequence>
       </>
     ),
   },
-  // Compás 7: el alien
+  // Compás 8: el alien
   {
-    desde: compas(6),
+    desde: compas(7),
     dur: COMPAS,
     color: VERDE,
     el: <Clip src="c4442.mp4" entrada="der" />,
   },
-  // Compás 8: France en franjas, con velas flotantes
+  // Compás 9: France en franjas, con velas flotantes
   {
-    desde: compas(7),
+    desde: compas(8),
     dur: COMPAS,
     color: NARANJA,
     el: (
@@ -843,23 +805,23 @@ const TOMAS: Toma[] = [
       </>
     ),
   },
-  // Compás 9: mamá leoparda
+  // Compás 10: mamá leoparda
   {
-    desde: compas(8),
+    desde: compas(9),
     dur: COMPAS,
     color: MORADO,
     el: <Clip src="c4443.mp4" entrada="izq" velocidad={1.1} />,
   },
-  // Compás 10: la fila de los dulces
+  // Compás 11: la fila de los dulces
   {
-    desde: compas(9),
+    desde: compas(10),
     dur: COMPAS,
     color: NARANJA,
     el: <Clip src="c4446.mp4" entrada="giro" velocidad={1.15} />,
   },
-  // Compás 11: papá y mamá en polaroid
+  // Compás 12: papá y mamá en polaroid
   {
-    desde: compas(10),
+    desde: compas(11),
     dur: COMPAS,
     color: VERDE,
     el: (
@@ -870,34 +832,34 @@ const TOMAS: Toma[] = [
       </>
     ),
   },
-  // Compás 12: ráfaga, un corte por pulso
+  // Compás 13: ráfaga, un corte por pulso
   {
-    desde: compas(11),
+    desde: compas(12),
     dur: PULSO,
     color: MORADO,
     el: <RecorridoFoto src="entrada.jpg" paradas={[NINOS[1]]} paso={PULSO} />,
   },
   {
-    desde: compas(11) + PULSO,
+    desde: compas(12) + PULSO,
     dur: PULSO,
     color: VERDE,
     el: <Clip src="c4442.mp4" desde={1.0} entrada="der" />,
   },
   {
-    desde: compas(11) + PULSO * 2,
+    desde: compas(12) + PULSO * 2,
     dur: PULSO,
     color: NARANJA,
     el: <RecorridoFoto src="entrada.jpg" paradas={[NINOS[3]]} paso={PULSO} />,
   },
   {
-    desde: compas(11) + PULSO * 3,
+    desde: compas(12) + PULSO * 3,
     dur: PULSO,
     color: MORADO,
     el: <Clip src="c4443.mp4" desde={0.9} entrada="giro" />,
   },
-  // Compás 13: France de nuevo en cámara lenta, en espejo, hacia el final
+  // Compás 14: France de nuevo en cámara lenta, en espejo, hacia el final
   {
-    desde: compas(12),
+    desde: compas(13),
     dur: COMPAS,
     color: NARANJA,
     el: (

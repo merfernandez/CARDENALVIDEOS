@@ -1,11 +1,11 @@
-# Música original para el video de Halloween (28 s).
+# Música original para el video de Halloween (29.6 s).
 # 0-4 s: intro misteriosa (órgano + cajita musical + subida al hechizo)
-# 4-24.8 s: ritmo bailable de Halloween a 150 bpm (13 compases)
-# 24.8-28 s: golpe final con órgano y arpegio mágico
+# 4-26.4 s: ritmo bailable de Halloween a 150 bpm (14 compases)
+# 26.4-29.6 s: golpe final con órgano y arpegio mágico
 # Uso: python3 scripts/musica_halloween.py public/halloween-hija/musica.wav
 import numpy as np, wave, sys
-SR = 44100; DUR = 28.0; N = int(SR * DUR)
-BPM = 150; B = 60 / BPM; DROP = 4.0; COMPASES = 13; FIN = DROP + COMPASES * 4 * B  # 24.8 s
+SR = 44100; DUR = 29.6; N = int(SR * DUR)
+BPM = 150; B = 60 / BPM; DROP = 4.0; COMPASES = 14; FIN = DROP + COMPASES * 4 * B  # 26.4 s
 L = np.zeros(N); R = np.zeros(N)
 rng = np.random.default_rng(13)
 
@@ -87,17 +87,17 @@ for bar in range(COMPASES):
             n = root - 12 + riff[(beat*2 + e) % 8]
             add(bass(n, B/2*0.95), t + e*B/2)
         add(organ(acordes[root], B*0.3), t + B/2, 0.9)  # golpe de órgano a contratiempo
-    if bar in (3, 7):  # redoble antes de la segunda mitad
+    if bar in (3, 8):  # redoble antes de la segunda mitad
         for k in range(8): add(clap(), DROP + (bar*4+2)*B + k*B/4, 0.5 + k*0.07)
 lead = [(0, 74), (1, 77), (1.5, 76), (2, 74), (3, 81), (4.5, 80), (5, 81), (6, 77), (7, 73),
         (8, 74), (9, 77), (9.5, 79), (10, 82), (11, 81), (12, 77), (13, 76), (14, 73), (15, 74)]
 add(theremin(lead, 16*B), DROP + 16*B, 1.0, pan=0.15)
-add(theremin([(b, n + 12) for b, n in lead], 16*B), DROP + 32*B, 0.8, pan=-0.15)
+add(theremin([(b, n + 12) for b, n in lead], 16*B), DROP + 36*B, 0.8, pan=-0.15)
 for i, n in enumerate([74, 77, 81, 86]*4):
     add(bell(n, 0.5), DROP + i*B/2, 0.45)
 add(riser(1.6, 0.22), FIN-1.6)
 
-# ---------- Final (24.8-28 s) ----------
+# ---------- Final (26.4-29.6 s) ----------
 add(impact(), FIN)
 add(kick(), FIN)
 add(organ([38, 50, 57, 62, 65, 69], DUR-FIN, att=0.02, rel=1.2), FIN, 1.3)
