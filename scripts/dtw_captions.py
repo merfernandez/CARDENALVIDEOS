@@ -31,7 +31,8 @@ for seg in json.load(open(src))["transcription"]:
     # o la comprimen demasiado, se reparten las palabras a lo largo de la frase real.
     fuera = any(t < desde - 600 or t > hasta + 600 for t in tiempos)
     comprimido = len(toks) > 4 and (tiempos[-1] - tiempos[0]) < 0.45 * (hasta - desde)
-    tarde = tiempos[0] - desde > 1500
+    # (la primera frase puede empezar con silencio real: ahí no aplica)
+    tarde = desde > 0 and tiempos[0] - desde > 1500
     if fuera or comprimido or tarde:
         largo = sum(max(1, len(t["text"].strip())) for t in toks)
         # Ritmo natural (~15 letras por segundo): no estirar la frase sobre la pausa siguiente

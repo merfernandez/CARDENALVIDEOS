@@ -678,3 +678,119 @@ export const TarjetaRedes: React.FC<{ texto: string; redes: string[] }> = ({
     </AbsoluteFill>
   );
 };
+
+// Lista tipo playlist: cada canción aparece cuando se nombra, con su número y ecualizador
+export const TarjetaLista: React.FC<{
+  titulo: string;
+  desdeMs: number;
+  items: { texto: string; ms: number }[];
+}> = ({ titulo, desdeMs, items }) => {
+  const { frame, fps, v } = useEntradaSalida();
+  return (
+    <Contenedor v={v}>
+      <div
+        style={{
+          width: 640,
+          backgroundColor: "rgba(12,12,14,0.9)",
+          borderRadius: 20,
+          padding: "16px 22px 18px",
+          boxShadow: "0 12px 30px rgba(0,0,0,0.35)",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 14,
+            marginBottom: 10,
+          }}
+        >
+          <Cardenalito tamano={50} />
+          <div
+            style={{
+              color: BLANCO,
+              fontSize: 26,
+              fontWeight: 800,
+              letterSpacing: 3,
+              textTransform: "uppercase",
+            }}
+          >
+            {titulo}
+          </div>
+        </div>
+        {items.map((it, i) => {
+          const d = Math.round(((it.ms - desdeMs) / 1000) * fps);
+          const p = spring({ frame, fps, delay: d, config: { damping: 14 } });
+          const activo =
+            frame >= d &&
+            (i === items.length - 1 ||
+              frame < Math.round(((items[i + 1].ms - desdeMs) / 1000) * fps));
+          return (
+            <div
+              key={it.texto}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 16,
+                padding: "8px 12px",
+                marginTop: 6,
+                borderRadius: 12,
+                backgroundColor: activo ? ROJO : "rgba(255,255,255,0.07)",
+                opacity: p,
+                transform: `translateX(${(1 - p) * -40}px)`,
+              }}
+            >
+              <div
+                style={{
+                  color: activo ? BLANCO : ROJO,
+                  fontWeight: 900,
+                  fontSize: 30,
+                  width: 34,
+                }}
+              >
+                {i + 1}
+              </div>
+              <div
+                style={{
+                  color: BLANCO,
+                  fontWeight: 800,
+                  fontSize: 32,
+                  flex: 1,
+                }}
+              >
+                {it.texto}
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "flex-end",
+                  gap: 3,
+                  height: 22,
+                  opacity: activo ? 1 : 0.35,
+                }}
+              >
+                {[0, 1, 2, 3].map((b) => (
+                  <div
+                    key={b}
+                    style={{
+                      width: 5,
+                      borderRadius: 3,
+                      backgroundColor: BLANCO,
+                      height: activo
+                        ? interpolate(
+                            Math.sin(frame / 3 + b * 1.9),
+                            [-1, 1],
+                            [5, 22],
+                          )
+                        : 6,
+                    }}
+                  />
+                ))}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </Contenedor>
+  );
+};

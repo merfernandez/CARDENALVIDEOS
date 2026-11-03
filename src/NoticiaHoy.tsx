@@ -12,6 +12,7 @@ import { Subtitulos } from "./Subtitulos";
 import {
   TarjetaArtistas,
   TarjetaCancion,
+  TarjetaLista,
   TarjetaRedes,
   TarjetaSobria,
 } from "./TarjetasNoticia";
@@ -21,6 +22,7 @@ import { plan as v3 } from "./videos/hoy-v3";
 import { plan as d29v1 } from "./videos/d29-v1";
 import { plan as d29v2 } from "./videos/d29-v2";
 import { plan as d29v3 } from "./videos/d29-v3";
+import { plan as n3v1 } from "./videos/n3-v1";
 
 type Tramo = { desdeMs: number; hastaMs: number };
 export type TarjetaPlan = Tramo &
@@ -29,6 +31,7 @@ export type TarjetaPlan = Tramo &
     | { tipo: "artistas"; artistas: { nombre: string; ms: number }[] }
     | { tipo: "cancion"; etiqueta: string; titulo: string; detalle: string }
     | { tipo: "redes"; texto: string; redes: string[] }
+    | { tipo: "lista"; titulo: string; items: { texto: string; ms: number }[] }
   );
 
 // Plan de una noticia del día: video de William, tarjetas, apoyos y cierre
@@ -49,10 +52,10 @@ export type PlanNoticia = {
   sobrio?: boolean;
 };
 
-export const PLANES_HOY = { v1, v2, v3, d29v1, d29v2, d29v3 };
+export const PLANES_HOY = { v1, v2, v3, d29v1, d29v2, d29v3, n3v1 };
 
 export const noticiaHoySchema = z.object({
-  plan: z.enum(["v1", "v2", "v3", "d29v1", "d29v2", "d29v3"]),
+  plan: z.enum(["v1", "v2", "v3", "d29v1", "d29v2", "d29v3", "n3v1"]),
   rotuloSeg: z.number(),
   cierreExtraSeg: z.number(),
 });
@@ -109,6 +112,12 @@ export const NoticiaHoy: React.FC<z.infer<typeof noticiaHoySchema>> = ({
         <Sequence key={t.desdeMs} {...tramo(t)} name={t.tipo}>
           {t.tipo === "sobria" ? (
             <TarjetaSobria antetitulo={t.antetitulo} titulo={t.titulo} />
+          ) : t.tipo === "lista" ? (
+            <TarjetaLista
+              titulo={t.titulo}
+              desdeMs={t.desdeMs}
+              items={t.items}
+            />
           ) : t.tipo === "redes" ? (
             <TarjetaRedes texto={t.texto} redes={t.redes} />
           ) : t.tipo === "artistas" ? (

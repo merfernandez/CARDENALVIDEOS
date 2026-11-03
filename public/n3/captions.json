@@ -1,0 +1,522 @@
+[
+ {
+  "text": " Los",
+  "startMs": 1790,
+  "endMs": 2110,
+  "timestampMs": 1790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " mejores",
+  "startMs": 2110,
+  "endMs": 2650,
+  "timestampMs": 2110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " comentarios",
+  "startMs": 2650,
+  "endMs": 2990,
+  "timestampMs": 2650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " para",
+  "startMs": 2990,
+  "endMs": 3130,
+  "timestampMs": 2990,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 3130,
+  "endMs": 3250,
+  "timestampMs": 3130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " álbum",
+  "startMs": 3250,
+  "endMs": 3630,
+  "timestampMs": 3250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Luchador",
+  "startMs": 3630,
+  "endMs": 4310,
+  "timestampMs": 3630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 4310,
+  "endMs": 4830,
+  "timestampMs": 4310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Peter",
+  "startMs": 4830,
+  "endMs": 5290,
+  "timestampMs": 4830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Manjarrés",
+  "startMs": 5290,
+  "endMs": 6310,
+  "timestampMs": 5290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Los",
+  "startMs": 6310,
+  "endMs": 6550,
+  "timestampMs": 6310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " peteristas",
+  "startMs": 6550,
+  "endMs": 7690,
+  "timestampMs": 6550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ya",
+  "startMs": 7690,
+  "endMs": 8290,
+  "timestampMs": 7690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tienen",
+  "startMs": 8290,
+  "endMs": 8630,
+  "timestampMs": 8290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " canciones",
+  "startMs": 8630,
+  "endMs": 9830,
+  "timestampMs": 8630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " favoritas",
+  "startMs": 9850,
+  "endMs": 10850,
+  "timestampMs": 9850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Y",
+  "startMs": 10850,
+  "endMs": 10970,
+  "timestampMs": 10850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " hay",
+  "startMs": 10950,
+  "endMs": 11350,
+  "timestampMs": 10950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " algunas",
+  "startMs": 11350,
+  "endMs": 11810,
+  "timestampMs": 11350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 11810,
+  "endMs": 12050,
+  "timestampMs": 11810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " están",
+  "startMs": 12050,
+  "endMs": 12390,
+  "timestampMs": 12050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " abanderando",
+  "startMs": 12390,
+  "endMs": 13150,
+  "timestampMs": 12390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " esta",
+  "startMs": 13150,
+  "endMs": 13830,
+  "timestampMs": 13150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " producción",
+  "startMs": 13830,
+  "endMs": 14410,
+  "timestampMs": 13830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Luchador",
+  "startMs": 14410,
+  "endMs": 15610,
+  "timestampMs": 14410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Yoyito,",
+  "startMs": 15670,
+  "endMs": 16870,
+  "timestampMs": 15670,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " como",
+  "startMs": 16870,
+  "endMs": 17170,
+  "timestampMs": 16870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tú",
+  "startMs": 17170,
+  "endMs": 17330,
+  "timestampMs": 17170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " no",
+  "startMs": 17330,
+  "endMs": 17490,
+  "timestampMs": 17330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " hay",
+  "startMs": 17490,
+  "endMs": 17930,
+  "timestampMs": 17490,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nadie,",
+  "startMs": 17930,
+  "endMs": 18390,
+  "timestampMs": 17930,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " dueña",
+  "startMs": 18390,
+  "endMs": 18730,
+  "timestampMs": 18390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 18730,
+  "endMs": 18890,
+  "timestampMs": 18730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " mi",
+  "startMs": 18890,
+  "endMs": 19470,
+  "timestampMs": 18890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " presente",
+  "startMs": 19470,
+  "endMs": 20050,
+  "timestampMs": 19470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Y",
+  "startMs": 20050,
+  "endMs": 20330,
+  "timestampMs": 20050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " La",
+  "startMs": 20330,
+  "endMs": 20710,
+  "timestampMs": 20330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Playita",
+  "startMs": 20710,
+  "endMs": 21190,
+  "timestampMs": 20710,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " son",
+  "startMs": 21190,
+  "endMs": 21310,
+  "timestampMs": 21190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 21310,
+  "endMs": 21530,
+  "timestampMs": 21310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 21530,
+  "endMs": 21890,
+  "timestampMs": 21530,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " preferidas",
+  "startMs": 21890,
+  "endMs": 22790,
+  "timestampMs": 21890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " por",
+  "startMs": 22790,
+  "endMs": 22970,
+  "timestampMs": 22790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 22970,
+  "endMs": 23390,
+  "timestampMs": 22970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " público",
+  "startMs": 23390,
+  "endMs": 23650,
+  "timestampMs": 23390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " amante",
+  "startMs": 23650,
+  "endMs": 24510,
+  "timestampMs": 23650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 24510,
+  "endMs": 24850,
+  "timestampMs": 24510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " folclor",
+  "startMs": 24850,
+  "endMs": 25430,
+  "timestampMs": 24850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " vallenato",
+  "startMs": 25430,
+  "endMs": 26570,
+  "timestampMs": 25430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Una",
+  "startMs": 26570,
+  "endMs": 27350,
+  "timestampMs": 26570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " producción",
+  "startMs": 27350,
+  "endMs": 28190,
+  "timestampMs": 27350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " bastante",
+  "startMs": 28190,
+  "endMs": 28630,
+  "timestampMs": 28190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " equilibrada",
+  "startMs": 28630,
+  "endMs": 29330,
+  "timestampMs": 28630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " para",
+  "startMs": 29330,
+  "endMs": 29610,
+  "timestampMs": 29330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " todos",
+  "startMs": 29610,
+  "endMs": 29790,
+  "timestampMs": 29610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 29790,
+  "endMs": 30030,
+  "timestampMs": 29790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " gustos",
+  "startMs": 30030,
+  "endMs": 30930,
+  "timestampMs": 30030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Eso",
+  "startMs": 30930,
+  "endMs": 31170,
+  "timestampMs": 30930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " trajo",
+  "startMs": 31170,
+  "endMs": 31810,
+  "timestampMs": 31170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Peter",
+  "startMs": 31810,
+  "endMs": 32090,
+  "timestampMs": 31810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Manjarrés",
+  "startMs": 32090,
+  "endMs": 32550,
+  "timestampMs": 32090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 32550,
+  "endMs": 32730,
+  "timestampMs": 32550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 32730,
+  "endMs": 32870,
+  "timestampMs": 32730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " álbum",
+  "startMs": 32870,
+  "endMs": 33730,
+  "timestampMs": 32870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Luchador",
+  "startMs": 33730,
+  "endMs": 34480,
+  "timestampMs": 33730,
+  "confidence": null,
+  "pageBreakAfter": false
+ }
+]
