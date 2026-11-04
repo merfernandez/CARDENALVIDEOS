@@ -1,0 +1,498 @@
+[
+ {
+  "text": " El",
+  "startMs": 650,
+  "endMs": 890,
+  "timestampMs": 650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cantor",
+  "startMs": 890,
+  "endMs": 1110,
+  "timestampMs": 890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 1110,
+  "endMs": 1330,
+  "timestampMs": 1110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cantores,",
+  "startMs": 1330,
+  "endMs": 1850,
+  "timestampMs": 1330,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Iván",
+  "startMs": 1850,
+  "endMs": 2450,
+  "timestampMs": 1850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Villazón,",
+  "startMs": 2450,
+  "endMs": 3250,
+  "timestampMs": 2450,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " está",
+  "startMs": 3250,
+  "endMs": 3590,
+  "timestampMs": 3250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " listo",
+  "startMs": 3590,
+  "endMs": 4170,
+  "timestampMs": 3590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " para",
+  "startMs": 4170,
+  "endMs": 4710,
+  "timestampMs": 4170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cantar",
+  "startMs": 4710,
+  "endMs": 5210,
+  "timestampMs": 4710,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 5210,
+  "endMs": 5670,
+  "timestampMs": 5210,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nuevo",
+  "startMs": 5670,
+  "endMs": 6110,
+  "timestampMs": 5670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " álbum",
+  "startMs": 6110,
+  "endMs": 7310,
+  "timestampMs": 6110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical.",
+  "startMs": 7430,
+  "endMs": 7640,
+  "timestampMs": 7430,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " La",
+  "startMs": 7640,
+  "endMs": 7773,
+  "timestampMs": 7640,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " grabación",
+  "startMs": 7773,
+  "endMs": 8373,
+  "timestampMs": 7773,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " se",
+  "startMs": 8373,
+  "endMs": 8506,
+  "timestampMs": 8373,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " está",
+  "startMs": 8506,
+  "endMs": 8773,
+  "timestampMs": 8506,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " llevando",
+  "startMs": 8773,
+  "endMs": 9306,
+  "timestampMs": 8773,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 9306,
+  "endMs": 9426,
+  "timestampMs": 9306,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cabo",
+  "startMs": 9373,
+  "endMs": 9640,
+  "timestampMs": 9373,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 9640,
+  "endMs": 9773,
+  "timestampMs": 9640,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 9773,
+  "endMs": 9973,
+  "timestampMs": 9773,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " estudios",
+  "startMs": 9973,
+  "endMs": 10506,
+  "timestampMs": 9973,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 10506,
+  "endMs": 10640,
+  "timestampMs": 10506,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Rolando",
+  "startMs": 10640,
+  "endMs": 11106,
+  "timestampMs": 10640,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Ochoa",
+  "startMs": 11106,
+  "endMs": 11440,
+  "timestampMs": 11106,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " bajo",
+  "startMs": 11440,
+  "endMs": 11706,
+  "timestampMs": 11440,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 11706,
+  "endMs": 11840,
+  "timestampMs": 11706,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " producción",
+  "startMs": 11840,
+  "endMs": 12506,
+  "timestampMs": 11840,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical",
+  "startMs": 12506,
+  "endMs": 12973,
+  "timestampMs": 12506,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 12973,
+  "endMs": 13173,
+  "timestampMs": 12973,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " mismo",
+  "startMs": 13173,
+  "endMs": 13506,
+  "timestampMs": 13173,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " R8.",
+  "startMs": 13506,
+  "endMs": 14706,
+  "timestampMs": 13506,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " En",
+  "startMs": 17830,
+  "endMs": 18070,
+  "timestampMs": 17830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " esta",
+  "startMs": 18070,
+  "endMs": 18610,
+  "timestampMs": 18070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " oportunidad,",
+  "startMs": 18610,
+  "endMs": 19470,
+  "timestampMs": 18610,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Iván",
+  "startMs": 19470,
+  "endMs": 20070,
+  "timestampMs": 19470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Villazón",
+  "startMs": 20070,
+  "endMs": 20830,
+  "timestampMs": 20070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " grabará",
+  "startMs": 20830,
+  "endMs": 21270,
+  "timestampMs": 20830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 21270,
+  "endMs": 21590,
+  "timestampMs": 21270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sus",
+  "startMs": 21590,
+  "endMs": 21870,
+  "timestampMs": 21590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tres",
+  "startMs": 21870,
+  "endMs": 22570,
+  "timestampMs": 21870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " acordeoneros,",
+  "startMs": 22570,
+  "endMs": 23770,
+  "timestampMs": 22570,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Tuto",
+  "startMs": 24090,
+  "endMs": 24610,
+  "timestampMs": 24090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " López,",
+  "startMs": 24610,
+  "endMs": 25790,
+  "timestampMs": 24610,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Jerónimo",
+  "startMs": 25790,
+  "endMs": 26650,
+  "timestampMs": 25790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Villazón",
+  "startMs": 26650,
+  "endMs": 27510,
+  "timestampMs": 26650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 27510,
+  "endMs": 28170,
+  "timestampMs": 27510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Jesús",
+  "startMs": 28170,
+  "endMs": 28790,
+  "timestampMs": 28170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Ballestas.",
+  "startMs": 28790,
+  "endMs": 29990,
+  "timestampMs": 28790,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Estamos",
+  "startMs": 30050,
+  "endMs": 30230,
+  "timestampMs": 30050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 30230,
+  "endMs": 30350,
+  "timestampMs": 30230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 30290,
+  "endMs": 30570,
+  "timestampMs": 30290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " expectativa",
+  "startMs": 30570,
+  "endMs": 31770,
+  "timestampMs": 30570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cuando",
+  "startMs": 31770,
+  "endMs": 32130,
+  "timestampMs": 31770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " lanzará",
+  "startMs": 32130,
+  "endMs": 32410,
+  "timestampMs": 32130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Iván",
+  "startMs": 32410,
+  "endMs": 32730,
+  "timestampMs": 32410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Villazón",
+  "startMs": 32730,
+  "endMs": 33550,
+  "timestampMs": 32730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " esta",
+  "startMs": 33550,
+  "endMs": 34270,
+  "timestampMs": 33550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " producción",
+  "startMs": 34270,
+  "endMs": 35310,
+  "timestampMs": 34270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical.",
+  "startMs": 35310,
+  "endMs": 35430,
+  "timestampMs": 35310,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]
