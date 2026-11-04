@@ -25,6 +25,7 @@ import { plan as d29v3 } from "./videos/d29-v3";
 import { plan as n3v1 } from "./videos/n3-v1";
 import { plan as chv1 } from "./videos/ch-v1";
 import { plan as rpv1 } from "./videos/rp-v1";
+import { plan as fsv1 } from "./videos/fs-v1";
 
 type Tramo = { desdeMs: number; hastaMs: number };
 export type TarjetaPlan = Tramo &
@@ -54,20 +55,26 @@ export type PlanNoticia = {
   sobrio?: boolean;
 };
 
-export const PLANES_HOY = { v1, v2, v3, d29v1, d29v2, d29v3, n3v1, chv1, rpv1 };
+export const PLANES_HOY = {
+  v1,
+  v2,
+  v3,
+  d29v1,
+  d29v2,
+  d29v3,
+  n3v1,
+  chv1,
+  rpv1,
+  fsv1,
+};
 
 export const noticiaHoySchema = z.object({
-  plan: z.enum([
-    "v1",
-    "v2",
-    "v3",
-    "d29v1",
-    "d29v2",
-    "d29v3",
-    "n3v1",
-    "chv1",
-    "rpv1",
-  ]),
+  plan: z.enum(
+    Object.keys(PLANES_HOY) as [
+      keyof typeof PLANES_HOY,
+      ...(keyof typeof PLANES_HOY)[],
+    ],
+  ),
   rotuloSeg: z.number(),
   cierreExtraSeg: z.number(),
 });
