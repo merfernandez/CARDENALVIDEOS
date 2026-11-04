@@ -4,6 +4,7 @@ import { z } from "zod";
 import { ApoyoSobrio, type ApoyoPlan } from "./ApoyoSobrio";
 import { CierreNoticias } from "./CierreNoticias";
 import { FotoEsquina, type FotoPlan } from "./FotoEsquina";
+import { PortadaAlbum } from "./PortadaAlbum";
 import { VideoConVentana, type VentanaPlan } from "./VentanaPresentador";
 import { ApoyoCompleto, type TramoDividido } from "./PantallaDividida";
 import { ROJO } from "./brand";
@@ -27,6 +28,7 @@ import { plan as chv1 } from "./videos/ch-v1";
 import { plan as rpv1 } from "./videos/rp-v1";
 import { plan as fsv1 } from "./videos/fs-v1";
 import { plan as ivv1 } from "./videos/iv-v1";
+import { plan as bov1 } from "./videos/bo-v1";
 
 type Tramo = { desdeMs: number; hastaMs: number };
 export type TarjetaPlan = Tramo &
@@ -36,6 +38,7 @@ export type TarjetaPlan = Tramo &
     | { tipo: "cancion"; etiqueta: string; titulo: string; detalle: string }
     | { tipo: "redes"; texto: string; redes: string[] }
     | { tipo: "lista"; titulo: string; items: { texto: string; ms: number }[] }
+    | { tipo: "portada"; src: string; lado: "izq" | "der"; etiqueta: string }
   );
 
 // Plan de una noticia del día: video de William, tarjetas, apoyos y cierre
@@ -68,6 +71,7 @@ export const PLANES_HOY = {
   rpv1,
   fsv1,
   ivv1,
+  bov1,
 };
 
 export const noticiaHoySchema = z.object({
@@ -133,6 +137,8 @@ export const NoticiaHoy: React.FC<z.infer<typeof noticiaHoySchema>> = ({
         <Sequence key={t.desdeMs} {...tramo(t)} name={t.tipo}>
           {t.tipo === "sobria" ? (
             <TarjetaSobria antetitulo={t.antetitulo} titulo={t.titulo} />
+          ) : t.tipo === "portada" ? (
+            <PortadaAlbum src={t.src} lado={t.lado} etiqueta={t.etiqueta} />
           ) : t.tipo === "lista" ? (
             <TarjetaLista
               titulo={t.titulo}
