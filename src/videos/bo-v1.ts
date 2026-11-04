@@ -38,7 +38,7 @@ export const plan: PlanNoticia = {
       hastaMs: 38100,
       artistas: [
         { nombre: "Israel David", ms: 34861 },
-        { nombre: "Samir Benz", ms: 37038 },
+        { nombre: "Samir Vence", ms: 37038 },
       ],
     },
     {
@@ -66,7 +66,7 @@ export const plan: PlanNoticia = {
     "irra,",
     "david",
     "samir",
-    "benz.",
+    "vence.",
     "plataformas",
     "digitales.",
   ],
