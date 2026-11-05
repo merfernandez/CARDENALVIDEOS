@@ -36,6 +36,7 @@ En audios de más de ~1 minuto el alineado DTW de Whisper se "corre" al final. `
 
 - William desactivó el **Video HDR** del iPhone: los próximos videos deberían llegar en formato normal. En ese caso, respetar el color original (ajuste mínimo).
 - Si llegan en HDR (`color_transfer=arib-std-b67`), usar `bash scripts/preparar_video.sh entrada salida calido` (el color del video de Peter).
+- Para revisar el espejo, **acercar** un recorte del fondo a tamaño real (`crop=600:200:0:200`): en miniaturas pequeñas se confunde. Si se lee "ƎUQOFNE" o "ZEMAG", está en espejo.
 - Los videos de William suelen venir **en espejo** (modo selfie): voltear con `hflip` para que las letras del fondo y de la camiseta se lean bien.
 
 ### Las Más Virales (viernes)

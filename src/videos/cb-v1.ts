@@ -1,0 +1,85 @@
+// Carlos Bloom y su top 5 de artistas vallenatos (tiempos en ms, ya sin silencios)
+import type { PlanNoticia } from "../NoticiaHoy";
+
+export const plan: PlanNoticia = {
+  video: "cb/v-cut.mp4",
+  subtitulos: "cb/v-cut-captions.json",
+  seccion: "Noticias vallenatas",
+  // El podcast solo al inicio y poco tiempo (no cuando se habla del tema puntual)
+  fotos: [
+    {
+      desdeMs: 5400,
+      hastaMs: 9000,
+      src: "cb/apoyo.mp4",
+      desdeSeg: 40,
+      lado: "izq",
+      encuadre: "arriba",
+    },
+  ],
+  tarjetas: [
+    {
+      tipo: "sobria",
+      desdeMs: 300,
+      hastaMs: 5300,
+      antetitulo: "Manager y empresario",
+      titulo: "Carlos Bloom",
+    },
+    {
+      tipo: "sobria",
+      desdeMs: 9100,
+      hastaMs: 16400,
+      antetitulo: "Carlos Bloom revela",
+      titulo: "Los 5 mejores del vallenato",
+    },
+    {
+      tipo: "lista",
+      desdeMs: 16500,
+      hastaMs: 27300,
+      titulo: "El top 5 de Carlos Bloom",
+      items: [
+        { texto: "Elder Dayán Díaz", ms: 18117 },
+        { texto: "Diego Daza", ms: 20797 },
+        { texto: "Oscar Gamarra", ms: 21921 },
+        { texto: "Jafid David", ms: 22873 },
+        { texto: "Luira Solano", ms: 26017 },
+      ],
+    },
+    {
+      tipo: "sobria",
+      desdeMs: 27400,
+      hastaMs: 33900,
+      antetitulo: "En redes sociales",
+      titulo: "Genera controversia",
+    },
+    {
+      tipo: "redes",
+      desdeMs: 34000,
+      hastaMs: 39800,
+      texto: "¿Cuál es tu top 5? Coméntalo",
+      redes: ["instagram", "tiktok", "facebook", "youtube"],
+    },
+  ],
+  palabrasClave: [
+    "carlos",
+    "bloom",
+    "manager",
+    "empresario",
+    "podcast",
+    "dímelo",
+    "king.",
+    "cinco",
+    "mejores",
+    "elder",
+    "dayán",
+    "díaz,",
+    "diego",
+    "daza,",
+    "oscar",
+    "gamarra,",
+    "jafid",
+    "david",
+    "solano.",
+    "controversia",
+    "coméntalo",
+  ],
+};
