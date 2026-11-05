@@ -13,6 +13,7 @@ import { Subtitulos } from "./Subtitulos";
 import {
   TarjetaArtistas,
   TarjetaCancion,
+  TarjetaCifras,
   TarjetaLista,
   TarjetaRedes,
   TarjetaSobria,
@@ -31,6 +32,7 @@ import { plan as ivv1 } from "./videos/iv-v1";
 import { plan as bov1 } from "./videos/bo-v1";
 import { plan as drv1 } from "./videos/dr-v1";
 import { plan as cbv1 } from "./videos/cb-v1";
+import { plan as v2nv1 } from "./videos/v2n-v1";
 
 type Tramo = { desdeMs: number; hastaMs: number };
 export type TarjetaPlan = Tramo &
@@ -41,6 +43,11 @@ export type TarjetaPlan = Tramo &
     | { tipo: "redes"; texto: string; redes: string[] }
     | { tipo: "lista"; titulo: string; items: { texto: string; ms: number }[] }
     | { tipo: "portada"; src: string; lado: "izq" | "der"; etiqueta: string }
+    | {
+        tipo: "cifras";
+        antetitulo: string;
+        cifras: { numero: string; texto: string }[];
+      }
   );
 
 // Plan de una noticia del día: video de William, tarjetas, apoyos y cierre
@@ -76,6 +83,7 @@ export const PLANES_HOY = {
   bov1,
   drv1,
   cbv1,
+  v2nv1,
 };
 
 export const noticiaHoySchema = z.object({
@@ -141,6 +149,8 @@ export const NoticiaHoy: React.FC<z.infer<typeof noticiaHoySchema>> = ({
         <Sequence key={t.desdeMs} {...tramo(t)} name={t.tipo}>
           {t.tipo === "sobria" ? (
             <TarjetaSobria antetitulo={t.antetitulo} titulo={t.titulo} />
+          ) : t.tipo === "cifras" ? (
+            <TarjetaCifras antetitulo={t.antetitulo} cifras={t.cifras} />
           ) : t.tipo === "portada" ? (
             <PortadaAlbum src={t.src} lado={t.lado} etiqueta={t.etiqueta} />
           ) : t.tipo === "lista" ? (

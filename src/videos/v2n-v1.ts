@@ -1,0 +1,75 @@
+// Festival de la Leyenda Vallenata hará su propio afiche para 2027 (tiempos en ms, ya sin silencios)
+import type { PlanNoticia } from "../NoticiaHoy";
+
+export const plan: PlanNoticia = {
+  video: "v2n/v-cut.mp4",
+  subtitulos: "v2n/v-cut-captions.json",
+  seccion: "Noticias vallenatas",
+  tarjetas: [
+    {
+      tipo: "sobria",
+      desdeMs: 200,
+      hastaMs: 6200,
+      antetitulo: "Fundación Festival de la Leyenda Vallenata",
+      titulo: "Hará su propio afiche",
+    },
+    {
+      tipo: "sobria",
+      desdeMs: 6300,
+      hastaMs: 10500,
+      antetitulo: "Festival Vallenato",
+      titulo: "Versión 2027",
+    },
+    {
+      tipo: "sobria",
+      desdeMs: 10600,
+      hastaMs: 18600,
+      antetitulo: "Red Académica de Diseño",
+      titulo: "El afiche no gustó",
+    },
+    {
+      tipo: "cifras",
+      desdeMs: 18700,
+      hastaMs: 28500,
+      antetitulo: "La convocatoria",
+      cifras: [
+        { numero: "9", texto: "Propuestas" },
+        { numero: "1", texto: "Finalista, no convenció" },
+      ],
+    },
+    {
+      tipo: "sobria",
+      desdeMs: 28600,
+      hastaMs: 40300,
+      antetitulo: "Comunicado de prensa",
+      titulo: "Agradece a los diseñadores",
+    },
+    {
+      tipo: "sobria",
+      desdeMs: 45300,
+      hastaMs: 51200,
+      antetitulo: "Festival Vallenato 2027",
+      titulo: "Homenaje a sus 60 años",
+    },
+  ],
+  palabrasClave: [
+    "fundación",
+    "festival",
+    "leyenda",
+    "vallenata",
+    "vallenata.",
+    "afiche",
+    "2027.",
+    "2027,",
+    "gustó,",
+    "expectativas",
+    "red",
+    "académica",
+    "diseño.",
+    "nueve",
+    "comunicado",
+    "diseñadores",
+    "60",
+    "años",
+  ],
+};
