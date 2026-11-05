@@ -1,0 +1,906 @@
+[
+ {
+  "text": " La",
+  "startMs": 29,
+  "endMs": 269,
+  "timestampMs": 610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Fundación",
+  "startMs": 269,
+  "endMs": 1009,
+  "timestampMs": 850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Festival",
+  "startMs": 1009,
+  "endMs": 1269,
+  "timestampMs": 1590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 1269,
+  "endMs": 1389,
+  "timestampMs": 1850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 1369,
+  "endMs": 1569,
+  "timestampMs": 1950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Leyenda",
+  "startMs": 1569,
+  "endMs": 2109,
+  "timestampMs": 2150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Vallenata",
+  "startMs": 2109,
+  "endMs": 3209,
+  "timestampMs": 2690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " confirmó",
+  "startMs": 3209,
+  "endMs": 3749,
+  "timestampMs": 3790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 3749,
+  "endMs": 4269,
+  "timestampMs": 4330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " realizará",
+  "startMs": 4269,
+  "endMs": 4969,
+  "timestampMs": 4850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 4969,
+  "endMs": 5469,
+  "timestampMs": 5550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " propio",
+  "startMs": 5469,
+  "endMs": 5729,
+  "timestampMs": 6050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " afiche",
+  "startMs": 5729,
+  "endMs": 6376,
+  "timestampMs": 6310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " para",
+  "startMs": 6376,
+  "endMs": 6656,
+  "timestampMs": 7130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 6656,
+  "endMs": 7116,
+  "timestampMs": 7410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " versión",
+  "startMs": 7116,
+  "endMs": 7356,
+  "timestampMs": 7870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 7356,
+  "endMs": 7836,
+  "timestampMs": 8110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Festival",
+  "startMs": 7836,
+  "endMs": 8036,
+  "timestampMs": 8590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Vallenato",
+  "startMs": 8036,
+  "endMs": 8922,
+  "timestampMs": 8790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 2027.",
+  "startMs": 9062,
+  "endMs": 10262,
+  "timestampMs": 10130,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " El",
+  "startMs": 10634,
+  "endMs": 10894,
+  "timestampMs": 12470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " afiche",
+  "startMs": 10894,
+  "endMs": 11512,
+  "timestampMs": 12730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " no",
+  "startMs": 11612,
+  "endMs": 12192,
+  "timestampMs": 14030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " gustó,",
+  "startMs": 12192,
+  "endMs": 12615,
+  "timestampMs": 14610,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " no",
+  "startMs": 12615,
+  "endMs": 12995,
+  "timestampMs": 15290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cumplió",
+  "startMs": 12995,
+  "endMs": 13506,
+  "timestampMs": 15670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 13506,
+  "endMs": 13806,
+  "timestampMs": 16490,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 13806,
+  "endMs": 14286,
+  "timestampMs": 16790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " expectativas",
+  "startMs": 14286,
+  "endMs": 15226,
+  "timestampMs": 17270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " por",
+  "startMs": 15226,
+  "endMs": 15746,
+  "timestampMs": 18210,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " parte",
+  "startMs": 15746,
+  "endMs": 16055,
+  "timestampMs": 18730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 16055,
+  "endMs": 16221,
+  "timestampMs": 19390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 16221,
+  "endMs": 16541,
+  "timestampMs": 19570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Red",
+  "startMs": 16541,
+  "endMs": 16981,
+  "timestampMs": 19890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Académica",
+  "startMs": 16981,
+  "endMs": 17941,
+  "timestampMs": 20330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 17941,
+  "endMs": 18381,
+  "timestampMs": 21290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Diseño.",
+  "startMs": 18381,
+  "endMs": 18708,
+  "timestampMs": 21730,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Se",
+  "startMs": 18708,
+  "endMs": 18908,
+  "timestampMs": 22930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " conocieron",
+  "startMs": 18908,
+  "endMs": 19328,
+  "timestampMs": 23130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 19328,
+  "endMs": 19608,
+  "timestampMs": 23550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fueron",
+  "startMs": 19608,
+  "endMs": 20008,
+  "timestampMs": 23830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nueve",
+  "startMs": 20008,
+  "endMs": 20468,
+  "timestampMs": 24230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " propuestas,",
+  "startMs": 20468,
+  "endMs": 21188,
+  "timestampMs": 24690,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " de",
+  "startMs": 21188,
+  "endMs": 21348,
+  "timestampMs": 25410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 21348,
+  "endMs": 21528,
+  "timestampMs": 25570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nueve",
+  "startMs": 21528,
+  "endMs": 22028,
+  "timestampMs": 25750,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " quedó",
+  "startMs": 22028,
+  "endMs": 22468,
+  "timestampMs": 26250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " una,",
+  "startMs": 22468,
+  "endMs": 22755,
+  "timestampMs": 26690,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " la",
+  "startMs": 22755,
+  "endMs": 22955,
+  "timestampMs": 27230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 22955,
+  "endMs": 23215,
+  "timestampMs": 27430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " no",
+  "startMs": 23215,
+  "endMs": 23375,
+  "timestampMs": 27690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " llenó",
+  "startMs": 23375,
+  "endMs": 23755,
+  "timestampMs": 27850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 23755,
+  "endMs": 24095,
+  "timestampMs": 28230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " expectativas",
+  "startMs": 24095,
+  "endMs": 24862,
+  "timestampMs": 28570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " por",
+  "startMs": 24862,
+  "endMs": 25202,
+  "timestampMs": 29610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " parte",
+  "startMs": 25202,
+  "endMs": 25342,
+  "timestampMs": 29950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 25342,
+  "endMs": 25462,
+  "timestampMs": 30090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 25462,
+  "endMs": 25722,
+  "timestampMs": 30210,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Fundación",
+  "startMs": 25722,
+  "endMs": 26622,
+  "timestampMs": 30470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Festival",
+  "startMs": 26622,
+  "endMs": 26922,
+  "timestampMs": 31370,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 26922,
+  "endMs": 27082,
+  "timestampMs": 31670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 27082,
+  "endMs": 27322,
+  "timestampMs": 31830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Leyenda",
+  "startMs": 27322,
+  "endMs": 28003,
+  "timestampMs": 32070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Vallenata.",
+  "startMs": 28003,
+  "endMs": 28550,
+  "timestampMs": 32890,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " En",
+  "startMs": 28610,
+  "endMs": 28850,
+  "timestampMs": 34150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " un",
+  "startMs": 28850,
+  "endMs": 29710,
+  "timestampMs": 34390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " comunicado",
+  "startMs": 29710,
+  "endMs": 30230,
+  "timestampMs": 35250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 30230,
+  "endMs": 30430,
+  "timestampMs": 35770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " prensa",
+  "startMs": 30430,
+  "endMs": 31090,
+  "timestampMs": 35970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " emitido",
+  "startMs": 31090,
+  "endMs": 31667,
+  "timestampMs": 36630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 31667,
+  "endMs": 31907,
+  "timestampMs": 37550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " día",
+  "startMs": 31907,
+  "endMs": 32427,
+  "timestampMs": 37790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " anterior,",
+  "startMs": 32427,
+  "endMs": 32707,
+  "timestampMs": 38310,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " la",
+  "startMs": 32707,
+  "endMs": 32887,
+  "timestampMs": 38590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Fundación",
+  "startMs": 32887,
+  "endMs": 33789,
+  "timestampMs": 38770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " explica",
+  "startMs": 33829,
+  "endMs": 34449,
+  "timestampMs": 40010,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 34449,
+  "endMs": 34749,
+  "timestampMs": 40630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " motivos",
+  "startMs": 34749,
+  "endMs": 35329,
+  "timestampMs": 40930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 35329,
+  "endMs": 35729,
+  "timestampMs": 41510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " agradece",
+  "startMs": 35729,
+  "endMs": 36273,
+  "timestampMs": 41910,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 36273,
+  "endMs": 36449,
+  "timestampMs": 42770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 36449,
+  "endMs": 36709,
+  "timestampMs": 42970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " diseñadores",
+  "startMs": 36709,
+  "endMs": 37369,
+  "timestampMs": 43230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 37369,
+  "endMs": 37849,
+  "timestampMs": 43890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " participaron",
+  "startMs": 37849,
+  "endMs": 38489,
+  "timestampMs": 44370,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 38489,
+  "endMs": 38829,
+  "timestampMs": 45010,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " esta",
+  "startMs": 38829,
+  "endMs": 39550,
+  "timestampMs": 45350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " convocatoria.",
+  "startMs": 39550,
+  "endMs": 40322,
+  "timestampMs": 46390,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Esperemos",
+  "startMs": 40430,
+  "endMs": 41070,
+  "timestampMs": 47790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 41156,
+  "endMs": 41476,
+  "timestampMs": 49250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " qué",
+  "startMs": 41476,
+  "endMs": 41756,
+  "timestampMs": 49570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " afiche",
+  "startMs": 41756,
+  "endMs": 42236,
+  "timestampMs": 49850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " saldrá",
+  "startMs": 42236,
+  "endMs": 42496,
+  "timestampMs": 50330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 42496,
+  "endMs": 42956,
+  "timestampMs": 50590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Festival",
+  "startMs": 42956,
+  "endMs": 43236,
+  "timestampMs": 51050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 43236,
+  "endMs": 43356,
+  "timestampMs": 51330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 43356,
+  "endMs": 43576,
+  "timestampMs": 51450,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Leyenda",
+  "startMs": 43576,
+  "endMs": 43996,
+  "timestampMs": 51670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Vallenata",
+  "startMs": 43996,
+  "endMs": 44814,
+  "timestampMs": 52090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " para",
+  "startMs": 44814,
+  "endMs": 44994,
+  "timestampMs": 53250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 44994,
+  "endMs": 45354,
+  "timestampMs": 53430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 2027,",
+  "startMs": 45354,
+  "endMs": 46554,
+  "timestampMs": 53790,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " que",
+  "startMs": 46647,
+  "endMs": 46967,
+  "timestampMs": 55410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " será",
+  "startMs": 46967,
+  "endMs": 47167,
+  "timestampMs": 55730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " un",
+  "startMs": 47167,
+  "endMs": 47347,
+  "timestampMs": 55930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " homenaje",
+  "startMs": 47347,
+  "endMs": 48011,
+  "timestampMs": 56110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 48011,
+  "endMs": 48243,
+  "timestampMs": 57090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 48243,
+  "endMs": 48783,
+  "timestampMs": 57330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 60",
+  "startMs": 48783,
+  "endMs": 49203,
+  "timestampMs": 57870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " años",
+  "startMs": 49203,
+  "endMs": 49603,
+  "timestampMs": 58290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 49603,
+  "endMs": 50163,
+  "timestampMs": 58890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Festival",
+  "startMs": 50163,
+  "endMs": 50628,
+  "timestampMs": 59450,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Vallenato.",
+  "startMs": 50628,
+  "endMs": 51268,
+  "timestampMs": 60310,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]
