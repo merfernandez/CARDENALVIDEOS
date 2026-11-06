@@ -29,7 +29,7 @@ const INTRO_LOGO = 75; // cuadros que el logo se queda grande al centro
 const f = (ms: number, fps: number) => Math.round((ms / 1000) * fps);
 
 // Logo: entra grande al centro y viaja a la esquina, donde se queda hasta el cierre
-const LogoFijo: React.FC = () => {
+export const LogoFijo: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const viaje = spring({
@@ -69,7 +69,7 @@ const LogoFijo: React.FC = () => {
 };
 
 // Separador rápido "#1 / #2 / #3" antes de cada noticia (con whoosh)
-const Separador: React.FC<{
+export const Separador: React.FC<{
   numero: number;
   titulo: string;
   detalle: string;
@@ -181,7 +181,9 @@ const Separador: React.FC<{
 };
 
 // En "Las Más Virales" las tarjetas van ABAJO, bajo los subtítulos, para no saturar el logo ni tapar a William
-const Bajar: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+export const Bajar: React.FC<{ children: React.ReactNode }> = ({
+  children,
+}) => (
   <AbsoluteFill style={{ transform: "translateY(1330px)" }}>
     {children}
   </AbsoluteFill>
