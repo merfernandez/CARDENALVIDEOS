@@ -1,0 +1,546 @@
+[
+ {
+  "text": " Hola,",
+  "startMs": 784,
+  "endMs": 1269,
+  "timestampMs": 784,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " cardenalistas.",
+  "startMs": 1269,
+  "endMs": 2625,
+  "timestampMs": 1269,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Fabián",
+  "startMs": 2625,
+  "endMs": 3207,
+  "timestampMs": 2625,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Corrales",
+  "startMs": 3207,
+  "endMs": 3982,
+  "timestampMs": 3207,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " prendió",
+  "startMs": 3982,
+  "endMs": 4660,
+  "timestampMs": 3982,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 4660,
+  "endMs": 4854,
+  "timestampMs": 4660,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fin",
+  "startMs": 4854,
+  "endMs": 5145,
+  "timestampMs": 4854,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 5145,
+  "endMs": 5339,
+  "timestampMs": 5145,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " semana",
+  "startMs": 5339,
+  "endMs": 5920,
+  "timestampMs": 5339,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 5920,
+  "endMs": 6211,
+  "timestampMs": 5920,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 6211,
+  "endMs": 6404,
+  "timestampMs": 6211,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nuevo",
+  "startMs": 6404,
+  "endMs": 6889,
+  "timestampMs": 6404,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " EP",
+  "startMs": 6889,
+  "endMs": 7083,
+  "timestampMs": 6889,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Amanecemos",
+  "startMs": 7083,
+  "endMs": 8052,
+  "timestampMs": 7083,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Parrandeando,",
+  "startMs": 8052,
+  "endMs": 9721,
+  "timestampMs": 8052,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " este",
+  "startMs": 9721,
+  "endMs": 10109,
+  "timestampMs": 9721,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " clásico",
+  "startMs": 10109,
+  "endMs": 10787,
+  "timestampMs": 10109,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sabroso",
+  "startMs": 10787,
+  "endMs": 11465,
+  "timestampMs": 10787,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 11465,
+  "endMs": 11659,
+  "timestampMs": 11465,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nuestro",
+  "startMs": 11659,
+  "endMs": 12654,
+  "timestampMs": 11659,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " folclor.",
+  "startMs": 12654,
+  "endMs": 13429,
+  "timestampMs": 12654,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Vienen",
+  "startMs": 13818,
+  "endMs": 14290,
+  "timestampMs": 13818,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " incluidas",
+  "startMs": 14290,
+  "endMs": 14999,
+  "timestampMs": 14290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cuatro",
+  "startMs": 14999,
+  "endMs": 15471,
+  "timestampMs": 14999,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " canciones",
+  "startMs": 15471,
+  "endMs": 16490,
+  "timestampMs": 15471,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Amanecemos",
+  "startMs": 16490,
+  "endMs": 17277,
+  "timestampMs": 16490,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Parrandeando,",
+  "startMs": 17277,
+  "endMs": 18636,
+  "timestampMs": 17277,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Ya",
+  "startMs": 18636,
+  "endMs": 18793,
+  "timestampMs": 18636,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " se",
+  "startMs": 18793,
+  "endMs": 18951,
+  "timestampMs": 18793,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " terminó,",
+  "startMs": 18951,
+  "endMs": 19852,
+  "timestampMs": 18951,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Yo",
+  "startMs": 19852,
+  "endMs": 20009,
+  "timestampMs": 19852,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tengo",
+  "startMs": 20009,
+  "endMs": 20403,
+  "timestampMs": 20009,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " una",
+  "startMs": 20403,
+  "endMs": 20639,
+  "timestampMs": 20403,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " novia",
+  "startMs": 20639,
+  "endMs": 21032,
+  "timestampMs": 20639,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 21032,
+  "endMs": 21111,
+  "timestampMs": 21032,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " El",
+  "startMs": 21111,
+  "endMs": 21268,
+  "timestampMs": 21111,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Disfraz.",
+  "startMs": 21268,
+  "endMs": 21820,
+  "timestampMs": 21268,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Las",
+  "startMs": 21820,
+  "endMs": 22396,
+  "timestampMs": 21820,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cuatro",
+  "startMs": 22396,
+  "endMs": 22783,
+  "timestampMs": 22396,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " canciones",
+  "startMs": 22783,
+  "endMs": 23365,
+  "timestampMs": 22783,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cuentan",
+  "startMs": 23365,
+  "endMs": 23817,
+  "timestampMs": 23365,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 23817,
+  "endMs": 24010,
+  "timestampMs": 23817,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " videoclip",
+  "startMs": 24010,
+  "endMs": 24964,
+  "timestampMs": 24010,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 24964,
+  "endMs": 25158,
+  "timestampMs": 24964,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ya",
+  "startMs": 25158,
+  "endMs": 25287,
+  "timestampMs": 25158,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " está",
+  "startMs": 25287,
+  "endMs": 25545,
+  "timestampMs": 25287,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " disponible",
+  "startMs": 25545,
+  "endMs": 26191,
+  "timestampMs": 25545,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 26191,
+  "endMs": 26320,
+  "timestampMs": 26191,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " todas",
+  "startMs": 26320,
+  "endMs": 26643,
+  "timestampMs": 26320,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 26643,
+  "endMs": 26837,
+  "timestampMs": 26643,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " plataformas",
+  "startMs": 26837,
+  "endMs": 27874,
+  "timestampMs": 26837,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " digitales.",
+  "startMs": 27874,
+  "endMs": 28520,
+  "timestampMs": 27874,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Para",
+  "startMs": 28720,
+  "endMs": 29050,
+  "timestampMs": 28720,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 29050,
+  "endMs": 29215,
+  "timestampMs": 29050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fin",
+  "startMs": 29215,
+  "endMs": 29462,
+  "timestampMs": 29215,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 29462,
+  "endMs": 29627,
+  "timestampMs": 29462,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " año,",
+  "startMs": 29627,
+  "endMs": 30279,
+  "timestampMs": 29627,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " nuestra",
+  "startMs": 30279,
+  "endMs": 30857,
+  "timestampMs": 30279,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " canción",
+  "startMs": 30857,
+  "endMs": 31435,
+  "timestampMs": 30857,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " recomendada",
+  "startMs": 31435,
+  "endMs": 32699,
+  "timestampMs": 31435,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Amanecemos",
+  "startMs": 32699,
+  "endMs": 33524,
+  "timestampMs": 32699,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Parrandeando",
+  "startMs": 33524,
+  "endMs": 34514,
+  "timestampMs": 33524,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 34514,
+  "endMs": 34762,
+  "timestampMs": 34514,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Fabián",
+  "startMs": 34762,
+  "endMs": 35257,
+  "timestampMs": 34762,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Corrales",
+  "startMs": 35257,
+  "endMs": 36179,
+  "timestampMs": 35257,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 36179,
+  "endMs": 36262,
+  "timestampMs": 36179,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Leonardo",
+  "startMs": 36262,
+  "endMs": 36922,
+  "timestampMs": 36262,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Farfán.",
+  "startMs": 36922,
+  "endMs": 37500,
+  "timestampMs": 36922,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]

@@ -33,6 +33,7 @@ import { plan as bov1 } from "./videos/bo-v1";
 import { plan as drv1 } from "./videos/dr-v1";
 import { plan as cbv1 } from "./videos/cb-v1";
 import { plan as v2nv1 } from "./videos/v2n-v1";
+import { plan as fcv1 } from "./videos/fc-v1";
 
 type Tramo = { desdeMs: number; hastaMs: number };
 export type TarjetaPlan = Tramo &
@@ -84,6 +85,7 @@ export const PLANES_HOY = {
   drv1,
   cbv1,
   v2nv1,
+  fcv1,
 };
 
 export const noticiaHoySchema = z.object({
