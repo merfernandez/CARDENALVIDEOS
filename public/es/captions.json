@@ -1,0 +1,1098 @@
+[
+ {
+  "text": " La",
+  "startMs": 1090,
+  "endMs": 1350,
+  "timestampMs": 1090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nota",
+  "startMs": 1350,
+  "endMs": 1630,
+  "timestampMs": 1350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " curiosa",
+  "startMs": 1630,
+  "endMs": 2270,
+  "timestampMs": 1630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " para",
+  "startMs": 2270,
+  "endMs": 2530,
+  "timestampMs": 2270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " este",
+  "startMs": 2530,
+  "endMs": 2710,
+  "timestampMs": 2530,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " lunes,",
+  "startMs": 2710,
+  "endMs": 3250,
+  "timestampMs": 2710,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " el",
+  "startMs": 3250,
+  "endMs": 3550,
+  "timestampMs": 3250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " pasado",
+  "startMs": 3550,
+  "endMs": 3870,
+  "timestampMs": 3550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fin",
+  "startMs": 3870,
+  "endMs": 4070,
+  "timestampMs": 3870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 4070,
+  "endMs": 4590,
+  "timestampMs": 4070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " semana,",
+  "startMs": 4590,
+  "endMs": 5130,
+  "timestampMs": 4590,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " amaneció",
+  "startMs": 5130,
+  "endMs": 5750,
+  "timestampMs": 5130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 5750,
+  "endMs": 6030,
+  "timestampMs": 5750,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " escultura",
+  "startMs": 6030,
+  "endMs": 6910,
+  "timestampMs": 6030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 6910,
+  "endMs": 7170,
+  "timestampMs": 6910,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cacique",
+  "startMs": 7170,
+  "endMs": 7750,
+  "timestampMs": 7170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ubicada",
+  "startMs": 7750,
+  "endMs": 8710,
+  "timestampMs": 7750,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 8710,
+  "endMs": 8830,
+  "timestampMs": 8710,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 8830,
+  "endMs": 9010,
+  "timestampMs": 8830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " parque",
+  "startMs": 9010,
+  "endMs": 9250,
+  "timestampMs": 9010,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 9250,
+  "endMs": 9370,
+  "timestampMs": 9250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 9330,
+  "endMs": 9570,
+  "timestampMs": 9330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " provincia",
+  "startMs": 9570,
+  "endMs": 10010,
+  "timestampMs": 9570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 10010,
+  "endMs": 10130,
+  "timestampMs": 10010,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Valle",
+  "startMs": 10110,
+  "endMs": 10390,
+  "timestampMs": 10110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Dupar",
+  "startMs": 10390,
+  "endMs": 10970,
+  "timestampMs": 10390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sin",
+  "startMs": 10970,
+  "endMs": 11270,
+  "timestampMs": 10970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " uno",
+  "startMs": 11270,
+  "endMs": 11410,
+  "timestampMs": 11270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 11410,
+  "endMs": 11590,
+  "timestampMs": 11410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sus",
+  "startMs": 11590,
+  "endMs": 11770,
+  "timestampMs": 11590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " brazos.",
+  "startMs": 11770,
+  "endMs": 12770,
+  "timestampMs": 11770,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Esto",
+  "startMs": 12770,
+  "endMs": 13070,
+  "timestampMs": 12770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " debido",
+  "startMs": 13070,
+  "endMs": 13290,
+  "timestampMs": 13070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " al",
+  "startMs": 13290,
+  "endMs": 13470,
+  "timestampMs": 13290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " vandalismo",
+  "startMs": 13470,
+  "endMs": 14170,
+  "timestampMs": 13470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 14170,
+  "endMs": 14290,
+  "timestampMs": 14170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " al",
+  "startMs": 14290,
+  "endMs": 14650,
+  "timestampMs": 14290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " exceso",
+  "startMs": 14650,
+  "endMs": 15250,
+  "timestampMs": 14650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 15250,
+  "endMs": 15610,
+  "timestampMs": 15250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " turistas",
+  "startMs": 15610,
+  "endMs": 16510,
+  "timestampMs": 15610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 16510,
+  "endMs": 16710,
+  "timestampMs": 16510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " se",
+  "startMs": 16710,
+  "endMs": 17010,
+  "timestampMs": 16710,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " montan",
+  "startMs": 17010,
+  "endMs": 17610,
+  "timestampMs": 17010,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " encima",
+  "startMs": 17610,
+  "endMs": 17890,
+  "timestampMs": 17610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 17890,
+  "endMs": 18150,
+  "timestampMs": 17890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " brazo",
+  "startMs": 18150,
+  "endMs": 18630,
+  "timestampMs": 18150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 18630,
+  "endMs": 18810,
+  "timestampMs": 18630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cacique.",
+  "startMs": 18810,
+  "endMs": 20010,
+  "timestampMs": 18810,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Una",
+  "startMs": 20350,
+  "endMs": 20830,
+  "timestampMs": 20350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cosa",
+  "startMs": 20830,
+  "endMs": 21670,
+  "timestampMs": 20830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " es",
+  "startMs": 21670,
+  "endMs": 22190,
+  "timestampMs": 21670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sentarse",
+  "startMs": 22190,
+  "endMs": 23130,
+  "timestampMs": 22190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 23130,
+  "endMs": 23430,
+  "timestampMs": 23130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 23430,
+  "endMs": 23830,
+  "timestampMs": 23430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " piernas",
+  "startMs": 23830,
+  "endMs": 24390,
+  "timestampMs": 23830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 24390,
+  "endMs": 24650,
+  "timestampMs": 24390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cacique,",
+  "startMs": 24650,
+  "endMs": 25850,
+  "timestampMs": 24650,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " principalmente",
+  "startMs": 25850,
+  "endMs": 26230,
+  "timestampMs": 25850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 26230,
+  "endMs": 26590,
+  "timestampMs": 26230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " mujeres,",
+  "startMs": 26590,
+  "endMs": 27290,
+  "timestampMs": 26590,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " pero",
+  "startMs": 27290,
+  "endMs": 27450,
+  "timestampMs": 27290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " se",
+  "startMs": 27450,
+  "endMs": 27650,
+  "timestampMs": 27450,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " están",
+  "startMs": 27650,
+  "endMs": 27950,
+  "timestampMs": 27650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " preguntando",
+  "startMs": 27950,
+  "endMs": 28330,
+  "timestampMs": 27950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 28330,
+  "endMs": 28470,
+  "timestampMs": 28330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Valle",
+  "startMs": 28470,
+  "endMs": 28710,
+  "timestampMs": 28470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Dupar,",
+  "startMs": 28710,
+  "endMs": 29270,
+  "timestampMs": 28710,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " ¿Será",
+  "startMs": 29270,
+  "endMs": 29590,
+  "timestampMs": 29270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 29590,
+  "endMs": 29710,
+  "timestampMs": 29590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 29710,
+  "endMs": 29930,
+  "timestampMs": 29710,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " brazo",
+  "startMs": 29930,
+  "endMs": 30570,
+  "timestampMs": 29930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 30570,
+  "endMs": 30730,
+  "timestampMs": 30570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cacique",
+  "startMs": 30730,
+  "endMs": 31570,
+  "timestampMs": 30730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " es",
+  "startMs": 31570,
+  "endMs": 31790,
+  "timestampMs": 31570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " mágico,",
+  "startMs": 31790,
+  "endMs": 32650,
+  "timestampMs": 31790,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " es",
+  "startMs": 32650,
+  "endMs": 32850,
+  "timestampMs": 32650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " milagroso?",
+  "startMs": 32850,
+  "endMs": 33710,
+  "timestampMs": 32850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Le",
+  "startMs": 33710,
+  "endMs": 34030,
+  "timestampMs": 33710,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tumbaron",
+  "startMs": 34030,
+  "endMs": 34450,
+  "timestampMs": 34030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 34450,
+  "endMs": 34650,
+  "timestampMs": 34450,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " brazo",
+  "startMs": 34650,
+  "endMs": 34970,
+  "timestampMs": 34650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " al",
+  "startMs": 34970,
+  "endMs": 35110,
+  "timestampMs": 34970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cacique",
+  "startMs": 35110,
+  "endMs": 36010,
+  "timestampMs": 35110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ahí",
+  "startMs": 36010,
+  "endMs": 36150,
+  "timestampMs": 36010,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 36150,
+  "endMs": 36270,
+  "timestampMs": 36150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 36270,
+  "endMs": 36470,
+  "timestampMs": 36270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " parque",
+  "startMs": 36470,
+  "endMs": 36730,
+  "timestampMs": 36470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 36730,
+  "endMs": 36850,
+  "timestampMs": 36730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 36850,
+  "endMs": 37090,
+  "timestampMs": 36850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " provincia.",
+  "startMs": 37090,
+  "endMs": 37890,
+  "timestampMs": 37090,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Vamos",
+  "startMs": 37890,
+  "endMs": 38050,
+  "timestampMs": 37890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 38050,
+  "endMs": 38250,
+  "timestampMs": 38050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ver,",
+  "startMs": 38250,
+  "endMs": 38990,
+  "timestampMs": 38250,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " me",
+  "startMs": 38990,
+  "endMs": 39250,
+  "timestampMs": 38990,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " dicen",
+  "startMs": 39250,
+  "endMs": 39390,
+  "timestampMs": 39250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 39390,
+  "endMs": 39510,
+  "timestampMs": 39390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ya",
+  "startMs": 39510,
+  "endMs": 39690,
+  "timestampMs": 39510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " está",
+  "startMs": 39690,
+  "endMs": 39890,
+  "timestampMs": 39690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 39890,
+  "endMs": 40470,
+  "timestampMs": 39890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " reparación,",
+  "startMs": 40470,
+  "endMs": 41450,
+  "timestampMs": 40470,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " pero",
+  "startMs": 41450,
+  "endMs": 41690,
+  "timestampMs": 41450,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " hay",
+  "startMs": 41690,
+  "endMs": 41830,
+  "timestampMs": 41690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 41830,
+  "endMs": 42210,
+  "timestampMs": 41830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " pedirle",
+  "startMs": 42210,
+  "endMs": 43030,
+  "timestampMs": 42210,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cultura",
+  "startMs": 43030,
+  "endMs": 43970,
+  "timestampMs": 43030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ciudadana",
+  "startMs": 43970,
+  "endMs": 44630,
+  "timestampMs": 43970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 44630,
+  "endMs": 44930,
+  "timestampMs": 44630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 44930,
+  "endMs": 45190,
+  "timestampMs": 44930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " turistas",
+  "startMs": 45190,
+  "endMs": 45750,
+  "timestampMs": 45190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 45750,
+  "endMs": 45990,
+  "timestampMs": 45750,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " llegan",
+  "startMs": 45990,
+  "endMs": 46310,
+  "timestampMs": 45990,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " al",
+  "startMs": 46310,
+  "endMs": 46510,
+  "timestampMs": 46310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " parque",
+  "startMs": 46510,
+  "endMs": 46770,
+  "timestampMs": 46510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 46770,
+  "endMs": 46890,
+  "timestampMs": 46770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 46870,
+  "endMs": 47110,
+  "timestampMs": 46870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " provincia",
+  "startMs": 47110,
+  "endMs": 47910,
+  "timestampMs": 47110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 47910,
+  "endMs": 48170,
+  "timestampMs": 47910,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tomarse",
+  "startMs": 48170,
+  "endMs": 48550,
+  "timestampMs": 48170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 48550,
+  "endMs": 48810,
+  "timestampMs": 48550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " foto",
+  "startMs": 48810,
+  "endMs": 49010,
+  "timestampMs": 48810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 49010,
+  "endMs": 49130,
+  "timestampMs": 49010,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 49130,
+  "endMs": 49270,
+  "timestampMs": 49130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " más",
+  "startMs": 49270,
+  "endMs": 49550,
+  "timestampMs": 49270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " grande",
+  "startMs": 49550,
+  "endMs": 49690,
+  "timestampMs": 49550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 49690,
+  "endMs": 49810,
+  "timestampMs": 49690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 49770,
+  "endMs": 50090,
+  "timestampMs": 49770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " música",
+  "startMs": 50090,
+  "endMs": 50270,
+  "timestampMs": 50090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " vallenata,",
+  "startMs": 50270,
+  "endMs": 51230,
+  "timestampMs": 50270,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Diomedes",
+  "startMs": 51230,
+  "endMs": 51730,
+  "timestampMs": 51230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Díaz,",
+  "startMs": 51730,
+  "endMs": 52050,
+  "timestampMs": 51730,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " que",
+  "startMs": 52050,
+  "endMs": 52190,
+  "timestampMs": 52050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ahora",
+  "startMs": 52190,
+  "endMs": 52410,
+  "timestampMs": 52190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tiene",
+  "startMs": 52410,
+  "endMs": 52550,
+  "timestampMs": 52410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 52550,
+  "endMs": 52690,
+  "timestampMs": 52550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " brazo",
+  "startMs": 52690,
+  "endMs": 53270,
+  "timestampMs": 52690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " también",
+  "startMs": 53270,
+  "endMs": 53910,
+  "timestampMs": 53270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " milagroso.",
+  "startMs": 53910,
+  "endMs": 54690,
+  "timestampMs": 53910,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]
