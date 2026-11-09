@@ -1,0 +1,490 @@
+[
+ {
+  "text": " Les",
+  "startMs": 105,
+  "endMs": 285,
+  "timestampMs": 570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cuento",
+  "startMs": 285,
+  "endMs": 645,
+  "timestampMs": 750,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 645,
+  "endMs": 785,
+  "timestampMs": 1110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 785,
+  "endMs": 1085,
+  "timestampMs": 1250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " China",
+  "startMs": 1085,
+  "endMs": 1565,
+  "timestampMs": 1550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " viene",
+  "startMs": 1565,
+  "endMs": 2025,
+  "timestampMs": 2030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 2025,
+  "endMs": 2485,
+  "timestampMs": 2490,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " todo.",
+  "startMs": 2485,
+  "endMs": 3085,
+  "timestampMs": 2950,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Laura",
+  "startMs": 3085,
+  "endMs": 3505,
+  "timestampMs": 3550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Burger",
+  "startMs": 3505,
+  "endMs": 4025,
+  "timestampMs": 3970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 4025,
+  "endMs": 4385,
+  "timestampMs": 4490,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Sebastián",
+  "startMs": 4385,
+  "endMs": 5365,
+  "timestampMs": 4850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Sepúlveda",
+  "startMs": 5365,
+  "endMs": 6125,
+  "timestampMs": 5830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " presentan",
+  "startMs": 6125,
+  "endMs": 6926,
+  "timestampMs": 6590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " este",
+  "startMs": 6926,
+  "endMs": 7226,
+  "timestampMs": 7530,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " jueves",
+  "startMs": 7226,
+  "endMs": 7906,
+  "timestampMs": 7830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 12",
+  "startMs": 7906,
+  "endMs": 8206,
+  "timestampMs": 8510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 8206,
+  "endMs": 8346,
+  "timestampMs": 8810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " noviembre",
+  "startMs": 8346,
+  "endMs": 9164,
+  "timestampMs": 8950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Campeones,",
+  "startMs": 9164,
+  "endMs": 10224,
+  "timestampMs": 10070,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " su",
+  "startMs": 10224,
+  "endMs": 10564,
+  "timestampMs": 11130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nueva",
+  "startMs": 10564,
+  "endMs": 11364,
+  "timestampMs": 11470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " producción",
+  "startMs": 11364,
+  "endMs": 12224,
+  "timestampMs": 12270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical.",
+  "startMs": 12224,
+  "endMs": 12661,
+  "timestampMs": 13130,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Este",
+  "startMs": 12661,
+  "endMs": 12881,
+  "timestampMs": 13890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " álbum",
+  "startMs": 12881,
+  "endMs": 13350,
+  "timestampMs": 14110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " trae",
+  "startMs": 13350,
+  "endMs": 14030,
+  "timestampMs": 14750,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 13",
+  "startMs": 14030,
+  "endMs": 14630,
+  "timestampMs": 15430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " canciones",
+  "startMs": 14630,
+  "endMs": 15210,
+  "timestampMs": 16030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 15210,
+  "endMs": 15750,
+  "timestampMs": 16610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " importantes",
+  "startMs": 15750,
+  "endMs": 16150,
+  "timestampMs": 17150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " compositores",
+  "startMs": 16150,
+  "endMs": 16940,
+  "timestampMs": 17550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 16940,
+  "endMs": 17100,
+  "timestampMs": 18530,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 17100,
+  "endMs": 17400,
+  "timestampMs": 18690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nueva",
+  "startMs": 17400,
+  "endMs": 17920,
+  "timestampMs": 18990,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " generación",
+  "startMs": 17920,
+  "endMs": 18660,
+  "timestampMs": 19510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 18660,
+  "endMs": 18920,
+  "timestampMs": 20250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " vallenato.",
+  "startMs": 18920,
+  "endMs": 19804,
+  "timestampMs": 20510,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " La",
+  "startMs": 19804,
+  "endMs": 20164,
+  "timestampMs": 21630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " China",
+  "startMs": 20164,
+  "endMs": 20464,
+  "timestampMs": 21990,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " le",
+  "startMs": 20464,
+  "endMs": 20744,
+  "timestampMs": 22290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sigue",
+  "startMs": 20744,
+  "endMs": 21144,
+  "timestampMs": 22570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " apostando",
+  "startMs": 21144,
+  "endMs": 21504,
+  "timestampMs": 22970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 21504,
+  "endMs": 21644,
+  "timestampMs": 23330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 21644,
+  "endMs": 22164,
+  "timestampMs": 23470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " proyecto",
+  "startMs": 22164,
+  "endMs": 22635,
+  "timestampMs": 23990,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ahora",
+  "startMs": 22635,
+  "endMs": 22955,
+  "timestampMs": 24630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 22955,
+  "endMs": 23195,
+  "timestampMs": 24950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 23195,
+  "endMs": 23535,
+  "timestampMs": 25190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nueva",
+  "startMs": 23535,
+  "endMs": 24175,
+  "timestampMs": 25530,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " producción",
+  "startMs": 24175,
+  "endMs": 25055,
+  "timestampMs": 26170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical.",
+  "startMs": 25055,
+  "endMs": 25539,
+  "timestampMs": 27050,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Inédita",
+  "startMs": 25539,
+  "endMs": 26119,
+  "timestampMs": 27870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 26119,
+  "endMs": 26659,
+  "timestampMs": 28450,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " producción",
+  "startMs": 26659,
+  "endMs": 27088,
+  "timestampMs": 28990,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Campeones",
+  "startMs": 27088,
+  "endMs": 27728,
+  "timestampMs": 29630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 27728,
+  "endMs": 28068,
+  "timestampMs": 30270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Laura",
+  "startMs": 28068,
+  "endMs": 28248,
+  "timestampMs": 30610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Hamburger,",
+  "startMs": 28248,
+  "endMs": 29015,
+  "timestampMs": 30790,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " La",
+  "startMs": 29015,
+  "endMs": 29435,
+  "timestampMs": 31750,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " China.",
+  "startMs": 29435,
+  "endMs": 29605,
+  "timestampMs": 32170,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]
