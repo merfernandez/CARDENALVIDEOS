@@ -23,13 +23,6 @@ export const plan: PlanNoticia = {
   tarjetas: [
     {
       tipo: "sobria",
-      desdeMs: 11000,
-      hastaMs: 17600,
-      antetitulo: "Parque de la Provincia, Valledupar",
-      titulo: "Vandalismo y exceso de turistas",
-    },
-    {
-      tipo: "sobria",
       desdeMs: 25800,
       hastaMs: 29600,
       antetitulo: "Se preguntan en Valledupar",
