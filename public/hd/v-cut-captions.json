@@ -1,0 +1,706 @@
+[
+ {
+  "text": " Las",
+  "startMs": 60,
+  "endMs": 300,
+  "timestampMs": 581,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " buenas",
+  "startMs": 300,
+  "endMs": 779,
+  "timestampMs": 821,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " noticias",
+  "startMs": 779,
+  "endMs": 1419,
+  "timestampMs": 1300,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " no",
+  "startMs": 1419,
+  "endMs": 1579,
+  "timestampMs": 1940,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " paran",
+  "startMs": 1579,
+  "endMs": 1979,
+  "timestampMs": 2100,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " para",
+  "startMs": 1979,
+  "endMs": 2299,
+  "timestampMs": 2500,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 2299,
+  "endMs": 2459,
+  "timestampMs": 2820,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " artista",
+  "startMs": 2459,
+  "endMs": 3019,
+  "timestampMs": 2980,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " riohachero",
+  "startMs": 3019,
+  "endMs": 3819,
+  "timestampMs": 3540,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Haffit",
+  "startMs": 3819,
+  "endMs": 4219,
+  "timestampMs": 4340,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " David.",
+  "startMs": 4219,
+  "endMs": 4699,
+  "timestampMs": 4740,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Ayer",
+  "startMs": 4699,
+  "endMs": 5143,
+  "timestampMs": 5220,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 5143,
+  "endMs": 5365,
+  "timestampMs": 5664,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Bogotá",
+  "startMs": 5365,
+  "endMs": 6032,
+  "timestampMs": 5886,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " recibió",
+  "startMs": 6032,
+  "endMs": 6929,
+  "timestampMs": 6553,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " disco",
+  "startMs": 6929,
+  "endMs": 7485,
+  "timestampMs": 7705,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 7485,
+  "endMs": 7707,
+  "timestampMs": 8261,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " oro,",
+  "startMs": 7707,
+  "endMs": 8151,
+  "timestampMs": 8483,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " platino",
+  "startMs": 8151,
+  "endMs": 8929,
+  "timestampMs": 8927,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 8929,
+  "endMs": 9040,
+  "timestampMs": 9705,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " diamante",
+  "startMs": 9040,
+  "endMs": 9929,
+  "timestampMs": 9816,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " por",
+  "startMs": 9929,
+  "endMs": 10262,
+  "timestampMs": 10705,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 10262,
+  "endMs": 10595,
+  "timestampMs": 11038,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " éxitos",
+  "startMs": 10595,
+  "endMs": 11262,
+  "timestampMs": 11371,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 11262,
+  "endMs": 11604,
+  "timestampMs": 12038,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 11604,
+  "endMs": 11826,
+  "timestampMs": 12588,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " primera",
+  "startMs": 11826,
+  "endMs": 12604,
+  "timestampMs": 12810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " producción",
+  "startMs": 12604,
+  "endMs": 13715,
+  "timestampMs": 13588,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical",
+  "startMs": 13715,
+  "endMs": 14492,
+  "timestampMs": 14699,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Zúmbalo.",
+  "startMs": 14492,
+  "endMs": 15494,
+  "timestampMs": 15476,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Además,",
+  "startMs": 15494,
+  "endMs": 16360,
+  "timestampMs": 16760,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " le",
+  "startMs": 16360,
+  "endMs": 16544,
+  "timestampMs": 18121,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " entregaron",
+  "startMs": 16544,
+  "endMs": 17462,
+  "timestampMs": 18305,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 17462,
+  "endMs": 17645,
+  "timestampMs": 19223,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " placa",
+  "startMs": 17645,
+  "endMs": 18104,
+  "timestampMs": 19406,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 18104,
+  "endMs": 18288,
+  "timestampMs": 19865,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " YouTube",
+  "startMs": 18288,
+  "endMs": 18930,
+  "timestampMs": 20049,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tras",
+  "startMs": 18930,
+  "endMs": 19416,
+  "timestampMs": 20691,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " superar",
+  "startMs": 19416,
+  "endMs": 20059,
+  "timestampMs": 21531,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 20059,
+  "endMs": 20334,
+  "timestampMs": 22174,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 100",
+  "startMs": 20334,
+  "endMs": 20609,
+  "timestampMs": 22449,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " mil",
+  "startMs": 20609,
+  "endMs": 20885,
+  "timestampMs": 22724,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " suscriptores",
+  "startMs": 20885,
+  "endMs": 22105,
+  "timestampMs": 23000,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 22105,
+  "endMs": 22288,
+  "timestampMs": 24497,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " esta",
+  "startMs": 22288,
+  "endMs": 22655,
+  "timestampMs": 24680,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " red",
+  "startMs": 22655,
+  "endMs": 22931,
+  "timestampMs": 25047,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " social.",
+  "startMs": 22931,
+  "endMs": 23573,
+  "timestampMs": 25323,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Haffit",
+  "startMs": 23683,
+  "endMs": 24075,
+  "timestampMs": 26540,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " David",
+  "startMs": 24075,
+  "endMs": 24467,
+  "timestampMs": 26932,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " junto",
+  "startMs": 24467,
+  "endMs": 24722,
+  "timestampMs": 27324,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 24722,
+  "endMs": 24800,
+  "timestampMs": 27717,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 24800,
+  "endMs": 24957,
+  "timestampMs": 27795,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " banda",
+  "startMs": 24957,
+  "endMs": 25350,
+  "timestampMs": 27952,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fueron",
+  "startMs": 25350,
+  "endMs": 25938,
+  "timestampMs": 28345,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " artistas",
+  "startMs": 25938,
+  "endMs": 26566,
+  "timestampMs": 29111,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " estelares",
+  "startMs": 26566,
+  "endMs": 27273,
+  "timestampMs": 29739,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 27273,
+  "endMs": 27430,
+  "timestampMs": 30446,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " pasado",
+  "startMs": 27430,
+  "endMs": 27901,
+  "timestampMs": 30603,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fin",
+  "startMs": 27901,
+  "endMs": 28136,
+  "timestampMs": 31074,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 28136,
+  "endMs": 28293,
+  "timestampMs": 31309,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " semana",
+  "startMs": 28293,
+  "endMs": 28878,
+  "timestampMs": 31466,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 28878,
+  "endMs": 29035,
+  "timestampMs": 32281,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Barranquilla",
+  "startMs": 29035,
+  "endMs": 29977,
+  "timestampMs": 32438,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 29977,
+  "endMs": 30134,
+  "timestampMs": 33380,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 30134,
+  "endMs": 30291,
+  "timestampMs": 33537,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " estadio",
+  "startMs": 30291,
+  "endMs": 30841,
+  "timestampMs": 33694,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Romelio",
+  "startMs": 30841,
+  "endMs": 31390,
+  "timestampMs": 34244,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Martínez.",
+  "startMs": 31390,
+  "endMs": 32097,
+  "timestampMs": 34793,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Buena",
+  "startMs": 32097,
+  "endMs": 32565,
+  "timestampMs": 35500,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " esa",
+  "startMs": 32565,
+  "endMs": 32784,
+  "timestampMs": 36260,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Haffit,",
+  "startMs": 32784,
+  "endMs": 33222,
+  "timestampMs": 36479,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " con",
+  "startMs": 33222,
+  "endMs": 33558,
+  "timestampMs": 36917,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " orgullo,",
+  "startMs": 33558,
+  "endMs": 34142,
+  "timestampMs": 37672,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " llevando",
+  "startMs": 34142,
+  "endMs": 34727,
+  "timestampMs": 38256,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 34727,
+  "endMs": 34873,
+  "timestampMs": 38841,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " vallenato",
+  "startMs": 34873,
+  "endMs": 35531,
+  "timestampMs": 38987,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 35531,
+  "endMs": 35604,
+  "timestampMs": 39645,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " representando",
+  "startMs": 35604,
+  "endMs": 36554,
+  "timestampMs": 39718,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " al",
+  "startMs": 36554,
+  "endMs": 36700,
+  "timestampMs": 40668,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " departamento",
+  "startMs": 36700,
+  "endMs": 37697,
+  "timestampMs": 40814,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 37697,
+  "endMs": 37843,
+  "timestampMs": 41984,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " La",
+  "startMs": 37843,
+  "endMs": 37989,
+  "timestampMs": 42130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Guajira",
+  "startMs": 37989,
+  "endMs": 38501,
+  "timestampMs": 42276,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 38501,
+  "endMs": 38574,
+  "timestampMs": 42788,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 38574,
+  "endMs": 38647,
+  "timestampMs": 42861,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 38647,
+  "endMs": 38793,
+  "timestampMs": 42934,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tierra,",
+  "startMs": 38793,
+  "endMs": 39406,
+  "timestampMs": 43080,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Riohacha.",
+  "startMs": 39406,
+  "endMs": 39991,
+  "timestampMs": 44015,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]
