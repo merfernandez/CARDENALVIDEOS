@@ -1,0 +1,538 @@
+[
+ {
+  "text": " La",
+  "startMs": 1267,
+  "endMs": 1443,
+  "timestampMs": 1267,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nota",
+  "startMs": 1443,
+  "endMs": 1794,
+  "timestampMs": 1443,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " curiosa",
+  "startMs": 1794,
+  "endMs": 2409,
+  "timestampMs": 1794,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " para",
+  "startMs": 2409,
+  "endMs": 2760,
+  "timestampMs": 2409,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " este",
+  "startMs": 2760,
+  "endMs": 3112,
+  "timestampMs": 2760,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " martes,",
+  "startMs": 3112,
+  "endMs": 3727,
+  "timestampMs": 3112,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " una",
+  "startMs": 3727,
+  "endMs": 3990,
+  "timestampMs": 3727,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " inesperada",
+  "startMs": 3990,
+  "endMs": 4868,
+  "timestampMs": 3990,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " reunión",
+  "startMs": 4868,
+  "endMs": 5818,
+  "timestampMs": 4868,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tuvieron",
+  "startMs": 5818,
+  "endMs": 6521,
+  "timestampMs": 5818,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Rafa",
+  "startMs": 6521,
+  "endMs": 6872,
+  "timestampMs": 6521,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Pérez,",
+  "startMs": 6872,
+  "endMs": 7399,
+  "timestampMs": 6872,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " La",
+  "startMs": 7399,
+  "endMs": 7575,
+  "timestampMs": 7399,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Evolución",
+  "startMs": 7575,
+  "endMs": 8365,
+  "timestampMs": 7575,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 8365,
+  "endMs": 8453,
+  "timestampMs": 8365,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 8453,
+  "endMs": 8629,
+  "timestampMs": 8453,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " artista",
+  "startMs": 8629,
+  "endMs": 9244,
+  "timestampMs": 8629,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " El",
+  "startMs": 9244,
+  "endMs": 9877,
+  "timestampMs": 9244,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Heredero,",
+  "startMs": 9877,
+  "endMs": 10667,
+  "timestampMs": 9877,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " compartieron",
+  "startMs": 10667,
+  "endMs": 12080,
+  "timestampMs": 10667,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " anécdotas,",
+  "startMs": 12080,
+  "endMs": 12958,
+  "timestampMs": 12080,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " historias,",
+  "startMs": 12958,
+  "endMs": 13836,
+  "timestampMs": 12958,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " pero",
+  "startMs": 13836,
+  "endMs": 14188,
+  "timestampMs": 13836,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " lo",
+  "startMs": 14188,
+  "endMs": 14709,
+  "timestampMs": 14188,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " más",
+  "startMs": 14709,
+  "endMs": 14973,
+  "timestampMs": 14709,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " importante,",
+  "startMs": 14973,
+  "endMs": 15939,
+  "timestampMs": 14973,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " óigalo",
+  "startMs": 15939,
+  "endMs": 16466,
+  "timestampMs": 15939,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " bien,",
+  "startMs": 16466,
+  "endMs": 16905,
+  "timestampMs": 16466,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " luego",
+  "startMs": 16905,
+  "endMs": 17344,
+  "timestampMs": 16905,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " entraron",
+  "startMs": 17344,
+  "endMs": 18509,
+  "timestampMs": 17344,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 18509,
+  "endMs": 18597,
+  "timestampMs": 18509,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " estudios",
+  "startMs": 18597,
+  "endMs": 19300,
+  "timestampMs": 18597,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 19300,
+  "endMs": 19475,
+  "timestampMs": 19300,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " grabación,",
+  "startMs": 19475,
+  "endMs": 20354,
+  "timestampMs": 19475,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " automáticamente",
+  "startMs": 20354,
+  "endMs": 22076,
+  "timestampMs": 20354,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sus",
+  "startMs": 22076,
+  "endMs": 22339,
+  "timestampMs": 22076,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " seguidores",
+  "startMs": 22339,
+  "endMs": 23218,
+  "timestampMs": 22339,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " se",
+  "startMs": 23218,
+  "endMs": 23393,
+  "timestampMs": 23218,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " preguntaron",
+  "startMs": 23393,
+  "endMs": 24360,
+  "timestampMs": 23393,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ¿Qué",
+  "startMs": 24360,
+  "endMs": 25034,
+  "timestampMs": 24360,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sorpresa",
+  "startMs": 25034,
+  "endMs": 25715,
+  "timestampMs": 25034,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical",
+  "startMs": 25715,
+  "endMs": 26700,
+  "timestampMs": 25715,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " viene",
+  "startMs": 26700,
+  "endMs": 27126,
+  "timestampMs": 26700,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 27126,
+  "endMs": 27381,
+  "timestampMs": 27126,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Rafa",
+  "startMs": 27381,
+  "endMs": 27722,
+  "timestampMs": 27381,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Pérez",
+  "startMs": 27722,
+  "endMs": 28148,
+  "timestampMs": 27722,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 28148,
+  "endMs": 28233,
+  "timestampMs": 28148,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 28233,
+  "endMs": 28403,
+  "timestampMs": 28233,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Heredero?",
+  "startMs": 28403,
+  "endMs": 29170,
+  "timestampMs": 28403,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Vamos",
+  "startMs": 29170,
+  "endMs": 29595,
+  "timestampMs": 29170,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 29595,
+  "endMs": 29681,
+  "timestampMs": 29595,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " esperar",
+  "startMs": 29681,
+  "endMs": 30856,
+  "timestampMs": 29681,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 30856,
+  "endMs": 31112,
+  "timestampMs": 30856,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 31112,
+  "endMs": 31367,
+  "timestampMs": 31112,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nos",
+  "startMs": 31367,
+  "endMs": 31623,
+  "timestampMs": 31367,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sorprende",
+  "startMs": 31623,
+  "endMs": 32731,
+  "timestampMs": 31623,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Rafa",
+  "startMs": 32731,
+  "endMs": 33072,
+  "timestampMs": 32731,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Pérez,",
+  "startMs": 33072,
+  "endMs": 33583,
+  "timestampMs": 33072,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " La",
+  "startMs": 33583,
+  "endMs": 33753,
+  "timestampMs": 33583,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Evolución",
+  "startMs": 33753,
+  "endMs": 34519,
+  "timestampMs": 33753,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 34519,
+  "endMs": 34775,
+  "timestampMs": 34519,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " definitivamente",
+  "startMs": 34775,
+  "endMs": 36052,
+  "timestampMs": 34775,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ha",
+  "startMs": 36052,
+  "endMs": 36223,
+  "timestampMs": 36052,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tenido",
+  "startMs": 36223,
+  "endMs": 36734,
+  "timestampMs": 36223,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " un",
+  "startMs": 36734,
+  "endMs": 37258,
+  "timestampMs": 36734,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 2026",
+  "startMs": 37258,
+  "endMs": 37598,
+  "timestampMs": 37258,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " exitoso.",
+  "startMs": 37598,
+  "endMs": 38280,
+  "timestampMs": 37598,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]
