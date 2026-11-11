@@ -1,0 +1,738 @@
+[
+ {
+  "text": " Les",
+  "startMs": 438,
+  "endMs": 716,
+  "timestampMs": 438,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cuento",
+  "startMs": 716,
+  "endMs": 1271,
+  "timestampMs": 716,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 1271,
+  "endMs": 1549,
+  "timestampMs": 1271,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Jorgito",
+  "startMs": 1549,
+  "endMs": 2198,
+  "timestampMs": 1549,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Celedón,",
+  "startMs": 2198,
+  "endMs": 2939,
+  "timestampMs": 2198,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Karen",
+  "startMs": 2939,
+  "endMs": 3494,
+  "timestampMs": 2939,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Lizarazo",
+  "startMs": 3494,
+  "endMs": 4421,
+  "timestampMs": 3494,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " y",
+  "startMs": 4421,
+  "endMs": 4513,
+  "timestampMs": 4421,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Guzzi",
+  "startMs": 4513,
+  "endMs": 4976,
+  "timestampMs": 4513,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ya",
+  "startMs": 4976,
+  "endMs": 5162,
+  "timestampMs": 4976,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " se",
+  "startMs": 5162,
+  "endMs": 5347,
+  "timestampMs": 5162,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " encuentran",
+  "startMs": 5347,
+  "endMs": 6273,
+  "timestampMs": 5347,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 6273,
+  "endMs": 6458,
+  "timestampMs": 6273,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Las",
+  "startMs": 6458,
+  "endMs": 7183,
+  "timestampMs": 6458,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Vegas",
+  "startMs": 7183,
+  "endMs": 7646,
+  "timestampMs": 7183,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " para",
+  "startMs": 7646,
+  "endMs": 8016,
+  "timestampMs": 7646,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " lo",
+  "startMs": 8016,
+  "endMs": 8629,
+  "timestampMs": 8016,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 8629,
+  "endMs": 8906,
+  "timestampMs": 8629,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " será",
+  "startMs": 8906,
+  "endMs": 9277,
+  "timestampMs": 8906,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 9277,
+  "endMs": 9462,
+  "timestampMs": 9277,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ceremonia",
+  "startMs": 9462,
+  "endMs": 10296,
+  "timestampMs": 9462,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 10296,
+  "endMs": 10481,
+  "timestampMs": 10296,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 10481,
+  "endMs": 10759,
+  "timestampMs": 10481,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Latin",
+  "startMs": 10759,
+  "endMs": 11222,
+  "timestampMs": 10759,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Grammy",
+  "startMs": 11222,
+  "endMs": 11778,
+  "timestampMs": 11222,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " mañana",
+  "startMs": 11778,
+  "endMs": 12333,
+  "timestampMs": 11778,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " jueves",
+  "startMs": 12333,
+  "endMs": 12889,
+  "timestampMs": 12333,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 12889,
+  "endMs": 12982,
+  "timestampMs": 12889,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " partir",
+  "startMs": 12982,
+  "endMs": 13538,
+  "timestampMs": 12982,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 13538,
+  "endMs": 13723,
+  "timestampMs": 13538,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 13723,
+  "endMs": 14001,
+  "timestampMs": 13723,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 3",
+  "startMs": 14001,
+  "endMs": 14093,
+  "timestampMs": 14001,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 14093,
+  "endMs": 14279,
+  "timestampMs": 14093,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 14279,
+  "endMs": 14464,
+  "timestampMs": 14279,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tarde.",
+  "startMs": 14464,
+  "endMs": 15020,
+  "timestampMs": 14464,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Ellos",
+  "startMs": 15020,
+  "endMs": 15906,
+  "timestampMs": 15020,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " estarán",
+  "startMs": 15906,
+  "endMs": 16493,
+  "timestampMs": 15906,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 16493,
+  "endMs": 16661,
+  "timestampMs": 16493,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 16661,
+  "endMs": 16828,
+  "timestampMs": 16661,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Premier,",
+  "startMs": 16828,
+  "endMs": 17499,
+  "timestampMs": 16828,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " que",
+  "startMs": 17499,
+  "endMs": 18191,
+  "timestampMs": 17499,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " es",
+  "startMs": 18191,
+  "endMs": 18359,
+  "timestampMs": 18191,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " donde",
+  "startMs": 18359,
+  "endMs": 18778,
+  "timestampMs": 18359,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " se",
+  "startMs": 18778,
+  "endMs": 18946,
+  "timestampMs": 18778,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " dará",
+  "startMs": 18946,
+  "endMs": 19281,
+  "timestampMs": 18946,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 19281,
+  "endMs": 19365,
+  "timestampMs": 19281,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " conocer",
+  "startMs": 19365,
+  "endMs": 19952,
+  "timestampMs": 19365,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 19952,
+  "endMs": 20120,
+  "timestampMs": 19952,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ganador",
+  "startMs": 20120,
+  "endMs": 20707,
+  "timestampMs": 20120,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 20707,
+  "endMs": 20875,
+  "timestampMs": 20707,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 20875,
+  "endMs": 21043,
+  "timestampMs": 20875,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " categoría",
+  "startMs": 21043,
+  "endMs": 22177,
+  "timestampMs": 21043,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Cumbia",
+  "startMs": 22177,
+  "endMs": 22680,
+  "timestampMs": 22177,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Vallenato",
+  "startMs": 22680,
+  "endMs": 23435,
+  "timestampMs": 22680,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " para",
+  "startMs": 23435,
+  "endMs": 23770,
+  "timestampMs": 23435,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " darle",
+  "startMs": 23770,
+  "endMs": 24584,
+  "timestampMs": 23770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " paso",
+  "startMs": 24584,
+  "endMs": 24920,
+  "timestampMs": 24584,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 24920,
+  "endMs": 25004,
+  "timestampMs": 24920,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 25004,
+  "endMs": 25172,
+  "timestampMs": 25004,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " gala",
+  "startMs": 25172,
+  "endMs": 25507,
+  "timestampMs": 25172,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " central",
+  "startMs": 25507,
+  "endMs": 26094,
+  "timestampMs": 25507,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 26094,
+  "endMs": 26262,
+  "timestampMs": 26094,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 26262,
+  "endMs": 26514,
+  "timestampMs": 26262,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Latin",
+  "startMs": 26514,
+  "endMs": 26933,
+  "timestampMs": 26514,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Grammy.",
+  "startMs": 26933,
+  "endMs": 27520,
+  "timestampMs": 26933,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Éxitos",
+  "startMs": 28180,
+  "endMs": 28667,
+  "timestampMs": 28180,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " desde",
+  "startMs": 28667,
+  "endMs": 29073,
+  "timestampMs": 28667,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ya",
+  "startMs": 29073,
+  "endMs": 29236,
+  "timestampMs": 29073,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " para",
+  "startMs": 29236,
+  "endMs": 30029,
+  "timestampMs": 29236,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Jorgito",
+  "startMs": 30029,
+  "endMs": 30598,
+  "timestampMs": 30029,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Celedón,",
+  "startMs": 30598,
+  "endMs": 31248,
+  "timestampMs": 30598,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Karen",
+  "startMs": 31248,
+  "endMs": 31736,
+  "timestampMs": 31248,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Lizarazo",
+  "startMs": 31736,
+  "endMs": 32549,
+  "timestampMs": 31736,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " y",
+  "startMs": 32549,
+  "endMs": 32630,
+  "timestampMs": 32549,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Guzzi",
+  "startMs": 32630,
+  "endMs": 33036,
+  "timestampMs": 32630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 33036,
+  "endMs": 33280,
+  "timestampMs": 33036,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ya",
+  "startMs": 33280,
+  "endMs": 33443,
+  "timestampMs": 33280,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " se",
+  "startMs": 33443,
+  "endMs": 33605,
+  "timestampMs": 33443,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " encuentran",
+  "startMs": 33605,
+  "endMs": 34758,
+  "timestampMs": 33605,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 34758,
+  "endMs": 34920,
+  "timestampMs": 34758,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Las",
+  "startMs": 34920,
+  "endMs": 35164,
+  "timestampMs": 34920,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Vegas",
+  "startMs": 35164,
+  "endMs": 35570,
+  "timestampMs": 35164,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " porque",
+  "startMs": 35570,
+  "endMs": 36350,
+  "timestampMs": 35570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " mañana",
+  "startMs": 36350,
+  "endMs": 36838,
+  "timestampMs": 36350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " es",
+  "startMs": 36838,
+  "endMs": 37000,
+  "timestampMs": 36838,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 37000,
+  "endMs": 37163,
+  "timestampMs": 37000,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " gran",
+  "startMs": 37163,
+  "endMs": 37488,
+  "timestampMs": 37163,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " gala",
+  "startMs": 37488,
+  "endMs": 38138,
+  "timestampMs": 37488,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 38138,
+  "endMs": 38300,
+  "timestampMs": 38138,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 38300,
+  "endMs": 38544,
+  "timestampMs": 38300,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Latin",
+  "startMs": 38544,
+  "endMs": 38951,
+  "timestampMs": 38544,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Grammy.",
+  "startMs": 38951,
+  "endMs": 39520,
+  "timestampMs": 38951,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]

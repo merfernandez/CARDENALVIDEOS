@@ -7,8 +7,20 @@ export const plan: PlanNoticia = {
   seccion: "Noticias vallenatas",
   // Churo en el estadio: video completo (sin bordes negros) con fondo desenfocado
   apoyos: [
-    { desdeMs: 2600, hastaMs: 8900, src: "ch2/apoyo.mp4", desdeSeg: 2, proporcion: 720 / 920 },
-    { desdeMs: 9000, hastaMs: 17200, src: "ch2/apoyo-2.mp4", desdeSeg: 0, proporcion: 720 / 708 },
+    {
+      desdeMs: 2600,
+      hastaMs: 8900,
+      src: "ch2/apoyo.mp4",
+      desdeSeg: 2,
+      proporcion: 720 / 920,
+    },
+    {
+      desdeMs: 9000,
+      hastaMs: 17200,
+      src: "ch2/apoyo-2.mp4",
+      desdeSeg: 0,
+      proporcion: 720 / 708,
+    },
   ],
   tarjetas: [
     {
