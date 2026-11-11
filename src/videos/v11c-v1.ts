@@ -1,0 +1,67 @@
+// Cumpleaños del compositor Fernando Meneses Romero: 5 canciones recomendadas (tiempos en ms, ya sin silencios)
+import type { PlanNoticia } from "../NoticiaHoy";
+
+export const plan: PlanNoticia = {
+  video: "v11c/v-cut.mp4",
+  subtitulos: "v11c/v-cut-captions.json",
+  seccion: "Noticias vallenatas",
+  tarjetas: [
+    {
+      tipo: "sobria",
+      desdeMs: 1400,
+      hastaMs: 9400,
+      antetitulo: "Hoy está de cumpleaños",
+      titulo: "El compositor Fernando Meneses Romero",
+    },
+    {
+      tipo: "sobria",
+      desdeMs: 11800,
+      hastaMs: 18300,
+      antetitulo: "La Gloria, Cesar",
+      titulo: "Festival Ribereño de la Canción Inédita",
+    },
+    {
+      tipo: "lista",
+      desdeMs: 33000,
+      hastaMs: 55800,
+      titulo: "5 recomendadas de Fernando Meneses",
+      items: [
+        { texto: "Momentos de amor", ms: 33181 },
+        { texto: "Canasta de ensueños", ms: 38901 },
+        { texto: "Relicario de besos", ms: 41893 },
+        { texto: "Me gustas porque sí", ms: 45895 },
+        { texto: "Más enamorado que nunca", ms: 51911 },
+      ],
+    },
+    {
+      tipo: "sobria",
+      desdeMs: 61100,
+      hastaMs: 65800,
+      antetitulo: "Fernando Meneses Romero",
+      titulo: "¡Feliz cumpleaños!",
+    },
+  ],
+  palabrasClave: [
+    "fernando",
+    "meneses",
+    "romero",
+    "romero,",
+    "romero.",
+    "cumpleaños",
+    "gloria,",
+    "magdalena.",
+    "festival",
+    "ribereño",
+    "cinco",
+    "jorge",
+    "oñate;",
+    "binomio",
+    "miguel",
+    "morales",
+    "omar",
+    "geles",
+    "beto",
+    "zabaleta.",
+    "¡felicidades!",
+  ],
+};
