@@ -7,8 +7,11 @@
 # Uso: bash scripts/exportar.sh ComposicionId out/Nombre.mp4 [MB_max]
 set -euo pipefail
 COMP="$1"; SALIDA="$2"; MAX_MB="${3:-48}"
+# Una sola exportación a la vez (dos al mismo tiempo dañaron un archivo)
+exec 9>/tmp/cardenal-exportar.lock
+flock 9
 B=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell
-MAESTRO="out/.maestro-$COMP.mp4"
+MAESTRO="out/.maestro-$COMP-$$.mp4"
 npx remotion render "$COMP" "$MAESTRO" --browser-executable="$B" --image-format=png \
   --crf=12 --x264-preset=slow --audio-bitrate=320k --color-space=bt709 | grep -E '^\+|rror' || true
 DUR=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$MAESTRO")
