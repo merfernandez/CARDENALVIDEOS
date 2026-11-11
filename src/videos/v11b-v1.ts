@@ -1,4 +1,4 @@
-// Jorge Celedón, Karen Lizarazo y Guzzi en Las Vegas para los Latin Grammy (tiempos en ms, ya sin silencios)
+// Jorge Celedón, Karen Lizarazo y Gusi en Las Vegas para los Latin Grammy (tiempos en ms, ya sin silencios)
 import type { PlanNoticia } from "../NoticiaHoy";
 
 export const plan: PlanNoticia = {
@@ -14,7 +14,7 @@ export const plan: PlanNoticia = {
       items: [
         { texto: "Jorgito Celedón", ms: 1171 },
         { texto: "Karen Lizarazo", ms: 2561 },
-        { texto: "Guzzi", ms: 4135 },
+        { texto: "Gusi", ms: 4135 },
       ],
     },
     {
@@ -52,7 +52,7 @@ export const plan: PlanNoticia = {
     "celedón,",
     "karen",
     "lizarazo",
-    "guzzi",
+    "gusi",
     "las",
     "vegas",
     "latin",
