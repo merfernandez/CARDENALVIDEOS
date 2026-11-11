@@ -43,8 +43,7 @@ export const plan: PlanNoticia = {
       hastaMs: 26700,
       titulo: "Artistas invitados",
       items: [
-        { texto: "Julio Rojas", ms: 23776 },
-        { texto: "Tavo Sumoza", ms: 24670 },
+        { texto: "Julio Rojas y Tavo Sumoza", ms: 23776 },
         { texto: "Edgar y Goyo", ms: 25767 },
       ],
     },
