@@ -6,7 +6,14 @@ export const plan: PlanNoticia = {
   subtitulos: "v10c/v-cut-captions.json",
   seccion: "Noticias vallenatas",
   // Las 15 Cardenales completas (sin recortar) con fondo desenfocado
-  apoyos: [{ desdeMs: 23600, hastaMs: 28900, src: "top15/las15.png", proporcion: 1600 / 2000 }],
+  apoyos: [
+    {
+      desdeMs: 23600,
+      hastaMs: 28900,
+      src: "top15/las15.png",
+      proporcion: 1600 / 2000,
+    },
+  ],
   tarjetas: [
     {
       tipo: "artistas",

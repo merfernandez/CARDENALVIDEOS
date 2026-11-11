@@ -1,0 +1,706 @@
+[
+ {
+  "text": " El",
+  "startMs": 1795,
+  "endMs": 1949,
+  "timestampMs": 1795,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " artista",
+  "startMs": 1949,
+  "endMs": 2489,
+  "timestampMs": 1949,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Churo",
+  "startMs": 2489,
+  "endMs": 2875,
+  "timestampMs": 2489,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Díaz",
+  "startMs": 2875,
+  "endMs": 3183,
+  "timestampMs": 2875,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " estuvo",
+  "startMs": 3183,
+  "endMs": 3646,
+  "timestampMs": 3183,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 3646,
+  "endMs": 3800,
+  "timestampMs": 3646,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Riohacha",
+  "startMs": 3800,
+  "endMs": 4417,
+  "timestampMs": 3800,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " inspeccionando",
+  "startMs": 4417,
+  "endMs": 5497,
+  "timestampMs": 4417,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 5497,
+  "endMs": 5728,
+  "timestampMs": 5497,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " locaciones",
+  "startMs": 5728,
+  "endMs": 6500,
+  "timestampMs": 5728,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 6500,
+  "endMs": 6672,
+  "timestampMs": 6500,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " lo",
+  "startMs": 6672,
+  "endMs": 6845,
+  "timestampMs": 6672,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 6845,
+  "endMs": 7104,
+  "timestampMs": 6845,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " será",
+  "startMs": 7104,
+  "endMs": 7450,
+  "timestampMs": 7104,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 7450,
+  "endMs": 7623,
+  "timestampMs": 7450,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " gran",
+  "startMs": 7623,
+  "endMs": 7968,
+  "timestampMs": 7623,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " regreso",
+  "startMs": 7968,
+  "endMs": 8573,
+  "timestampMs": 7968,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 8573,
+  "endMs": 8660,
+  "timestampMs": 8573,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " lanzamiento",
+  "startMs": 8660,
+  "endMs": 9610,
+  "timestampMs": 8660,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 9610,
+  "endMs": 9869,
+  "timestampMs": 9610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Pluma",
+  "startMs": 9869,
+  "endMs": 10301,
+  "timestampMs": 9869,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Blanca",
+  "startMs": 10301,
+  "endMs": 10820,
+  "timestampMs": 10301,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " El",
+  "startMs": 10820,
+  "endMs": 11481,
+  "timestampMs": 10820,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " escenario",
+  "startMs": 11481,
+  "endMs": 12291,
+  "timestampMs": 11481,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " escogido",
+  "startMs": 12291,
+  "endMs": 13308,
+  "timestampMs": 12291,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fue",
+  "startMs": 13308,
+  "endMs": 13578,
+  "timestampMs": 13308,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 13578,
+  "endMs": 13758,
+  "timestampMs": 13578,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Estadio",
+  "startMs": 13758,
+  "endMs": 14388,
+  "timestampMs": 13758,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Federico",
+  "startMs": 14388,
+  "endMs": 15109,
+  "timestampMs": 14388,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Serrano",
+  "startMs": 15109,
+  "endMs": 15739,
+  "timestampMs": 15109,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Soto",
+  "startMs": 15739,
+  "endMs": 16100,
+  "timestampMs": 15739,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 16100,
+  "endMs": 16733,
+  "timestampMs": 16100,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " se",
+  "startMs": 16733,
+  "endMs": 16937,
+  "timestampMs": 16733,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " vestirá",
+  "startMs": 16937,
+  "endMs": 17652,
+  "timestampMs": 16937,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 17652,
+  "endMs": 17856,
+  "timestampMs": 17652,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " azul",
+  "startMs": 17856,
+  "endMs": 18652,
+  "timestampMs": 17856,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " este",
+  "startMs": 18652,
+  "endMs": 19060,
+  "timestampMs": 18652,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sábado",
+  "startMs": 19060,
+  "endMs": 19673,
+  "timestampMs": 19060,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 21",
+  "startMs": 19673,
+  "endMs": 19877,
+  "timestampMs": 19673,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 19877,
+  "endMs": 20081,
+  "timestampMs": 19877,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " noviembre",
+  "startMs": 20081,
+  "endMs": 21000,
+  "timestampMs": 20081,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cuando",
+  "startMs": 21000,
+  "endMs": 21756,
+  "timestampMs": 21000,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " llegue",
+  "startMs": 21756,
+  "endMs": 22191,
+  "timestampMs": 21756,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Churo",
+  "startMs": 22191,
+  "endMs": 22554,
+  "timestampMs": 22191,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Díaz",
+  "startMs": 22554,
+  "endMs": 22844,
+  "timestampMs": 22554,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 22844,
+  "endMs": 23061,
+  "timestampMs": 22844,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 23061,
+  "endMs": 23206,
+  "timestampMs": 23061,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " lanzamiento",
+  "startMs": 23206,
+  "endMs": 24324,
+  "timestampMs": 23206,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 24324,
+  "endMs": 24542,
+  "timestampMs": 24324,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Pluma",
+  "startMs": 24542,
+  "endMs": 24904,
+  "timestampMs": 24542,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Blanca",
+  "startMs": 24904,
+  "endMs": 25340,
+  "timestampMs": 24904,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Artistas",
+  "startMs": 25340,
+  "endMs": 26409,
+  "timestampMs": 25340,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " invitados",
+  "startMs": 26409,
+  "endMs": 27213,
+  "timestampMs": 26409,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Julio",
+  "startMs": 27213,
+  "endMs": 27660,
+  "timestampMs": 27213,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Rojas,",
+  "startMs": 27660,
+  "endMs": 28107,
+  "timestampMs": 27660,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Tavo",
+  "startMs": 28107,
+  "endMs": 28465,
+  "timestampMs": 28107,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Sumoza,",
+  "startMs": 28465,
+  "endMs": 29347,
+  "timestampMs": 28465,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 29347,
+  "endMs": 29436,
+  "timestampMs": 29347,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Edgar",
+  "startMs": 29436,
+  "endMs": 29883,
+  "timestampMs": 29436,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y Goyo",
+  "startMs": 29883,
+  "endMs": 30420,
+  "timestampMs": 29883,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Riohacha,",
+  "startMs": 30420,
+  "endMs": 32093,
+  "timestampMs": 30420,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " la",
+  "startMs": 32093,
+  "endMs": 32312,
+  "timestampMs": 32093,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cita",
+  "startMs": 32312,
+  "endMs": 32752,
+  "timestampMs": 32312,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " es",
+  "startMs": 32752,
+  "endMs": 32972,
+  "timestampMs": 32752,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " este",
+  "startMs": 32972,
+  "endMs": 33411,
+  "timestampMs": 32972,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 21",
+  "startMs": 33411,
+  "endMs": 33631,
+  "timestampMs": 33411,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 33631,
+  "endMs": 33851,
+  "timestampMs": 33631,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " noviembre",
+  "startMs": 33851,
+  "endMs": 34840,
+  "timestampMs": 33851,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Estadio",
+  "startMs": 34840,
+  "endMs": 35456,
+  "timestampMs": 34840,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Federico",
+  "startMs": 35456,
+  "endMs": 36160,
+  "timestampMs": 35456,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Serrano",
+  "startMs": 36160,
+  "endMs": 36776,
+  "timestampMs": 36160,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Soto",
+  "startMs": 36776,
+  "endMs": 37435,
+  "timestampMs": 36776,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " desde",
+  "startMs": 37435,
+  "endMs": 37875,
+  "timestampMs": 37435,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 37875,
+  "endMs": 38139,
+  "timestampMs": 37875,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 7",
+  "startMs": 38139,
+  "endMs": 38227,
+  "timestampMs": 38139,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 38227,
+  "endMs": 38403,
+  "timestampMs": 38227,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 38403,
+  "endMs": 38579,
+  "timestampMs": 38403,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " noche",
+  "startMs": 38579,
+  "endMs": 39020,
+  "timestampMs": 38579,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " El",
+  "startMs": 39020,
+  "endMs": 39188,
+  "timestampMs": 39020,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " gran",
+  "startMs": 39188,
+  "endMs": 39526,
+  "timestampMs": 39188,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " regreso",
+  "startMs": 39526,
+  "endMs": 40116,
+  "timestampMs": 39526,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 40116,
+  "endMs": 40498,
+  "timestampMs": 40116,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " lanzamiento",
+  "startMs": 40498,
+  "endMs": 41426,
+  "timestampMs": 40498,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 41426,
+  "endMs": 41679,
+  "timestampMs": 41426,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Pluma",
+  "startMs": 41679,
+  "endMs": 42101,
+  "timestampMs": 41679,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Blanca",
+  "startMs": 42101,
+  "endMs": 43020,
+  "timestampMs": 42101,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Churo",
+  "startMs": 43020,
+  "endMs": 43442,
+  "timestampMs": 43020,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Díaz",
+  "startMs": 43442,
+  "endMs": 43780,
+  "timestampMs": 43442,
+  "confidence": null,
+  "pageBreakAfter": false
+ }
+]
