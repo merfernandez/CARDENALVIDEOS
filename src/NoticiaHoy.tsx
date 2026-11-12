@@ -42,6 +42,7 @@ import { plan as v10cv1 } from "./videos/v10c-v1";
 import { plan as ch2v1 } from "./videos/ch2-v1";
 import { plan as v11bv1 } from "./videos/v11b-v1";
 import { plan as v11cv1 } from "./videos/v11c-v1";
+import { plan as egv1 } from "./videos/eg-v1";
 
 type Tramo = { desdeMs: number; hastaMs: number };
 export type TarjetaPlan = Tramo &
@@ -102,6 +103,7 @@ export const PLANES_HOY = {
   ch2v1,
   v11bv1,
   v11cv1,
+  egv1,
 };
 
 export const noticiaHoySchema = z.object({
@@ -194,7 +196,11 @@ export const NoticiaHoy: React.FC<z.infer<typeof noticiaHoySchema>> = ({
         src={p.subtitulos}
         hastaMs={(cierre / fps) * 1000}
         palabrasClave={p.palabrasClave}
-        ocultos={[...(p.ventana ?? []), ...(p.apoyos ?? [])]}
+        ocultos={[
+          ...(p.ventana ?? []),
+          ...(p.apoyos ?? []),
+          ...(p.completa ?? []),
+        ]}
         estilo={{
           fontSize: 54,
           top: 1250,

@@ -1,0 +1,370 @@
+[
+ {
+  "text": " Amigos",
+  "startMs": 0,
+  "endMs": 361,
+  "timestampMs": 365,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 361,
+  "endMs": 511,
+  "timestampMs": 1280,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Sistema",
+  "startMs": 511,
+  "endMs": 1036,
+  "timestampMs": 1430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Cardenal,",
+  "startMs": 1036,
+  "endMs": 1711,
+  "timestampMs": 1955,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " nos",
+  "startMs": 1711,
+  "endMs": 1936,
+  "timestampMs": 2630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " encontramos",
+  "startMs": 1936,
+  "endMs": 2761,
+  "timestampMs": 2855,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " desde",
+  "startMs": 2761,
+  "endMs": 3136,
+  "timestampMs": 3680,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Expo",
+  "startMs": 3136,
+  "endMs": 3436,
+  "timestampMs": 4055,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Guajira",
+  "startMs": 3436,
+  "endMs": 3961,
+  "timestampMs": 4355,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 3961,
+  "endMs": 4111,
+  "timestampMs": 4880,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 4111,
+  "endMs": 4261,
+  "timestampMs": 5030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Centro",
+  "startMs": 4261,
+  "endMs": 4711,
+  "timestampMs": 5180,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 4711,
+  "endMs": 4861,
+  "timestampMs": 5630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Convenciones",
+  "startMs": 4861,
+  "endMs": 5761,
+  "timestampMs": 5780,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Anas",
+  "startMs": 5761,
+  "endMs": 6061,
+  "timestampMs": 6680,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Mai.",
+  "startMs": 6061,
+  "endMs": 6361,
+  "timestampMs": 6061,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Aquí",
+  "startMs": 6361,
+  "endMs": 6650,
+  "timestampMs": 7280,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " estaremos",
+  "startMs": 6650,
+  "endMs": 7390,
+  "timestampMs": 7569,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 7390,
+  "endMs": 7607,
+  "timestampMs": 8519,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nuestros",
+  "startMs": 7607,
+  "endMs": 8186,
+  "timestampMs": 8736,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " programas,",
+  "startMs": 8186,
+  "endMs": 8911,
+  "timestampMs": 9315,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " locutores,",
+  "startMs": 8911,
+  "endMs": 9635,
+  "timestampMs": 10040,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " periodistas,",
+  "startMs": 9635,
+  "endMs": 10504,
+  "timestampMs": 10764,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " corresponsales,",
+  "startMs": 10504,
+  "endMs": 11591,
+  "timestampMs": 11633,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " llevándole",
+  "startMs": 11591,
+  "endMs": 12308,
+  "timestampMs": 12720,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " toda",
+  "startMs": 12308,
+  "endMs": 12595,
+  "timestampMs": 13437,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 12595,
+  "endMs": 12738,
+  "timestampMs": 13724,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " información",
+  "startMs": 12738,
+  "endMs": 13527,
+  "timestampMs": 13867,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " desde",
+  "startMs": 13527,
+  "endMs": 13886,
+  "timestampMs": 14656,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Expo",
+  "startMs": 13886,
+  "endMs": 14172,
+  "timestampMs": 15015,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Guajira",
+  "startMs": 14172,
+  "endMs": 14675,
+  "timestampMs": 15301,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 14675,
+  "endMs": 14818,
+  "timestampMs": 15804,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 14818,
+  "endMs": 14961,
+  "timestampMs": 15947,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " mano",
+  "startMs": 14961,
+  "endMs": 15248,
+  "timestampMs": 16090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 15248,
+  "endMs": 15392,
+  "timestampMs": 16377,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Sistema",
+  "startMs": 15392,
+  "endMs": 15894,
+  "timestampMs": 16521,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Cardenal,",
+  "startMs": 15894,
+  "endMs": 16539,
+  "timestampMs": 17023,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Cardenal",
+  "startMs": 16539,
+  "endMs": 17113,
+  "timestampMs": 17668,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Stereo",
+  "startMs": 17113,
+  "endMs": 17719,
+  "timestampMs": 18242,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 17719,
+  "endMs": 17791,
+  "timestampMs": 19092,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Diario",
+  "startMs": 17791,
+  "endMs": 18221,
+  "timestampMs": 19164,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 18221,
+  "endMs": 18436,
+  "timestampMs": 19594,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Norte.",
+  "startMs": 18436,
+  "endMs": 18867,
+  "timestampMs": 19809,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " ¡Vengan",
+  "startMs": 18867,
+  "endMs": 19465,
+  "timestampMs": 20240,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 19465,
+  "endMs": 19551,
+  "timestampMs": 20838,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " disfrutar!",
+  "startMs": 19551,
+  "endMs": 20407,
+  "timestampMs": 20924,
+  "confidence": null,
+  "pageBreakAfter": false
+ }
+]
