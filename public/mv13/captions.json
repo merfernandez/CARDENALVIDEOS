@@ -104,7 +104,7 @@
   "pageBreakAfter": false
  },
  {
-  "text": " Stereo.",
+  "text": " Estéreo.",
   "startMs": 7730,
   "endMs": 8220,
   "timestampMs": 7730,
@@ -1200,7 +1200,7 @@
   "pageBreakAfter": false
  },
  {
-  "text": " Hamburguer,",
+  "text": " Hamburger,",
   "startMs": 70486,
   "endMs": 71414,
   "timestampMs": 70486,
@@ -1304,82 +1304,146 @@
   "pageBreakAfter": true
  },
  {
-  "text": " Desde",
-  "startMs": 77420,
-  "endMs": 77727,
-  "timestampMs": 77420,
+  "text": " El",
+  "startMs": 77503,
+  "endMs": 77633,
+  "timestampMs": 77503,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
-  "text": " Sistema",
-  "startMs": 77727,
-  "endMs": 78157,
-  "timestampMs": 77727,
+  "text": " top",
+  "startMs": 77633,
+  "endMs": 77827,
+  "timestampMs": 77633,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
-  "text": " Cardenal,",
-  "startMs": 78157,
-  "endMs": 78710,
-  "timestampMs": 78157,
-  "confidence": null,
-  "pageBreakAfter": true
- },
- {
-  "text": " Cardenal",
-  "startMs": 78710,
-  "endMs": 79202,
-  "timestampMs": 78710,
-  "confidence": null,
-  "pageBreakAfter": false
- },
- {
-  "text": " Stereo,",
-  "startMs": 79202,
-  "endMs": 79632,
-  "timestampMs": 79202,
-  "confidence": null,
-  "pageBreakAfter": true
- },
- {
-  "text": " con",
-  "startMs": 79632,
-  "endMs": 79816,
-  "timestampMs": 79632,
-  "confidence": null,
-  "pageBreakAfter": false
- },
- {
-  "text": " William",
-  "startMs": 79816,
-  "endMs": 80247,
-  "timestampMs": 79816,
+  "text": " 3",
+  "startMs": 77827,
+  "endMs": 77892,
+  "timestampMs": 77827,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " de",
-  "startMs": 80247,
-  "endMs": 80369,
-  "timestampMs": 80247,
+  "startMs": 77892,
+  "endMs": 78370,
+  "timestampMs": 77892,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 78370,
+  "endMs": 78564,
+  "timestampMs": 78370,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " noticias",
+  "startMs": 78564,
+  "endMs": 79083,
+  "timestampMs": 78564,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " más",
+  "startMs": 79083,
+  "endMs": 79278,
+  "timestampMs": 79083,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " importantes",
+  "startMs": 79278,
+  "endMs": 79991,
+  "timestampMs": 79278,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " desde",
+  "startMs": 79991,
+  "endMs": 80606,
+  "timestampMs": 79991,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Sistema",
+  "startMs": 80606,
+  "endMs": 81060,
+  "timestampMs": 80606,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Cardenal,",
+  "startMs": 81060,
+  "endMs": 81644,
+  "timestampMs": 81060,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Cardenal",
+  "startMs": 81644,
+  "endMs": 82163,
+  "timestampMs": 81644,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Stereo,",
+  "startMs": 82163,
+  "endMs": 82617,
+  "timestampMs": 82163,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " con",
+  "startMs": 82617,
+  "endMs": 82812,
+  "timestampMs": 82617,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " William",
+  "startMs": 82812,
+  "endMs": 83616,
+  "timestampMs": 82812,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 83616,
+  "endMs": 83745,
+  "timestampMs": 83616,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " la",
-  "startMs": 80369,
-  "endMs": 80842,
-  "timestampMs": 80369,
+  "startMs": 83745,
+  "endMs": 83875,
+  "timestampMs": 83745,
   "confidence": null,
   "pageBreakAfter": false
  },
  {
   "text": " Rosa.",
-  "startMs": 80842,
-  "endMs": 81150,
-  "timestampMs": 80842,
+  "startMs": 83875,
+  "endMs": 84200,
+  "timestampMs": 83875,
   "confidence": null,
   "pageBreakAfter": true
  }

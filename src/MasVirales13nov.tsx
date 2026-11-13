@@ -10,29 +10,29 @@ import { Subtitulos } from "./Subtitulos";
 import { TarjetaSobria } from "./TarjetasNoticia";
 
 const VIDEO = "mv13/v-cut.mp4";
-export const DURACION_MV13_VIDEO_MS = 72850;
+export const DURACION_MV13_VIDEO_MS = 74850;
 export const DURACION_MV13_MS = DURACION_MV13_VIDEO_MS + 4000;
 
 const f = (ms: number, fps: number) => Math.round((ms / 1000) * fps);
 
 const SEPARADORES = [
   {
-    desdeMs: 13300,
-    hastaMs: 14700,
+    desdeMs: 12850,
+    hastaMs: 14250,
     numero: 1,
     titulo: "Carlos Vives",
     detalle: "Gana el Latin Grammy",
   },
   {
-    desdeMs: 36200,
-    hastaMs: 37600,
+    desdeMs: 35750,
+    hastaMs: 37150,
     numero: 2,
     titulo: "Julio Morillo",
     detalle: "Lamentamos su partida",
   },
   {
-    desdeMs: 53500,
-    hastaMs: 54900,
+    desdeMs: 53050,
+    hastaMs: 54450,
     numero: 3,
     titulo: "Lanzamientos de la semana",
     detalle: "Fawell Solano · Laura «La China»",
@@ -42,8 +42,8 @@ const SEPARADORES = [
 // #1: Carlos Vives celebrando en el avión (completo, fondo desenfocado)
 const VIVES = [
   {
-    desdeMs: 20800,
-    hastaMs: 26600,
+    desdeMs: 20350,
+    hastaMs: 26150,
     src: "mv13/vives-celebra.mp4",
     desdeSeg: 6,
     proporcion: 720 / 900,
@@ -53,14 +53,14 @@ const VIVES = [
 // #2: sobrio, Julio cantando y su foto (fundido lento, fondo desenfocado)
 const JULIO = [
   {
-    desdeMs: 40300,
-    hastaMs: 45400,
+    desdeMs: 39850,
+    hastaMs: 44950,
     src: "mv13/julio-morillo.jpg",
     proporcion: 1274 / 1235,
   },
   {
-    desdeMs: 45400,
-    hastaMs: 53300,
+    desdeMs: 44950,
+    hastaMs: 52850,
     src: "mv13/julio-cantando.mp4",
     desdeSeg: 2,
     proporcion: 720 / 900,
@@ -70,8 +70,8 @@ const JULIO = [
 // #3: arte de los lanzamientos en ventana grande
 const FAWELL = [
   {
-    desdeMs: 57400,
-    hastaMs: 60700,
+    desdeMs: 56950,
+    hastaMs: 60250,
     src: "mv13/fawell.mp4",
     desdeSeg: 10,
     proporcion: 720 / 1280,
@@ -96,14 +96,14 @@ export const MasVirales13nov: React.FC = () => {
         }}
       />
       {/* #1: el arte de ganador sale como portada al costado */}
-      <Sequence {...tramo({ desdeMs: 14800, hastaMs: 20700 })} name="Ganador">
+      <Sequence {...tramo({ desdeMs: 14350, hastaMs: 20250 })} name="Ganador">
         <PortadaAlbum
           src="mv13/vives-ganador.jpg"
           lado="der"
           etiqueta="Ganador Latin Grammy"
         />
       </Sequence>
-      <Sequence {...tramo({ desdeMs: 60700, hastaMs: 65600 })} name="Campeones">
+      <Sequence {...tramo({ desdeMs: 60250, hastaMs: 65150 })} name="Campeones">
         <PortadaAlbum
           src="mv13/campeones.jpg"
           lado="der"
@@ -112,7 +112,7 @@ export const MasVirales13nov: React.FC = () => {
       </Sequence>
       {/* Tarjetas abajo (arriba está el logo fijo) */}
       <Sequence
-        {...tramo({ desdeMs: 26700, hastaMs: 36100 })}
+        {...tramo({ desdeMs: 26250, hastaMs: 35650 })}
         name="Agradecimiento"
       >
         <Bajar>
@@ -123,7 +123,7 @@ export const MasVirales13nov: React.FC = () => {
         </Bajar>
       </Sequence>
       <Sequence
-        {...tramo({ desdeMs: 38600, hastaMs: 45300 })}
+        {...tramo({ desdeMs: 38150, hastaMs: 44850 })}
         name="En memoria"
       >
         <Bajar>
@@ -134,7 +134,7 @@ export const MasVirales13nov: React.FC = () => {
         </Bajar>
       </Sequence>
       <Sequence
-        {...tramo({ desdeMs: 65600, hastaMs: 68700 })}
+        {...tramo({ desdeMs: 65150, hastaMs: 68250 })}
         name="Recomendadas"
       >
         <Bajar>
@@ -177,7 +177,7 @@ export const MasVirales13nov: React.FC = () => {
         ocultos={[...SEPARADORES, ...VIVES, ...JULIO, ...FAWELL]}
       />
       <Sequence
-        from={f(2400, fps)}
+        from={f(1950, fps)}
         durationInFrames={f(5000, fps)}
         name="Rótulo William"
       >
