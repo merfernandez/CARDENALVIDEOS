@@ -36,11 +36,11 @@ if cursor < dur - 0.05:
     keep.append((cursor, dur))
 print("tramos:", [(round(a, 2), round(b, 2)) for a, b in keep])
 
-parts, labels = [], []
-for i, (a, b) in enumerate(keep):
-    parts.append(f"[0:v]trim={a}:{b},setpts=PTS-STARTPTS[v{i}];[0:a]atrim={a}:{b},asetpts=PTS-STARTPTS[a{i}]")
-    labels.append(f"[v{i}][a{i}]")
-fc = ";".join(parts) + ";" + "".join(labels) + f"concat=n={len(keep)}:v=1:a=1[v][a]"
+# Un solo paso de select/aselect: procesa el video de corrido (el trim+concat por
+# tramos acumulaba todo el video en memoria y el proceso moría en videos largos)
+expr = "+".join(f"between(t,{a:.3f},{b:.3f})" for a, b in keep)
+fc = (f"[0:v]select='{expr}',setpts=N/FRAME_RATE/TB[v];"
+      f"[0:a]aselect='{expr}',asetpts=N/SR/TB[a]")
 if not SOLO_SUBS:
   subprocess.check_call(["ffmpeg", "-v", "error", "-y", "-i", src, "-filter_complex", fc,
                        "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", "10", "-preset", "slow",
