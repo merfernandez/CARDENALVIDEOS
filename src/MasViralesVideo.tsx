@@ -55,7 +55,7 @@ export const LogoFijo: React.FC = () => {
         style={{
           position: "absolute",
           left: interpolate(viaje, [0, 1], [540, 40]),
-          top: interpolate(viaje, [0, 1], [860, 95]),
+          top: interpolate(viaje, [0, 1], [860, 230]),
           transform: `translateX(${-50 * (1 - viaje)}%)`,
         }}
       >

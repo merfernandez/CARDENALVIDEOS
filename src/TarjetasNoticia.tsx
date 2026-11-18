@@ -13,7 +13,8 @@ import { BLANCO, DORADO, fontFamily, NEGRO, ROJO } from "./brand";
 
 // Altura de las tarjetas de arriba: lo más arriba posible para no caer nunca
 // sobre la cabeza o la cara de nadie (debajo de la barra superior de Reels/TikTok)
-export const ALTURA_TARJETAS = 95;
+// Debajo del nombre de usuario y "Audio original" de Instagram/TikTok
+export const ALTURA_TARJETAS = 230;
 
 // Cabecita del cardenal (del logo) en un círculo blanco, al frente del texto
 export const Cardenalito: React.FC<{ tamano?: number }> = ({ tamano = 64 }) => (

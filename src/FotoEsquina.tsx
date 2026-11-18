@@ -51,7 +51,7 @@ export const FotoEsquina: React.FC<{
       <div
         style={{
           position: "absolute",
-          top: 215,
+          top: 250,
           [lado === "izq" ? "left" : "right"]: 30,
           width: 320,
           height: 400,
