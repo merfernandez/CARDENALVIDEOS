@@ -36,7 +36,7 @@ export const plan: PlanNoticia = {
       hastaMs: 19100,
       etiqueta: "La canción que abandera el álbum",
       titulo: "Cuando me besas",
-      detalle: "Autoría de Dachi Moya",
+      detalle: "Autoría de Dachy Moya",
     },
     { tipo: "sobria", desdeMs: 19150, hastaMs: 24600, antetitulo: "Gira de promoción · viernes", titulo: "Valledupar" },
     {
