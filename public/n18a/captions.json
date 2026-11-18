@@ -1,0 +1,722 @@
+[
+ {
+  "text": " Inolvidables",
+  "startMs": 0,
+  "endMs": 1073,
+  "timestampMs": 0,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " momentos",
+  "startMs": 1073,
+  "endMs": 1788,
+  "timestampMs": 1073,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " vivió",
+  "startMs": 1788,
+  "endMs": 2235,
+  "timestampMs": 1788,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 2235,
+  "endMs": 2414,
+  "timestampMs": 2235,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " artista",
+  "startMs": 2414,
+  "endMs": 3040,
+  "timestampMs": 2414,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Rafa",
+  "startMs": 3040,
+  "endMs": 3398,
+  "timestampMs": 3040,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Pérez",
+  "startMs": 3398,
+  "endMs": 3845,
+  "timestampMs": 3398,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " La",
+  "startMs": 3845,
+  "endMs": 4024,
+  "timestampMs": 3845,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Evolución,",
+  "startMs": 4024,
+  "endMs": 4918,
+  "timestampMs": 4024,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " quien",
+  "startMs": 4918,
+  "endMs": 5365,
+  "timestampMs": 4918,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fue",
+  "startMs": 5365,
+  "endMs": 5633,
+  "timestampMs": 5365,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 5633,
+  "endMs": 5812,
+  "timestampMs": 5633,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sensación",
+  "startMs": 5812,
+  "endMs": 6617,
+  "timestampMs": 5812,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 6617,
+  "endMs": 6796,
+  "timestampMs": 6617,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 6796,
+  "endMs": 7334,
+  "timestampMs": 6796,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " pasado",
+  "startMs": 7334,
+  "endMs": 7870,
+  "timestampMs": 7334,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " desfile",
+  "startMs": 7870,
+  "endMs": 8496,
+  "timestampMs": 7870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 8496,
+  "endMs": 8765,
+  "timestampMs": 8496,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " bando",
+  "startMs": 8765,
+  "endMs": 9212,
+  "timestampMs": 8765,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 9212,
+  "endMs": 9391,
+  "timestampMs": 9212,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 9391,
+  "endMs": 9659,
+  "timestampMs": 9391,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fiestas",
+  "startMs": 9659,
+  "endMs": 10285,
+  "timestampMs": 9659,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 10285,
+  "endMs": 10464,
+  "timestampMs": 10285,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " independencia",
+  "startMs": 10464,
+  "endMs": 11626,
+  "timestampMs": 10464,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 11626,
+  "endMs": 11805,
+  "timestampMs": 11626,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Cartagena.",
+  "startMs": 11805,
+  "endMs": 12700,
+  "timestampMs": 11805,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Rafa",
+  "startMs": 12700,
+  "endMs": 13596,
+  "timestampMs": 12700,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " brilló",
+  "startMs": 13596,
+  "endMs": 14555,
+  "timestampMs": 13596,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 14555,
+  "endMs": 14849,
+  "timestampMs": 14555,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 14849,
+  "endMs": 15045,
+  "timestampMs": 14849,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " show",
+  "startMs": 15045,
+  "endMs": 15437,
+  "timestampMs": 15045,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical",
+  "startMs": 15437,
+  "endMs": 16123,
+  "timestampMs": 15437,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 16123,
+  "endMs": 16319,
+  "timestampMs": 16123,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 16319,
+  "endMs": 16515,
+  "timestampMs": 16319,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Festival",
+  "startMs": 16515,
+  "endMs": 17299,
+  "timestampMs": 16515,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Náutico",
+  "startMs": 17299,
+  "endMs": 17985,
+  "timestampMs": 17299,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 17985,
+  "endMs": 18181,
+  "timestampMs": 17985,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 18181,
+  "endMs": 18377,
+  "timestampMs": 18181,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Heroica",
+  "startMs": 18377,
+  "endMs": 19063,
+  "timestampMs": 18377,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 19063,
+  "endMs": 19161,
+  "timestampMs": 19063,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cerró",
+  "startMs": 19161,
+  "endMs": 20111,
+  "timestampMs": 19161,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 20111,
+  "endMs": 20405,
+  "timestampMs": 20111,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " broche",
+  "startMs": 20405,
+  "endMs": 20993,
+  "timestampMs": 20405,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 20993,
+  "endMs": 21189,
+  "timestampMs": 20993,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " oro",
+  "startMs": 21189,
+  "endMs": 21483,
+  "timestampMs": 21189,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 21483,
+  "endMs": 21679,
+  "timestampMs": 21483,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 21679,
+  "endMs": 21875,
+  "timestampMs": 21679,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Feria",
+  "startMs": 21875,
+  "endMs": 22365,
+  "timestampMs": 21875,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 22365,
+  "endMs": 22561,
+  "timestampMs": 22365,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 22561,
+  "endMs": 23018,
+  "timestampMs": 22561,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Chinita",
+  "startMs": 23018,
+  "endMs": 23704,
+  "timestampMs": 23018,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 23704,
+  "endMs": 23900,
+  "timestampMs": 23704,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Maracaibo,",
+  "startMs": 23900,
+  "endMs": 24880,
+  "timestampMs": 23900,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Venezuela,",
+  "startMs": 24880,
+  "endMs": 25860,
+  "timestampMs": 24880,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " donde",
+  "startMs": 25860,
+  "endMs": 26721,
+  "timestampMs": 25860,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " hizo",
+  "startMs": 26721,
+  "endMs": 27148,
+  "timestampMs": 26721,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " una",
+  "startMs": 27148,
+  "endMs": 27469,
+  "timestampMs": 27148,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " presentación",
+  "startMs": 27469,
+  "endMs": 28753,
+  "timestampMs": 27469,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " extraordinaria",
+  "startMs": 28753,
+  "endMs": 30250,
+  "timestampMs": 28753,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sobre",
+  "startMs": 30250,
+  "endMs": 30785,
+  "timestampMs": 30250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 30785,
+  "endMs": 31106,
+  "timestampMs": 30785,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 8",
+  "startMs": 31106,
+  "endMs": 31213,
+  "timestampMs": 31106,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 31213,
+  "endMs": 31320,
+  "timestampMs": 31213,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 39",
+  "startMs": 31320,
+  "endMs": 31534,
+  "timestampMs": 31320,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 31534,
+  "endMs": 31748,
+  "timestampMs": 31534,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 31748,
+  "endMs": 31961,
+  "timestampMs": 31748,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " mañana",
+  "startMs": 31961,
+  "endMs": 32603,
+  "timestampMs": 31961,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 32603,
+  "endMs": 33203,
+  "timestampMs": 32603,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " éxito",
+  "startMs": 33203,
+  "endMs": 33738,
+  "timestampMs": 33203,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " total.",
+  "startMs": 33738,
+  "endMs": 34380,
+  "timestampMs": 33738,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Sin",
+  "startMs": 34380,
+  "endMs": 35039,
+  "timestampMs": 34380,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " duda,",
+  "startMs": 35039,
+  "endMs": 35519,
+  "timestampMs": 35039,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " este",
+  "startMs": 35519,
+  "endMs": 35903,
+  "timestampMs": 35519,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 2026",
+  "startMs": 35903,
+  "endMs": 36286,
+  "timestampMs": 35903,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ha",
+  "startMs": 36286,
+  "endMs": 36478,
+  "timestampMs": 36286,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sido",
+  "startMs": 36478,
+  "endMs": 36862,
+  "timestampMs": 36478,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " un",
+  "startMs": 36862,
+  "endMs": 37054,
+  "timestampMs": 36862,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " año",
+  "startMs": 37054,
+  "endMs": 37342,
+  "timestampMs": 37054,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " exitoso",
+  "startMs": 37342,
+  "endMs": 38013,
+  "timestampMs": 37342,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " para",
+  "startMs": 38013,
+  "endMs": 38397,
+  "timestampMs": 38013,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 38397,
+  "endMs": 38589,
+  "timestampMs": 38397,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " carrera",
+  "startMs": 38589,
+  "endMs": 39260,
+  "timestampMs": 38589,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " artística",
+  "startMs": 39260,
+  "endMs": 40123,
+  "timestampMs": 39260,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 40123,
+  "endMs": 40219,
+  "timestampMs": 40123,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical",
+  "startMs": 40219,
+  "endMs": 40891,
+  "timestampMs": 40219,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 40891,
+  "endMs": 41083,
+  "timestampMs": 40891,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Rafa",
+  "startMs": 41083,
+  "endMs": 41466,
+  "timestampMs": 41083,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Pérez",
+  "startMs": 41466,
+  "endMs": 41946,
+  "timestampMs": 41466,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " La",
+  "startMs": 41946,
+  "endMs": 42138,
+  "timestampMs": 41946,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Evolución.",
+  "startMs": 42138,
+  "endMs": 43400,
+  "timestampMs": 42138,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]
