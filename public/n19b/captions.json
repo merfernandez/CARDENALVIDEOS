@@ -1,0 +1,698 @@
+[
+ {
+  "text": " El",
+  "startMs": 0,
+  "endMs": 155,
+  "timestampMs": 0,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " caballero",
+  "startMs": 155,
+  "endMs": 853,
+  "timestampMs": 155,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 853,
+  "endMs": 1085,
+  "timestampMs": 853,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " vallenato,",
+  "startMs": 1085,
+  "endMs": 1861,
+  "timestampMs": 1085,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Peter",
+  "startMs": 1861,
+  "endMs": 2249,
+  "timestampMs": 1861,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Manjarrés,",
+  "startMs": 2249,
+  "endMs": 3024,
+  "timestampMs": 2249,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " fue",
+  "startMs": 3024,
+  "endMs": 3257,
+  "timestampMs": 3024,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 3257,
+  "endMs": 3412,
+  "timestampMs": 3257,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " encargado",
+  "startMs": 3412,
+  "endMs": 4110,
+  "timestampMs": 3412,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 4110,
+  "endMs": 4265,
+  "timestampMs": 4110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cerrar",
+  "startMs": 4265,
+  "endMs": 4731,
+  "timestampMs": 4265,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 4731,
+  "endMs": 4886,
+  "timestampMs": 4731,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Festival",
+  "startMs": 4886,
+  "endMs": 5506,
+  "timestampMs": 4886,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 5506,
+  "endMs": 5739,
+  "timestampMs": 5506,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Cactus",
+  "startMs": 5739,
+  "endMs": 6204,
+  "timestampMs": 5739,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 6204,
+  "endMs": 6359,
+  "timestampMs": 6204,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Papayala,",
+  "startMs": 6359,
+  "endMs": 7058,
+  "timestampMs": 6359,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " al",
+  "startMs": 7058,
+  "endMs": 7213,
+  "timestampMs": 7058,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sur",
+  "startMs": 7213,
+  "endMs": 7445,
+  "timestampMs": 7213,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 7445,
+  "endMs": 7678,
+  "timestampMs": 7445,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " departamento",
+  "startMs": 7678,
+  "endMs": 8609,
+  "timestampMs": 7678,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 8609,
+  "endMs": 8764,
+  "timestampMs": 8609,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " La",
+  "startMs": 8764,
+  "endMs": 8919,
+  "timestampMs": 8764,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Guajira.",
+  "startMs": 8919,
+  "endMs": 9540,
+  "timestampMs": 8919,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " El",
+  "startMs": 9540,
+  "endMs": 10199,
+  "timestampMs": 9540,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " artista",
+  "startMs": 10199,
+  "endMs": 10802,
+  "timestampMs": 10199,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " escribió",
+  "startMs": 10802,
+  "endMs": 11799,
+  "timestampMs": 10802,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 11799,
+  "endMs": 11971,
+  "timestampMs": 11799,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sus",
+  "startMs": 11971,
+  "endMs": 12230,
+  "timestampMs": 11971,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " redes",
+  "startMs": 12230,
+  "endMs": 12660,
+  "timestampMs": 12230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sociales,",
+  "startMs": 12660,
+  "endMs": 13813,
+  "timestampMs": 12660,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " feliz",
+  "startMs": 13813,
+  "endMs": 14244,
+  "timestampMs": 13813,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 14244,
+  "endMs": 14416,
+  "timestampMs": 14244,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " amanecer",
+  "startMs": 14416,
+  "endMs": 15106,
+  "timestampMs": 14416,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 15106,
+  "endMs": 15278,
+  "timestampMs": 15106,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " La",
+  "startMs": 15278,
+  "endMs": 15450,
+  "timestampMs": 15278,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Guajira.",
+  "startMs": 15450,
+  "endMs": 16140,
+  "timestampMs": 15450,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Recibió",
+  "startMs": 16140,
+  "endMs": 17068,
+  "timestampMs": 16140,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 17068,
+  "endMs": 17219,
+  "timestampMs": 17068,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " respaldo",
+  "startMs": 17219,
+  "endMs": 17825,
+  "timestampMs": 17219,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 17825,
+  "endMs": 17977,
+  "timestampMs": 17825,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 17977,
+  "endMs": 18204,
+  "timestampMs": 17977,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " guajiros",
+  "startMs": 18204,
+  "endMs": 19205,
+  "timestampMs": 18204,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " barranqueros",
+  "startMs": 19205,
+  "endMs": 20114,
+  "timestampMs": 19205,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 20114,
+  "endMs": 20342,
+  "timestampMs": 20114,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " llegaron",
+  "startMs": 20342,
+  "endMs": 21342,
+  "timestampMs": 20342,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " hasta",
+  "startMs": 21342,
+  "endMs": 21720,
+  "timestampMs": 21342,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Papayala",
+  "startMs": 21720,
+  "endMs": 22326,
+  "timestampMs": 21720,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 22326,
+  "endMs": 22402,
+  "timestampMs": 22326,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " disfrutar",
+  "startMs": 22402,
+  "endMs": 23084,
+  "timestampMs": 22402,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 23084,
+  "endMs": 23311,
+  "timestampMs": 23084,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Festival",
+  "startMs": 23311,
+  "endMs": 24242,
+  "timestampMs": 23311,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 24242,
+  "endMs": 24469,
+  "timestampMs": 24242,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Cactus.",
+  "startMs": 24469,
+  "endMs": 24999,
+  "timestampMs": 24469,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " En",
+  "startMs": 25265,
+  "endMs": 25705,
+  "timestampMs": 25265,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " esta",
+  "startMs": 25705,
+  "endMs": 26030,
+  "timestampMs": 25705,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " población,",
+  "startMs": 26030,
+  "endMs": 27251,
+  "timestampMs": 26030,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Peter",
+  "startMs": 27251,
+  "endMs": 27657,
+  "timestampMs": 27251,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cantó",
+  "startMs": 27657,
+  "endMs": 28063,
+  "timestampMs": 27657,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 28063,
+  "endMs": 28307,
+  "timestampMs": 28063,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nuevas",
+  "startMs": 28307,
+  "endMs": 28794,
+  "timestampMs": 28307,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " canciones",
+  "startMs": 28794,
+  "endMs": 29525,
+  "timestampMs": 28794,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 29525,
+  "endMs": 29769,
+  "timestampMs": 29525,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " hacen",
+  "startMs": 29769,
+  "endMs": 30175,
+  "timestampMs": 29769,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " parte",
+  "startMs": 30175,
+  "endMs": 30991,
+  "timestampMs": 30175,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 30991,
+  "endMs": 31153,
+  "timestampMs": 30991,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 31153,
+  "endMs": 31316,
+  "timestampMs": 31153,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " álbum",
+  "startMs": 31316,
+  "endMs": 31722,
+  "timestampMs": 31316,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Luchador",
+  "startMs": 31722,
+  "endMs": 32371,
+  "timestampMs": 31722,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 32371,
+  "endMs": 32615,
+  "timestampMs": 32371,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " todo",
+  "startMs": 32615,
+  "endMs": 32940,
+  "timestampMs": 32615,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 32940,
+  "endMs": 33102,
+  "timestampMs": 32940,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " respaldo",
+  "startMs": 33102,
+  "endMs": 34084,
+  "timestampMs": 33102,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 34084,
+  "endMs": 34327,
+  "timestampMs": 34084,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " piterismo.",
+  "startMs": 34327,
+  "endMs": 35140,
+  "timestampMs": 34327,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Peter",
+  "startMs": 35140,
+  "endMs": 35970,
+  "timestampMs": 35140,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " continúa",
+  "startMs": 35970,
+  "endMs": 36946,
+  "timestampMs": 35970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 36946,
+  "endMs": 37107,
+  "timestampMs": 36946,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " promoción",
+  "startMs": 37107,
+  "endMs": 37830,
+  "timestampMs": 37107,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " por",
+  "startMs": 37830,
+  "endMs": 38071,
+  "timestampMs": 37830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Colombia",
+  "startMs": 38071,
+  "endMs": 39067,
+  "timestampMs": 38071,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " presentando",
+  "startMs": 39067,
+  "endMs": 39951,
+  "timestampMs": 39067,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Luchador,",
+  "startMs": 39951,
+  "endMs": 40674,
+  "timestampMs": 39951,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " su",
+  "startMs": 40674,
+  "endMs": 40834,
+  "timestampMs": 40674,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " nuevo",
+  "startMs": 40834,
+  "endMs": 41236,
+  "timestampMs": 40834,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " álbum",
+  "startMs": 41236,
+  "endMs": 41638,
+  "timestampMs": 41236,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical.",
+  "startMs": 41638,
+  "endMs": 42580,
+  "timestampMs": 41638,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]
