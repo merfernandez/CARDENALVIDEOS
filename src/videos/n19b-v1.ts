@@ -16,9 +16,9 @@ export const plan: PlanNoticia = {
       hastaMs: 32050,
       etiqueta: "Su nuevo álbum",
       titulo: "Luchador",
-      detalle: "Con el respaldo del piterismo",
+      detalle: "Con el respaldo del peterismo",
     },
     { tipo: "sobria", desdeMs: 32100, hastaMs: 39200, antetitulo: "De promoción por Colombia", titulo: "«Luchador»" },
   ],
-  palabrasClave: ["Peter", "Manjarrés", "Cactus", "Papayal", "Guajira", "Luchador", "piterismo", "Colombia"],
+  palabrasClave: ["Peter", "Manjarrés", "Cactus", "Papayal", "Guajira", "Luchador", "peterismo", "Colombia"],
 };
