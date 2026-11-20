@@ -58,7 +58,7 @@ const TARJETAS: Tarjeta[] = [
         desdeMs={d}
         items={[
           { texto: "Nelson Velásquez", ms: 27499 },
-          { texto: "Penchi Castro", ms: 29004 },
+          { texto: "Penchy Castro", ms: 29004 },
           { texto: "Silvestre Dangond", ms: 30228 },
         ]}
       />
@@ -128,7 +128,7 @@ export const MasVirales20nov: React.FC = () => {
         hastaMs={DURACION_MV20_VIDEO_MS}
         palabrasClave={[
           "vallenato", "chinita", "maracaibo,", "amanecer", "elder", "dayán", "churo", "alex", "manga,",
-          "nelson", "penchi", "silvestre", "dangond,", "inolvidable", "21", "riohacha,", "riohacha.",
+          "nelson", "penchy", "silvestre", "dangond,", "inolvidable", "21", "riohacha,", "riohacha.",
           "blanca\",", "fawell", "kiko", "dios\".", "dios\",", "fonseca.", "fonseca,", "guajira.",
           "bogotá", "5", "diciembre",
         ]}
