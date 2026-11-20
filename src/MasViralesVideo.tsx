@@ -184,7 +184,7 @@ export const Separador: React.FC<{
 export const Bajar: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => (
-  <AbsoluteFill style={{ transform: "translateY(1330px)" }}>
+  <AbsoluteFill style={{ transform: "translateY(1195px)" }}>
     {children}
   </AbsoluteFill>
 );
