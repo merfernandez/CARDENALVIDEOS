@@ -12,16 +12,6 @@ export const plan: PlanNoticia = {
     { tipo: "portada", desdeMs: 2900, hastaMs: 6600, src: "ap24/yader-portada.jpg", lado: "izq", etiqueta: "Yader Romero" },
     { tipo: "cifras", desdeMs: 6650, hastaMs: 9400, antetitulo: "Álbum DVD", cifras: [{ numero: "7", texto: "Canciones" }] },
     { tipo: "sobria", desdeMs: 9450, hastaMs: 14650, antetitulo: "Parte de su historia con", titulo: "Kvrass" },
-    {
-      tipo: "lista",
-      desdeMs: 14700,
-      hastaMs: 20850,
-      titulo: "También canciones de",
-      items: [
-        { texto: "Diomedes Díaz", ms: 15781 },
-        { texto: "Poncho y Los Embajadores Vallenatos", ms: 16641 },
-      ],
-    },
     { tipo: "sobria", desdeMs: 20900, hastaMs: 26350, antetitulo: "Para ponerle la sabrosura", titulo: "Mosaico carnavalero" },
     { tipo: "sobria", desdeMs: 32400, hastaMs: 35000, antetitulo: "Yader Romero", titulo: "«El del sabor»" },
   ],
