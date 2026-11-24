@@ -53,6 +53,7 @@ import { plan as n23av1 } from "./videos/n23a-v1";
 import { plan as n23bv1 } from "./videos/n23b-v1";
 import { plan as n23cv1 } from "./videos/n23c-v1";
 import { plan as n24av1 } from "./videos/n24a-v1";
+import { plan as n24bv1 } from "./videos/n24b-v1";
 
 type Tramo = { desdeMs: number; hastaMs: number };
 export type TarjetaPlan = Tramo &
@@ -124,6 +125,7 @@ export const PLANES_HOY = {
   n23bv1,
   n23cv1,
   n24av1,
+  n24bv1,
 };
 
 export const noticiaHoySchema = z.object({
