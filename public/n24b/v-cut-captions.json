@@ -1,0 +1,650 @@
+[
+ {
+  "text": " Noticia",
+  "startMs": 143,
+  "endMs": 983,
+  "timestampMs": 2230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " importante,",
+  "startMs": 983,
+  "endMs": 1223,
+  "timestampMs": 3070,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " el",
+  "startMs": 1223,
+  "endMs": 1483,
+  "timestampMs": 3310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " lanzamiento",
+  "startMs": 1483,
+  "endMs": 2103,
+  "timestampMs": 3570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " este",
+  "startMs": 2103,
+  "endMs": 2343,
+  "timestampMs": 4190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " viernes",
+  "startMs": 2343,
+  "endMs": 2923,
+  "timestampMs": 4430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 2923,
+  "endMs": 3263,
+  "timestampMs": 5010,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Ya",
+  "startMs": 3263,
+  "endMs": 3543,
+  "timestampMs": 5350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 3543,
+  "endMs": 4023,
+  "timestampMs": 5630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Romero",
+  "startMs": 4023,
+  "endMs": 4843,
+  "timestampMs": 6110,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Esto",
+  "startMs": 4843,
+  "endMs": 5143,
+  "timestampMs": 6930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " se",
+  "startMs": 5143,
+  "endMs": 5303,
+  "timestampMs": 7230,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " va",
+  "startMs": 5303,
+  "endMs": 5503,
+  "timestampMs": 7390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 5503,
+  "endMs": 5643,
+  "timestampMs": 7590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " descontrolar",
+  "startMs": 5643,
+  "endMs": 6647,
+  "timestampMs": 7730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Un",
+  "startMs": 6687,
+  "endMs": 7087,
+  "timestampMs": 8970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " DVD",
+  "startMs": 7087,
+  "endMs": 7467,
+  "timestampMs": 9370,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 7467,
+  "endMs": 7727,
+  "timestampMs": 9750,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " contiene",
+  "startMs": 7727,
+  "endMs": 8347,
+  "timestampMs": 10010,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " siete",
+  "startMs": 8347,
+  "endMs": 8647,
+  "timestampMs": 10630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " canciones",
+  "startMs": 8647,
+  "endMs": 9436,
+  "timestampMs": 10930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Algunas",
+  "startMs": 9436,
+  "endMs": 9796,
+  "timestampMs": 11930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 9796,
+  "endMs": 9916,
+  "timestampMs": 12290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " hicieron",
+  "startMs": 9916,
+  "endMs": 10416,
+  "timestampMs": 12410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " parte",
+  "startMs": 10416,
+  "endMs": 10727,
+  "timestampMs": 12910,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 10727,
+  "endMs": 10806,
+  "timestampMs": 13370,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 10786,
+  "endMs": 11106,
+  "timestampMs": 13470,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " historia",
+  "startMs": 11106,
+  "endMs": 11666,
+  "timestampMs": 13790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical",
+  "startMs": 11666,
+  "endMs": 12159,
+  "timestampMs": 14350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 12159,
+  "endMs": 12579,
+  "timestampMs": 15010,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Ya",
+  "startMs": 12579,
+  "endMs": 12739,
+  "timestampMs": 15430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 12739,
+  "endMs": 12999,
+  "timestampMs": 15590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Romero",
+  "startMs": 12999,
+  "endMs": 13339,
+  "timestampMs": 15850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " por",
+  "startMs": 13339,
+  "endMs": 13479,
+  "timestampMs": 16190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 13479,
+  "endMs": 13719,
+  "timestampMs": 16330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " grupo",
+  "startMs": 13719,
+  "endMs": 14019,
+  "timestampMs": 16570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Cabras",
+  "startMs": 14019,
+  "endMs": 14694,
+  "timestampMs": 16870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " También",
+  "startMs": 14694,
+  "endMs": 15121,
+  "timestampMs": 17770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " una",
+  "startMs": 15121,
+  "endMs": 15481,
+  "timestampMs": 18430,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " canción",
+  "startMs": 15481,
+  "endMs": 15641,
+  "timestampMs": 18790,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 15641,
+  "endMs": 15781,
+  "timestampMs": 18950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Diomedes,",
+  "startMs": 15781,
+  "endMs": 16421,
+  "timestampMs": 19090,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " de",
+  "startMs": 16421,
+  "endMs": 16641,
+  "timestampMs": 19730,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Poncho",
+  "startMs": 16641,
+  "endMs": 17096,
+  "timestampMs": 19950,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 17096,
+  "endMs": 17335,
+  "timestampMs": 20590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 17335,
+  "endMs": 17575,
+  "timestampMs": 20850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " embajadores",
+  "startMs": 17575,
+  "endMs": 18255,
+  "timestampMs": 21090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " vallenatos",
+  "startMs": 18255,
+  "endMs": 19035,
+  "timestampMs": 21770,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Para",
+  "startMs": 19035,
+  "endMs": 19515,
+  "timestampMs": 22550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ponerle",
+  "startMs": 19515,
+  "endMs": 19875,
+  "timestampMs": 23030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 19875,
+  "endMs": 20115,
+  "timestampMs": 23390,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sabrosura",
+  "startMs": 20115,
+  "endMs": 20893,
+  "timestampMs": 23630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Un",
+  "startMs": 20893,
+  "endMs": 21113,
+  "timestampMs": 24630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " mosaico",
+  "startMs": 21113,
+  "endMs": 22173,
+  "timestampMs": 24850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " carnavalero",
+  "startMs": 22173,
+  "endMs": 23276,
+  "timestampMs": 25910,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Esto",
+  "startMs": 23531,
+  "endMs": 23751,
+  "timestampMs": 27590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " se",
+  "startMs": 23751,
+  "endMs": 23871,
+  "timestampMs": 27810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " va",
+  "startMs": 23871,
+  "endMs": 23991,
+  "timestampMs": 27930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 23991,
+  "endMs": 24231,
+  "timestampMs": 28050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " descontrolar",
+  "startMs": 24231,
+  "endMs": 25151,
+  "timestampMs": 28290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 25151,
+  "endMs": 25431,
+  "timestampMs": 29210,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Ya",
+  "startMs": 25431,
+  "endMs": 25651,
+  "timestampMs": 29490,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 25651,
+  "endMs": 25971,
+  "timestampMs": 29710,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Romero",
+  "startMs": 25971,
+  "endMs": 26491,
+  "timestampMs": 30030,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Lanzamiento",
+  "startMs": 26491,
+  "endMs": 27433,
+  "timestampMs": 30550,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 27",
+  "startMs": 27953,
+  "endMs": 28353,
+  "timestampMs": 32270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 28353,
+  "endMs": 28493,
+  "timestampMs": 32670,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " noviembre",
+  "startMs": 28493,
+  "endMs": 29273,
+  "timestampMs": 32810,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Disponible",
+  "startMs": 29273,
+  "endMs": 30086,
+  "timestampMs": 33590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 30086,
+  "endMs": 30526,
+  "timestampMs": 34650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " todas",
+  "startMs": 30526,
+  "endMs": 30766,
+  "timestampMs": 35090,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 30766,
+  "endMs": 31086,
+  "timestampMs": 35330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " plataformas",
+  "startMs": 31086,
+  "endMs": 31786,
+  "timestampMs": 35650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " digitales",
+  "startMs": 31786,
+  "endMs": 32411,
+  "timestampMs": 36350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Con",
+  "startMs": 32411,
+  "endMs": 32631,
+  "timestampMs": 37270,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 32631,
+  "endMs": 32831,
+  "timestampMs": 37490,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 32831,
+  "endMs": 33291,
+  "timestampMs": 37690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sabor",
+  "startMs": 33291,
+  "endMs": 33625,
+  "timestampMs": 38150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Ya",
+  "startMs": 33625,
+  "endMs": 33885,
+  "timestampMs": 38890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 33885,
+  "endMs": 34185,
+  "timestampMs": 39150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Romero",
+  "startMs": 34185,
+  "endMs": 34635,
+  "timestampMs": 39450,
+  "confidence": null,
+  "pageBreakAfter": false
+ }
+]
