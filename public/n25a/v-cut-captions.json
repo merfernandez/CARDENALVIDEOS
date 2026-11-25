@@ -1,0 +1,482 @@
+[
+ {
+  "text": " Durante",
+  "startMs": 0,
+  "endMs": 32,
+  "timestampMs": 780,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 32,
+  "endMs": 166,
+  "timestampMs": 1246,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ceremonia",
+  "startMs": 166,
+  "endMs": 765,
+  "timestampMs": 1380,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 765,
+  "endMs": 899,
+  "timestampMs": 1979,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 899,
+  "endMs": 1099,
+  "timestampMs": 2113,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " premios",
+  "startMs": 1099,
+  "endMs": 1565,
+  "timestampMs": 2313,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Luna",
+  "startMs": 1565,
+  "endMs": 1832,
+  "timestampMs": 2779,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 1832,
+  "endMs": 2032,
+  "timestampMs": 3046,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " se",
+  "startMs": 2032,
+  "endMs": 2165,
+  "timestampMs": 3246,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " realizó",
+  "startMs": 2165,
+  "endMs": 2632,
+  "timestampMs": 3379,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 2632,
+  "endMs": 2765,
+  "timestampMs": 3846,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " noche",
+  "startMs": 2765,
+  "endMs": 3099,
+  "timestampMs": 3979,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " anterior",
+  "startMs": 3099,
+  "endMs": 3465,
+  "timestampMs": 4313,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 3465,
+  "endMs": 3535,
+  "timestampMs": 4846,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Barranquilla,",
+  "startMs": 3535,
+  "endMs": 4735,
+  "timestampMs": 4979,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " la",
+  "startMs": 5883,
+  "endMs": 6563,
+  "timestampMs": 7690,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " canción",
+  "startMs": 6563,
+  "endMs": 7163,
+  "timestampMs": 8370,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Benditos",
+  "startMs": 7163,
+  "endMs": 7783,
+  "timestampMs": 8970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Versos",
+  "startMs": 7783,
+  "endMs": 8323,
+  "timestampMs": 9590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fue",
+  "startMs": 8323,
+  "endMs": 9043,
+  "timestampMs": 10130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " declarada",
+  "startMs": 9043,
+  "endMs": 9843,
+  "timestampMs": 10850,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " como",
+  "startMs": 9843,
+  "endMs": 10023,
+  "timestampMs": 11650,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 10023,
+  "endMs": 10163,
+  "timestampMs": 11830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " himno",
+  "startMs": 10163,
+  "endMs": 10543,
+  "timestampMs": 11970,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " folclórico",
+  "startMs": 10543,
+  "endMs": 11371,
+  "timestampMs": 12350,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 11411,
+  "endMs": 11731,
+  "timestampMs": 13590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " departamento",
+  "startMs": 11731,
+  "endMs": 12891,
+  "timestampMs": 13910,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 12891,
+  "endMs": 13131,
+  "timestampMs": 15070,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " La",
+  "startMs": 13131,
+  "endMs": 13351,
+  "timestampMs": 15310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Guajira.",
+  "startMs": 13351,
+  "endMs": 14101,
+  "timestampMs": 15530,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Este",
+  "startMs": 14101,
+  "endMs": 14661,
+  "timestampMs": 16570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " reconocimiento",
+  "startMs": 14661,
+  "endMs": 15592,
+  "timestampMs": 17130,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " lo",
+  "startMs": 15672,
+  "endMs": 16152,
+  "timestampMs": 18410,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " recibió",
+  "startMs": 16152,
+  "endMs": 16592,
+  "timestampMs": 18890,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 16592,
+  "endMs": 17172,
+  "timestampMs": 19330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " compositor",
+  "startMs": 17172,
+  "endMs": 17872,
+  "timestampMs": 19910,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " guajiro",
+  "startMs": 17872,
+  "endMs": 19072,
+  "timestampMs": 20610,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Rafael",
+  "startMs": 19192,
+  "endMs": 19754,
+  "timestampMs": 21930,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Manjarres",
+  "startMs": 19754,
+  "endMs": 20614,
+  "timestampMs": 22750,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Mendoza.",
+  "startMs": 20614,
+  "endMs": 21233,
+  "timestampMs": 23610,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " En",
+  "startMs": 21233,
+  "endMs": 21513,
+  "timestampMs": 24590,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " presencia",
+  "startMs": 21513,
+  "endMs": 22160,
+  "timestampMs": 24870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 22160,
+  "endMs": 22580,
+  "timestampMs": 25830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " señor",
+  "startMs": 22580,
+  "endMs": 22900,
+  "timestampMs": 26250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " gobernador",
+  "startMs": 22900,
+  "endMs": 23580,
+  "timestampMs": 26570,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 23580,
+  "endMs": 23700,
+  "timestampMs": 27250,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " La",
+  "startMs": 23660,
+  "endMs": 23840,
+  "timestampMs": 27330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Guajira,",
+  "startMs": 23840,
+  "endMs": 24520,
+  "timestampMs": 27510,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " doctor",
+  "startMs": 24520,
+  "endMs": 24840,
+  "timestampMs": 28190,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Jairo",
+  "startMs": 24840,
+  "endMs": 25200,
+  "timestampMs": 28510,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Aguilar",
+  "startMs": 25200,
+  "endMs": 25640,
+  "timestampMs": 28870,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 25640,
+  "endMs": 25780,
+  "timestampMs": 29310,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 25780,
+  "endMs": 26040,
+  "timestampMs": 29450,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fundador",
+  "startMs": 26040,
+  "endMs": 26577,
+  "timestampMs": 29710,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 26577,
+  "endMs": 26744,
+  "timestampMs": 30630,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 26744,
+  "endMs": 26964,
+  "timestampMs": 30830,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " premios",
+  "startMs": 26964,
+  "endMs": 27524,
+  "timestampMs": 31050,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Luna,",
+  "startMs": 27524,
+  "endMs": 28025,
+  "timestampMs": 31610,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Ley",
+  "startMs": 28025,
+  "endMs": 28425,
+  "timestampMs": 32330,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Martín.",
+  "startMs": 28425,
+  "endMs": 28835,
+  "timestampMs": 32730,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]
