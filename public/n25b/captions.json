@@ -1,0 +1,602 @@
+[
+ {
+  "text": " Luego",
+  "startMs": 1124,
+  "endMs": 1562,
+  "timestampMs": 1124,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 1562,
+  "endMs": 1737,
+  "timestampMs": 1562,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " conocerse",
+  "startMs": 1737,
+  "endMs": 2524,
+  "timestampMs": 1737,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 2524,
+  "endMs": 2699,
+  "timestampMs": 2524,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " periodo",
+  "startMs": 2699,
+  "endMs": 3312,
+  "timestampMs": 2699,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 3312,
+  "endMs": 3487,
+  "timestampMs": 3312,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " incapacidad",
+  "startMs": 3487,
+  "endMs": 4449,
+  "timestampMs": 3487,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 4449,
+  "endMs": 4711,
+  "timestampMs": 4449,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " está",
+  "startMs": 4711,
+  "endMs": 5061,
+  "timestampMs": 4711,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cumpliendo",
+  "startMs": 5061,
+  "endMs": 6312,
+  "timestampMs": 5061,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Giancarlo",
+  "startMs": 6312,
+  "endMs": 7100,
+  "timestampMs": 6312,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Centeno",
+  "startMs": 7100,
+  "endMs": 7712,
+  "timestampMs": 7100,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " luego",
+  "startMs": 7712,
+  "endMs": 8150,
+  "timestampMs": 7712,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 8150,
+  "endMs": 8325,
+  "timestampMs": 8150,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " una",
+  "startMs": 8325,
+  "endMs": 8587,
+  "timestampMs": 8325,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cirugía",
+  "startMs": 8587,
+  "endMs": 9200,
+  "timestampMs": 8587,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 9200,
+  "endMs": 10053,
+  "timestampMs": 9200,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " artista",
+  "startMs": 10053,
+  "endMs": 10778,
+  "timestampMs": 10053,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " confirmó",
+  "startMs": 10778,
+  "endMs": 11607,
+  "timestampMs": 10778,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 11607,
+  "endMs": 11918,
+  "timestampMs": 11607,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " regresa",
+  "startMs": 11918,
+  "endMs": 12644,
+  "timestampMs": 11918,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 12644,
+  "endMs": 12748,
+  "timestampMs": 12644,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 12748,
+  "endMs": 13059,
+  "timestampMs": 12748,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " escenarios",
+  "startMs": 13059,
+  "endMs": 14095,
+  "timestampMs": 13059,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 14095,
+  "endMs": 14199,
+  "timestampMs": 14095,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " partir",
+  "startMs": 14199,
+  "endMs": 14821,
+  "timestampMs": 14199,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " del",
+  "startMs": 14821,
+  "endMs": 15132,
+  "timestampMs": 14821,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 10",
+  "startMs": 15132,
+  "endMs": 15339,
+  "timestampMs": 15132,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 15339,
+  "endMs": 15547,
+  "timestampMs": 15339,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " diciembre",
+  "startMs": 15547,
+  "endMs": 16480,
+  "timestampMs": 15547,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " cumpliendo",
+  "startMs": 16480,
+  "endMs": 18204,
+  "timestampMs": 16480,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " una",
+  "startMs": 18204,
+  "endMs": 18566,
+  "timestampMs": 18204,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " gira",
+  "startMs": 18566,
+  "endMs": 19320,
+  "timestampMs": 18566,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 19320,
+  "endMs": 19561,
+  "timestampMs": 19320,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 14",
+  "startMs": 19561,
+  "endMs": 19803,
+  "timestampMs": 19561,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " presentaciones",
+  "startMs": 19803,
+  "endMs": 21922,
+  "timestampMs": 19803,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " entre",
+  "startMs": 21922,
+  "endMs": 22526,
+  "timestampMs": 21922,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 22526,
+  "endMs": 22767,
+  "timestampMs": 22526,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 10",
+  "startMs": 22767,
+  "endMs": 23008,
+  "timestampMs": 22767,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 23008,
+  "endMs": 23129,
+  "timestampMs": 23008,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 23129,
+  "endMs": 23371,
+  "timestampMs": 23129,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 28",
+  "startMs": 23371,
+  "endMs": 23612,
+  "timestampMs": 23371,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 23612,
+  "endMs": 23853,
+  "timestampMs": 23612,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " diciembre",
+  "startMs": 23853,
+  "endMs": 24940,
+  "timestampMs": 23853,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " arrancando",
+  "startMs": 24940,
+  "endMs": 26014,
+  "timestampMs": 24940,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 26014,
+  "endMs": 26161,
+  "timestampMs": 26014,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Venezuela",
+  "startMs": 26161,
+  "endMs": 27182,
+  "timestampMs": 26161,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 27182,
+  "endMs": 27256,
+  "timestampMs": 27182,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " recorriendo",
+  "startMs": 27256,
+  "endMs": 28069,
+  "timestampMs": 27256,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " diferentes",
+  "startMs": 28069,
+  "endMs": 28808,
+  "timestampMs": 28069,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ciudades",
+  "startMs": 28808,
+  "endMs": 29399,
+  "timestampMs": 28808,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 29399,
+  "endMs": 29923,
+  "timestampMs": 29399,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Colombia",
+  "startMs": 29923,
+  "endMs": 30514,
+  "timestampMs": 29923,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Giancarlo",
+  "startMs": 31174,
+  "endMs": 31843,
+  "timestampMs": 31174,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Centeno",
+  "startMs": 31843,
+  "endMs": 32363,
+  "timestampMs": 31843,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " se",
+  "startMs": 32363,
+  "endMs": 32512,
+  "timestampMs": 32363,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " recupera",
+  "startMs": 32512,
+  "endMs": 33106,
+  "timestampMs": 32512,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " satisfactoriamente",
+  "startMs": 33106,
+  "endMs": 34444,
+  "timestampMs": 33106,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 34444,
+  "endMs": 35060,
+  "timestampMs": 34444,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " el",
+  "startMs": 35060,
+  "endMs": 35209,
+  "timestampMs": 35060,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " apoyo",
+  "startMs": 35209,
+  "endMs": 35581,
+  "timestampMs": 35209,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 35581,
+  "endMs": 35655,
+  "timestampMs": 35581,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 35655,
+  "endMs": 35878,
+  "timestampMs": 35655,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " mensajes",
+  "startMs": 35878,
+  "endMs": 36473,
+  "timestampMs": 35878,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 36473,
+  "endMs": 36696,
+  "timestampMs": 36473,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " le",
+  "startMs": 36696,
+  "endMs": 36844,
+  "timestampMs": 36696,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " envían",
+  "startMs": 36844,
+  "endMs": 37290,
+  "timestampMs": 36844,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sus",
+  "startMs": 37290,
+  "endMs": 37897,
+  "timestampMs": 37290,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " seguidores",
+  "startMs": 37897,
+  "endMs": 38640,
+  "timestampMs": 37897,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " a",
+  "startMs": 38640,
+  "endMs": 38715,
+  "timestampMs": 38640,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " través",
+  "startMs": 38715,
+  "endMs": 39161,
+  "timestampMs": 38715,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 39161,
+  "endMs": 39309,
+  "timestampMs": 39161,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 39309,
+  "endMs": 39532,
+  "timestampMs": 39309,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " redes",
+  "startMs": 39532,
+  "endMs": 39904,
+  "timestampMs": 39532,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sociales",
+  "startMs": 39904,
+  "endMs": 40840,
+  "timestampMs": 39904,
+  "confidence": null,
+  "pageBreakAfter": false
+ }
+]
