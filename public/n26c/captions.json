@@ -1,0 +1,434 @@
+[
+ {
+  "text": " Daniel",
+  "startMs": 1651,
+  "endMs": 2288,
+  "timestampMs": 1651,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Restrepo",
+  "startMs": 2288,
+  "endMs": 3137,
+  "timestampMs": 2288,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 3137,
+  "endMs": 3243,
+  "timestampMs": 3137,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Jafik",
+  "startMs": 3243,
+  "endMs": 3773,
+  "timestampMs": 3243,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Nazar",
+  "startMs": 3773,
+  "endMs": 4304,
+  "timestampMs": 3773,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " presentaron",
+  "startMs": 4304,
+  "endMs": 5471,
+  "timestampMs": 4304,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " oficialmente",
+  "startMs": 5471,
+  "endMs": 6745,
+  "timestampMs": 5471,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " la",
+  "startMs": 6745,
+  "endMs": 6957,
+  "timestampMs": 6745,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " carátula",
+  "startMs": 6957,
+  "endMs": 7806,
+  "timestampMs": 6957,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 7806,
+  "endMs": 8018,
+  "timestampMs": 7806,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " su",
+  "startMs": 8018,
+  "endMs": 8231,
+  "timestampMs": 8018,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " primer",
+  "startMs": 8231,
+  "endMs": 8867,
+  "timestampMs": 8231,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " álbum",
+  "startMs": 8867,
+  "endMs": 9398,
+  "timestampMs": 8867,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " musical",
+  "startMs": 9398,
+  "endMs": 10558,
+  "timestampMs": 9398,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " titulado",
+  "startMs": 10558,
+  "endMs": 11407,
+  "timestampMs": 10558,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " La",
+  "startMs": 11407,
+  "endMs": 11620,
+  "timestampMs": 11407,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Fórmula,",
+  "startMs": 11620,
+  "endMs": 12469,
+  "timestampMs": 11620,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " que",
+  "startMs": 12469,
+  "endMs": 12787,
+  "timestampMs": 12469,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " saldrá",
+  "startMs": 12787,
+  "endMs": 13424,
+  "timestampMs": 12787,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " este",
+  "startMs": 13424,
+  "endMs": 13848,
+  "timestampMs": 13424,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 3",
+  "startMs": 13848,
+  "endMs": 13954,
+  "timestampMs": 13848,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " de",
+  "startMs": 13954,
+  "endMs": 14167,
+  "timestampMs": 13954,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " diciembre",
+  "startMs": 14167,
+  "endMs": 15122,
+  "timestampMs": 14167,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 15122,
+  "endMs": 15334,
+  "timestampMs": 15122,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " todas",
+  "startMs": 15334,
+  "endMs": 15865,
+  "timestampMs": 15334,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " las",
+  "startMs": 15865,
+  "endMs": 16183,
+  "timestampMs": 15865,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " plataformas",
+  "startMs": 16183,
+  "endMs": 17350,
+  "timestampMs": 16183,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " digitales.",
+  "startMs": 17350,
+  "endMs": 18412,
+  "timestampMs": 17350,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Escribieron",
+  "startMs": 18819,
+  "endMs": 19904,
+  "timestampMs": 18819,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " los",
+  "startMs": 19904,
+  "endMs": 20200,
+  "timestampMs": 19904,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " artistas",
+  "startMs": 20200,
+  "endMs": 21431,
+  "timestampMs": 20200,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " que",
+  "startMs": 21431,
+  "endMs": 21727,
+  "timestampMs": 21431,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fue",
+  "startMs": 21727,
+  "endMs": 22023,
+  "timestampMs": 21727,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " un",
+  "startMs": 22023,
+  "endMs": 22221,
+  "timestampMs": 22023,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " álbum",
+  "startMs": 22221,
+  "endMs": 22714,
+  "timestampMs": 22221,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " realizado",
+  "startMs": 22714,
+  "endMs": 23602,
+  "timestampMs": 22714,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 23602,
+  "endMs": 23898,
+  "timestampMs": 23602,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " mucho",
+  "startMs": 23898,
+  "endMs": 24391,
+  "timestampMs": 23898,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " amor,",
+  "startMs": 24391,
+  "endMs": 24885,
+  "timestampMs": 24391,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " talento",
+  "startMs": 24885,
+  "endMs": 25575,
+  "timestampMs": 24885,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 25575,
+  "endMs": 25674,
+  "timestampMs": 25575,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " dedicación.",
+  "startMs": 25674,
+  "endMs": 26760,
+  "timestampMs": 25674,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " La",
+  "startMs": 27282,
+  "endMs": 27499,
+  "timestampMs": 27282,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Fórmula",
+  "startMs": 27499,
+  "endMs": 28260,
+  "timestampMs": 27499,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " se",
+  "startMs": 28260,
+  "endMs": 28477,
+  "timestampMs": 28260,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " viene",
+  "startMs": 28477,
+  "endMs": 29021,
+  "timestampMs": 28477,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 29021,
+  "endMs": 29238,
+  "timestampMs": 29021,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " diciembre",
+  "startMs": 29238,
+  "endMs": 30216,
+  "timestampMs": 29238,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " con",
+  "startMs": 30216,
+  "endMs": 30542,
+  "timestampMs": 30216,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Daniel",
+  "startMs": 30542,
+  "endMs": 31194,
+  "timestampMs": 30542,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Restrepo",
+  "startMs": 31194,
+  "endMs": 32356,
+  "timestampMs": 31194,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " y",
+  "startMs": 32356,
+  "endMs": 32464,
+  "timestampMs": 32356,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Jafik",
+  "startMs": 32464,
+  "endMs": 33008,
+  "timestampMs": 32464,
+  "confidence": null,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Nazar.",
+  "startMs": 33008,
+  "endMs": 33660,
+  "timestampMs": 33008,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]
