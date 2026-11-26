@@ -7,7 +7,7 @@ export const plan: PlanNoticia = {
   seccion: "Noticias vallenatas",
   tarjetas: [
     { tipo: "sobria", desdeMs: 7800, hastaMs: 13950, antetitulo: "Un as bajo la manga", titulo: "Álbum «Luchador»" },
-    { tipo: "cancion", desdeMs: 14000, hastaMs: 18550, etiqueta: "La canción", titulo: "Soy feliz", detalle: "Autoría de Sergio Amaris" },
+    { tipo: "cancion", desdeMs: 14000, hastaMs: 18550, etiqueta: "La canción", titulo: "Yo soy feliz", detalle: "Autoría de Sergio Amaris" },
     {
       tipo: "lista",
       desdeMs: 22000,
@@ -25,11 +25,11 @@ export const plan: PlanNoticia = {
       desdeMs: 42700,
       hastaMs: 50300,
       etiqueta: "Mi canción recomendada",
-      titulo: "Soy feliz",
+      titulo: "Yo soy feliz",
       detalle: "Peter Manjarrés · Álbum Luchador",
     },
     { tipo: "sobria", desdeMs: 50350, hastaMs: 55300, antetitulo: "Alegre y parrandero", titulo: "El jamaqueo del peterismo" },
-    { tipo: "sobria", desdeMs: 55350, hastaMs: 61950, antetitulo: "Lo nuevo de Peter Manjarrés", titulo: "«Soy feliz»" },
+    { tipo: "sobria", desdeMs: 55350, hastaMs: 61950, antetitulo: "Lo nuevo de Peter Manjarrés", titulo: "«Yo soy feliz»" },
   ],
   palabrasClave: ["Peter", "Manjarrés,", "\"Luchador\".", "\"Soy", "Sergio", "Amaris.", "radio", "recomendada.", "peterismo."],
 };
