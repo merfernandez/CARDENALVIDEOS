@@ -6,18 +6,6 @@ export const plan: PlanNoticia = {
   subtitulos: "n26a/v-cut-captions.json",
   seccion: "Noticias vallenatas",
   tarjetas: [
-    { tipo: "sobria", desdeMs: 100, hastaMs: 2600, antetitulo: "Amigos", titulo: "Son datos y hay que darlos" },
-    {
-      tipo: "lista",
-      desdeMs: 4300,
-      hastaMs: 7750,
-      titulo: "Después de",
-      items: [
-        { texto: "Ojito", ms: 4552 },
-        { texto: "Luchador", ms: 5204 },
-        { texto: "Como tú no hay nadie", ms: 6508 },
-      ],
-    },
     { tipo: "sobria", desdeMs: 7800, hastaMs: 13950, antetitulo: "Un as bajo la manga", titulo: "Álbum «Luchador»" },
     { tipo: "cancion", desdeMs: 14000, hastaMs: 18550, etiqueta: "La canción", titulo: "Soy feliz", detalle: "Autoría de Sergio Amaris" },
     {
