@@ -1,5 +1,5 @@
 // "Las Más Virales" del viernes 27 de noviembre. Tiempos en ms del video ya sin silencios
-// (se cortó "bochinche que viene, bochinche que va" del final).
+// (video completo, con "bochinche que viene, bochinche que va").
 import { Video } from "@remotion/media";
 import { AbsoluteFill, Sequence, staticFile, useVideoConfig } from "remotion";
 import { ApoyoSobrio } from "./ApoyoSobrio";
@@ -10,7 +10,7 @@ import { Subtitulos } from "./Subtitulos";
 import { TarjetaCancion, TarjetaSobria } from "./TarjetasNoticia";
 
 const VIDEO = "mv27/v-cut.mp4";
-export const DURACION_MV27_VIDEO_MS = 106600;
+export const DURACION_MV27_VIDEO_MS = 109550;
 export const DURACION_MV27_MS = DURACION_MV27_VIDEO_MS + 4000;
 
 const f = (ms: number, fps: number) => Math.round((ms / 1000) * fps);
@@ -73,7 +73,7 @@ const TARJETAS: Tarjeta[] = [
     hastaMs: 99950,
     el: <TarjetaCancion etiqueta="Erick Escobar y Neno Beleño" titulo="Tres pa' tres" detalle="Música nueva y fresca" />,
   },
-  sobria(100000, 106550, "Cardenal Stereo · Sistema Cardenal", "Las 3 más importantes del folclor"),
+  sobria(100000, 109500, "Cardenal Stereo · Sistema Cardenal", "Las 3 más importantes del folclor"),
 ];
 
 export const MasVirales27nov: React.FC = () => {
